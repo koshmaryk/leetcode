@@ -1,44 +1,37 @@
 class Solution {
     public boolean canFinish(int numCourses, int[][] prerequisites) {
-        Map<Integer, List<Integer>> adj = new HashMap<>();
-        for (int i = 0; i < numCourses; ++i) {
-            adj.put(i, new ArrayList<>());
+        int[] indegree = new int[numCourses];
+        List<List<Integer>> adj = new ArrayList<>();
+        for (int u = 0; u < numCourses; ++u) {
+            adj.add(new ArrayList<>());
         }
 
         for (int[] prerequisite : prerequisites) {
-            adj.get(prerequisite[0]).add(prerequisite[1]);
+            adj.get(prerequisite[1]).add(prerequisite[0]);
+            indegree[prerequisite[0]]++;
         }
 
-        Set<Integer> visited = new HashSet<>();
+        LinkedList<Integer> queue = new LinkedList<>();
         for (int u = 0; u < numCourses; ++u) {
-            if (isCycle(u, visited, adj)) {
-                return false;
+            if (indegree[u] == 0) {
+                queue.offer(u);
             }
         }
 
-        return true;
-        
+        int visited = 0;
+        while (!queue.isEmpty()) {
+            int u = queue.poll();
+            visited++;
+
+            for (int v : adj.get(u)) {
+                // delete the edge v->neighbor
+                indegree[v]--;
+                if (indegree[v] == 0) {
+                    queue.offer(v);
+                }
+            }
+        }
+
+        return visited == numCourses;
     }
-
-    private boolean isCycle(int u, Set<Integer> visited, Map<Integer, List<Integer>> adj) {
-        if (visited.contains(u)) {
-            return true;
-        }
-
-        if (adj.get(u).isEmpty()) {
-            return false;
-        }
-
-        visited.add(u);
-
-        for (int v : adj.get(u)) {
-            if (isCycle(v, visited, adj)) {
-                return true;
-            }
-        }
-
-        visited.remove(u);
-        adj.put(u, new ArrayList<>());
-        return false;
-    } 
 }
