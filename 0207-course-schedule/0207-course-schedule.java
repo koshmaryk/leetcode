@@ -1,43 +1,44 @@
 class Solution {
     public boolean canFinish(int numCourses, int[][] prerequisites) {
-        List<List<Integer>> adj = new ArrayList<>();
+        Map<Integer, List<Integer>> adj = new HashMap<>();
         for (int i = 0; i < numCourses; ++i) {
-            adj.add(new ArrayList<>());
+            adj.put(i, new ArrayList<>());
         }
-        
+
         for (int[] prerequisite : prerequisites) {
             adj.get(prerequisite[0]).add(prerequisite[1]);
         }
-        
-        int[] visited = new int[numCourses];
+
+        Set<Integer> visited = new HashSet<>();
         for (int u = 0; u < numCourses; ++u) {
-            if (visited[u] == 0) {
-                if (isCycle(u, visited, adj)) {
-                    return false;
-                }
+            if (isCycle(u, visited, adj)) {
+                return false;
             }
         }
-        
+
         return true;
+        
     }
-    
-    private boolean isCycle(int u, int[] visited, List<List<Integer>> adj) {
-        if (visited[u] == -1) {
+
+    private boolean isCycle(int u, Set<Integer> visited, Map<Integer, List<Integer>> adj) {
+        if (visited.contains(u)) {
             return true;
         }
-        
-        visited[u] = -1;
-        
+
+        if (adj.get(u).isEmpty()) {
+            return false;
+        }
+
+        visited.add(u);
+
         for (int v : adj.get(u)) {
-            if (visited[v] != 1) {
-                if (isCycle(v, visited, adj)) {
-                    return true;
-                }
+            if (isCycle(v, visited, adj)) {
+                return true;
             }
         }
-        
-        visited[u] = 1;
-        
+
+        visited.remove(u);
+        adj.put(u, new ArrayList<>());
         return false;
-    }
+    } 
 }
