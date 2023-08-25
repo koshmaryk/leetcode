@@ -12,3 +12,4 @@ class Solution:
             current = current.next
 
         return vals == vals[::-1]
+        
