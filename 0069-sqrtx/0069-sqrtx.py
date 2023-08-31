@@ -10,3 +10,4 @@ class Solution:
                 bad = mid
         
         return int(good)
+        
