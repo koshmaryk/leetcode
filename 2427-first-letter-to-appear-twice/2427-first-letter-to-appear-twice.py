@@ -4,7 +4,6 @@ class Solution:
         for ch in s:
             if ch in seen:
                 return ch
-            
             seen.add(ch)
-        
         return ""
+        
