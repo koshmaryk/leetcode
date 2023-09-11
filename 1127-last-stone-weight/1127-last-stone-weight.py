@@ -11,5 +11,5 @@ class Solution:
 
             if x != y:
                 heapq.heappush(stones, y - x)
-            
-        return -1 * heapq.heappop(stones) if len(stones) > 0 else 0
+
+        return 0 if len(stones) == 0 else heapq.heappop(stones) * -1
