@@ -11,13 +11,13 @@ class Solution:
             if node:
                 if node.val >= low and node.val <= high:
                     ans += node.val
-
+            
                 if low < node.val:
                     dfs(node.left)
 
-                if high > node.val:
+                if node.val < high:
                     dfs(node.right)
-
+  
         ans = 0
         dfs(root)
         return ans
