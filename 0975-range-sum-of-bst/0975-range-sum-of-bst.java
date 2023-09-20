@@ -14,7 +14,7 @@
  * }
  */
 class Solution {
-    
+
     int sum = 0;
 
     public int rangeSumBST(TreeNode root, int low, int high) {
@@ -36,5 +36,6 @@ class Solution {
                 dfs(node.right, low, high);
             }
         }
+
     }
 }
