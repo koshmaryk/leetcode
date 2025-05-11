@@ -1,14 +1,14 @@
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
+        freq = {}
+        for num in nums:
+            freq[num] = freq.get(num, 0) + 1
+        
         candidate = 0
         counter = 0
-        for i in range(0, len(nums)):
-            if counter == 0:
-                candidate = nums[i]
-                counter += 1
-            elif nums[i] == candidate:
-                counter += 1
-            else:
-                counter -= 1
+        for key, value in freq.items():
+            if value > counter:
+                candidate = key
+                counter = value
         return candidate
         
