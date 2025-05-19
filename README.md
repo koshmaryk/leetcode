@@ -6,11 +6,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0125-valid-palindrome](https://github.com/koshmaryk/leetcode/tree/master/0125-valid-palindrome) |
 | [0680-valid-palindrome-ii](https://github.com/koshmaryk/leetcode/tree/master/0680-valid-palindrome-ii) |
+| [1894-merge-strings-alternately](https://github.com/koshmaryk/leetcode/tree/master/1894-merge-strings-alternately) |
 ## String
 |  |
 | ------- |
 | [0125-valid-palindrome](https://github.com/koshmaryk/leetcode/tree/master/0125-valid-palindrome) |
 | [0680-valid-palindrome-ii](https://github.com/koshmaryk/leetcode/tree/master/0680-valid-palindrome-ii) |
+| [1894-merge-strings-alternately](https://github.com/koshmaryk/leetcode/tree/master/1894-merge-strings-alternately) |
 ## Greedy
 |  |
 | ------- |
