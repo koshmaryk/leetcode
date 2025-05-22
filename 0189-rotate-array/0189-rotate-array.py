@@ -6,11 +6,14 @@ class Solution:
         # [1,2,3,4,5,6,7]
         # [5,6,7,1,2,3,4]
         # k = 3
-        n = len(nums)
-        rotated = [0] * n
-        for i in range(n):
-            rotated[(i + k) % n] = nums[i]
-
-        for i in range(n):
-            nums[i] = rotated[i]
+        def rotateHelper(l: int, r: int) -> None:
+            while (l < r):
+                nums[l], nums[r] = nums[r], nums[l]
+                l += 1
+                r -= 1
         
+        n = len(nums)
+        k = k % n
+        rotateHelper(0, n - 1)
+        rotateHelper(0, k - 1)
+        rotateHelper(k, n - 1)
