@@ -14,8 +14,8 @@ class Solution:
                 if nums[i] + nums[l] + nums[r] == 0:
                     while l < r and nums[l] == nums[l + 1]:
                         l += 1
-                    while l < r and nums[r] == nums[r  - 1]:
-                        r -= 1
+                    # while l < r and nums[r] == nums[r  - 1]:
+                    #     r -= 1
                     
                     triplets.append([nums[i], nums[l], nums[r]])
                     l += 1
