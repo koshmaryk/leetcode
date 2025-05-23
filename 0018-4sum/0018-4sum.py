@@ -1,42 +1,36 @@
 class Solution:
-    # [1,0,-1,0,-2,2]
-    #
-    #        | | | |
-    # [-2,-1,0,0,1,2]
-    # a = 1
-    # b = 2
-    # c = 3
-    # d = 5
     def fourSum(self, nums: List[int], target: int) -> List[List[int]]:
-        output = []
+        nums.sort()
 
+        output, quadruplet = [], []
         n = len(nums)
         if n < 4:
             return output
 
-        nums.sort()
-        for a in range(n - 3):
-            if a > 0 and nums[a - 1] == nums[a]:
-                    continue
-            for b in range(a + 1, n - 2):
-                if b > a + 1 and nums[b - 1] == nums[b]:
-                    continue
-                c, d = b + 1, n - 1
-                while c < d:
-                    current_sum = nums[a] + nums[b] + nums[c] + nums[d]
-                    if current_sum == target:
-                        while c < d and nums[c] == nums[c + 1]:
-                            c += 1
-                        while c < d and nums[d] == nums[d - 1]:
-                            d -= 1
-                            
-                        output.append([nums[a], nums[b], nums[c], nums[d]])
-                        c += 1
-                        d -= 1
-                    elif current_sum > target:
-                        d -= 1
-                    else:
-                        c += 1
-        
-        return output
+        def kSum(k, start, target):
+            if k != 2:
+                for i in range(start, n - k + 1):
+                    if i > start and nums[i - 1] == nums[i]:
+                        continue
+                    quadruplet.append(nums[i])
+                    kSum(k - 1, i + 1, target - nums[i])
+                    quadruplet.pop()
+                return
 
+            l, r = start, n - 1
+            while l < r:
+                if nums[l] + nums[r] < target:
+                    l += 1
+                elif nums[l] + nums[r] > target:
+                    r -= 1
+                else:
+                    output.append(quadruplet + [nums[l], nums[r]])
+                    l += 1
+                    r -= 1
+                    while l < r and nums[l] == nums[l - 1]:
+                        l += 1
+                    # while l < r and nums[r] == nums[r - 1]:
+                    #     r -= 1
+        
+        kSum(4, 0, target)
+        return output
