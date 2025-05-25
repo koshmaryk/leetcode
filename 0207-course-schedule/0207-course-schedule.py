@@ -1,27 +1,29 @@
-from collections import defaultdict, deque
+from collections import defaultdict
+from heapq import heappush, heappop
 
 class Solution:
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
         G = defaultdict(list)
-        in_degree = [0] * numCourses
-        for a, b in prerequisites:
-            G[b].append(a) # prerequisite -> course
-            in_degree[a] += 1
+        in_degrees = [0] * numCourses
+        for course, prerequisite in prerequisites:
+            G[prerequisite].append(course)
+            in_degrees[course] += 1
 
-        Q = deque()
-        for course_id in range(numCourses):
-            if in_degree[course_id] == 0:
-                Q.append(course_id)
+        Q = []
+        for u in range(numCourses):
+            if in_degrees[u] == 0:
+                heappush(Q, u)
 
-        finished_courses = 0
-        ts = []
+        #ts = []
+        visited = 0
         while Q:
-            u = Q.popleft()
-            finished_courses += 1
-            ts.append(u)
+            u = heappop(Q)
+            #ts.append(u)
+            visited += 1
             for v in G[u]:
-                in_degree[v] -= 1
-                if in_degree[v] == 0:
-                    Q.append(v)
+                in_degrees[v] -= 1 # virtually remove u -> v
+                if in_degrees[v] == 0:
+                    heappush(Q, v)
 
-        return finished_courses == numCourses #" ".join(map(str, ts))
+        return visited == numCourses
+        
