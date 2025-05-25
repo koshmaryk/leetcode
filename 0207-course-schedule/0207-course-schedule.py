@@ -1,31 +1,27 @@
 from collections import defaultdict
-from heapq import heappush, heappop
 
 class Solution:
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
         G = defaultdict(list)
-        # O(V)
-        in_degrees = [0] * numCourses
-        # O(E)
         for course, prerequisite in prerequisites:
             G[prerequisite].append(course)
-            in_degrees[course] += 1
 
-        Q = [] # min priority queue
-        # O(V log V)
-        for u in range(numCourses):
-            if in_degrees[u] == 0:
-                heappush(Q, u) # smaller id goes first
+        # 0 - white, not visited; 1 - grey, visiting; 2 - black, visited
+        state = [0] * numCourses
+        def is_cycle(u):
+            if state[u] == 1:
+                return True
+            if state[u] == 2:
+                return False
 
-        visited = 0
-        # O(V log V + E)
-        while Q:
-            u = heappop(Q)
-            visited += 1
+            state[u] = 1
             for v in G[u]:
-                in_degrees[v] -= 1 # virtually remove u -> v
-                if in_degrees[v] == 0: # v is next candidate
-                    heappush(Q, v) # smaller id goes first
+                if is_cycle(v):
+                    return True
+            state[u] = 2
 
-        return visited == numCourses
-        
+        for u in range(numCourses):
+            if state[u] == 0:
+                if is_cycle(u):
+                    return False
+        return True
