@@ -19,7 +19,7 @@ class Solution:
             if s[r] in count:
                 count[s[r]] -= 1
 
-            while l <= r and max(count.values()) <= 0:
+            while max(count.values()) <= 0:
                 if not ans or r - l + 1 < len(ans):
                     ans = s[l:r+1]
                     
