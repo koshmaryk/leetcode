@@ -1,6 +1,13 @@
-from collections import deque
+import heapq
 
 class Solution:
+    # ans = [1]
+    # heapq = [1]
+    # |
+    # 1 -1
+    # 0  1
+    #
+    #
     # ans = []
     # deque = [(11, 1),]
     #   |
@@ -17,17 +24,15 @@ class Solution:
     # keep window boundary valid -> deque <- keep window ordered
     def maxSlidingWindow(self, nums: List[int], k: int) -> List[int]:
         ans = []
-        window = deque()
-        for i in range(0, len(nums)):
-            while window and window[-1][0] < nums[i]:
-                window.pop() # pop back, keep window ordered
+        window = []
+        for i in range(0, k):
+            window.append((-nums[i], i))
+        heapq.heapify(window)
+        ans.append(-window[0][0])
 
-            window.append((nums[i], i)) # push back
-
+        for i in range(k, len(nums)):
             while window and window[0][1] <= i - k:
-                window.popleft() # pop front
-
-            if i + 1 >= k: # first window onwards
-                ans.append(window[0][0]) # answer for this window
-        
+                heapq.heappop(window)
+            heapq.heappush(window, (-nums[i], i))
+            ans.append(-window[0][0])
         return ans
