@@ -25,15 +25,15 @@ class Solution:
                 return curr_cost
 
             for next_city, travel_time in G[city]:
-                new_time = curr_time + travel_time
                 new_cost = curr_cost + passingFees[next_city]
+                new_time = curr_time + travel_time
 
                 if new_time > maxTime:
                     continue
 
                 if new_time < times[next_city] or new_cost < costs[next_city]:
-                    times[next_city] = new_time
                     costs[next_city] = new_cost
-                    heapq.heappush(pq, (costs[next_city], times[next_city], next_city))
+                    times[next_city] = new_time
+                    heapq.heappush(pq, (new_cost, new_time, next_city))
 
         return -1
