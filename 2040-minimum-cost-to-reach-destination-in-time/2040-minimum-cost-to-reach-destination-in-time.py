@@ -1,40 +1,39 @@
 from collections import defaultdict
 import heapq
 
+
 class Solution:
     def minCost(self, maxTime: int, edges: List[List[int]], passingFees: List[int]) -> int:
         n = len(passingFees)
 
         G = defaultdict(list)
         for u, v, time in edges:
-            if time > maxTime: continue
+            if time > maxTime:
+                continue
             G[u].append((v, time))
             G[v].append((u, time))
 
-        times, costs = [float('inf')] * n, [float('inf')] * n
+        times, costs = [float("inf")] * n, [float("inf")] * n
         times[0], costs[0] = 0, passingFees[0]
         pq = [(costs[0], times[0], 0)]
         heapq.heapify(pq)
 
-        visited = set()
         while pq:
-            ucost, utime, u = heapq.heappop(pq)
+            curr_cost, curr_time, city = heapq.heappop(pq)
 
-            if u == n - 1: return ucost
+            if city == n - 1:
+                return curr_cost
 
-            # state = (u, utime)
-            # if state in visited: continue
-            # visited.add(state)
+            for next_city, travel_time in G[city]:
+                new_time = curr_time + travel_time
+                new_cost = curr_cost + passingFees[next_city]
 
-            for v, vtime in G[u]:
-                new_time = utime + vtime
-                new_cost = ucost + passingFees[v]
+                if new_time > maxTime:
+                    continue
 
-                if new_time > maxTime: continue
+                if new_time < times[next_city] or new_cost < costs[next_city]:
+                    times[next_city] = new_time
+                    costs[next_city] = new_cost
+                    heapq.heappush(pq, (costs[next_city], times[next_city], next_city))
 
-                if new_time < times[v] or new_cost < costs[v]:
-                    times[v] = utime + vtime
-                    costs[v] = ucost + passingFees[v]
-                    heapq.heappush(pq, (costs[v], times[v], v))
-        
-        return -1 #if times[n - 1] > maxTime else costs[n - 1]
+        return -1
