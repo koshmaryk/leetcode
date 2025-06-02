@@ -6,7 +6,8 @@ class Solution:
             mid = (bad + good) / 2
             if mid * mid >= x:
                 good = mid
-            else: 
+            else:
                 bad = mid
-        
         return int(good)
+
+        
