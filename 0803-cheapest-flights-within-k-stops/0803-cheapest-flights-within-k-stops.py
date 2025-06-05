@@ -21,8 +21,6 @@ class Solution:
             if stops > k:
                 continue
 
-            dist[(city, stops)] = price
-
             for next_city, next_price in graph[city]:
                 new_price = price + next_price
                 new_stops = stops + 1
