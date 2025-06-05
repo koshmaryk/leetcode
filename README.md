@@ -49,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/koshmaryk/leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/koshmaryk/leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/koshmaryk/leetcode/tree/master/0189-rotate-array) |
+| [0200-number-of-islands](https://github.com/koshmaryk/leetcode/tree/master/0200-number-of-islands) |
 | [0209-minimum-size-subarray-sum](https://github.com/koshmaryk/leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [0217-contains-duplicate](https://github.com/koshmaryk/leetcode/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/koshmaryk/leetcode/tree/master/0219-contains-duplicate-ii) |
@@ -93,12 +94,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0200-number-of-islands](https://github.com/koshmaryk/leetcode/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/koshmaryk/leetcode/tree/master/0207-course-schedule) |
 | [0744-network-delay-time](https://github.com/koshmaryk/leetcode/tree/master/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/koshmaryk/leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 ## Breadth-First Search
 |  |
 | ------- |
+| [0200-number-of-islands](https://github.com/koshmaryk/leetcode/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/koshmaryk/leetcode/tree/master/0207-course-schedule) |
 | [0744-network-delay-time](https://github.com/koshmaryk/leetcode/tree/master/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/koshmaryk/leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
@@ -163,4 +166,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0744-network-delay-time](https://github.com/koshmaryk/leetcode/tree/master/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/koshmaryk/leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
+## Union Find
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/koshmaryk/leetcode/tree/master/0200-number-of-islands) |
+## Matrix
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/koshmaryk/leetcode/tree/master/0200-number-of-islands) |
 <!---LeetCode Topics End-->
