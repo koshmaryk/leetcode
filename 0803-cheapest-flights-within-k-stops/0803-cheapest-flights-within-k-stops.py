@@ -18,7 +18,7 @@ class Solution:
             if city == dst:
                 return price
 
-            if stops > k or dist[(city, stops)] < price:
+            if stops > k:
                 continue
 
             dist[(city, stops)] = price
