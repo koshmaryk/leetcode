@@ -7,12 +7,9 @@ class Solution:
         while good - bad > 1:
             mid = (bad + good) // 2
             
-            if nums[mid] == target:
-                return mid
-            
             # left half is sorted
             if nums[mid] >= nums[0]:
-                if nums[0] <= target < nums[mid]:
+                if nums[0] <= target <= nums[mid]:
                     # target is in the sorted left half
                     good = mid
                 else:
@@ -27,4 +24,4 @@ class Solution:
                     # target is in the left half
                     good = mid
         
-        return -1 # nums[good] if good < n and nums[good] == target else
+        return good if good < n and nums[good] == target else -1
