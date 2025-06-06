@@ -11,9 +11,8 @@ class Solution:
             return total <= h
 
         bad = 0
-        good = 1
-        for pile in piles:
-            good += pile
+        # Koko would need to eat the largest pile in one hour as len(piles) <= h
+        good = max(piles) + 1
 
         while good - bad > 1:
             guess = (bad + good) // 2
