@@ -1,27 +1,24 @@
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
-        n = len(nums)
-        bad = -1
-        good = n
-        
+        # 0
+        #
+        # 4, 5, 6, 7, 0, 1, 2
+        # 
+        # bad = 3, good = 7
+        # 
+        bad, good = -1, len(nums)
         while good - bad > 1:
             mid = (bad + good) // 2
-            
-            # left half is sorted
-            if nums[mid] >= nums[0]:
+            # left part is sorted
+            if nums[0] <= nums[mid]:
                 if nums[0] <= target <= nums[mid]:
-                    # target is in the sorted left half
                     good = mid
                 else:
-                    # target is in the right half
                     bad = mid
-            else: 
-                # right half is sorted
-                if nums[mid] < target <= nums[n-1]:
-                    # target is in the sorted right half
+            # right part is sorted
+            else:
+                if nums[mid] < target <= nums[-1]:
                     bad = mid
                 else:
-                    # target is in the left half
                     good = mid
-        
-        return good if good < n and nums[good] == target else -1
+        return good if good < len(nums) and nums[good] == target else -1
