@@ -7,16 +7,14 @@ class Solution:
         n = len(nums)
         answer = [0] * n
 
-        p = [1] * (n + 1)
+        p = s = 1
         for i in range(n):
-            p[i + 1] = p[i] * nums[i]
+            answer[i] = p
+            p *= nums[i]
 
-        s = [1] * (n + 1)
-        for i in range(n - 1, -1, -1):
-            s[i] = s[i + 1] * nums[i]
-
-        for i in range(n):
-            answer[i] = p[i] * s[i + 1]
+        for i in range(n - 1, - 1, -1):
+            answer[i] *= s 
+            s *= nums[i]
         
         # (product to the left of i) * (product to the right of i)
         return answer
