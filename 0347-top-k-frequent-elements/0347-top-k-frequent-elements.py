@@ -9,12 +9,10 @@ class Solution:
 
         pq = []
         for key, val in freq.items():
-            heapq.heappush(pq, (val, key))
-
-            if len(pq) > k:
-                heapq.heappop(pq) 
+            heapq.heappush(pq, (-val, key))
 
         output = []
-        while pq:
+        while k > 0:
             output.append(heapq.heappop(pq)[1])
+            k -= 1
         return output
