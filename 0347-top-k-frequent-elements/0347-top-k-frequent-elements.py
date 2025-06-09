@@ -1,21 +1,20 @@
 from collections import defaultdict
-import heapq
 
 class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
-        if k == len(nums):
-            return nums
-            
+        n = len(nums)
         freq = defaultdict(int)
         for num in nums:
             freq[num] += 1
 
-        pq = []
-        for key, val in freq.items():
-            heapq.heappush(pq, (-val, key))
+        buckets = [[] for _ in range(n + 1)]
+        for num, count in freq.items():
+            buckets[count].append(num)
 
         output = []
-        while k > 0:
-            output.append(heapq.heappop(pq)[1])
-            k -= 1
+        for i in range(n, -1, -1):
+            for num in buckets[i]:
+                output.append(num)
+                if len(output) == k:
+                    return output
         return output
