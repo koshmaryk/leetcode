@@ -7,7 +7,7 @@ class Solution:
             dist = -(x**2 + y**2)**0.5
             heapq.heappush(pq, (dist, [x, y]))
 
-            while len(pq) > k:
+            if len(pq) > k:
                 heapq.heappop(pq)
 
         output = []
