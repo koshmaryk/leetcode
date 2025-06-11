@@ -307,4 +307,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1014-k-closest-points-to-origin](https://github.com/koshmaryk/leetcode/tree/master/1014-k-closest-points-to-origin) |
+## Linked List
+|  |
+| ------- |
+| [0206-reverse-linked-list](https://github.com/koshmaryk/leetcode/tree/master/0206-reverse-linked-list) |
+## Recursion
+|  |
+| ------- |
+| [0206-reverse-linked-list](https://github.com/koshmaryk/leetcode/tree/master/0206-reverse-linked-list) |
 <!---LeetCode Topics End-->
