@@ -8,12 +8,12 @@ class Solution:
     def maxDepth(self, root: Optional[TreeNode]) -> int:
         if not root:
             return 0
-        stack = [(root, False, 1)]
+        stack = [(root, 1)]
         ans = 0
         while stack:
-            node, visited, depth = stack.pop()
-            if node and not visited:
+            node, depth = stack.pop()
+            if node:
                 ans = max(ans, depth)
-                stack.append((node.right, False, depth + 1))
-                stack.append((node.left, False, depth + 1))
+                stack.append((node.right, depth + 1))
+                stack.append((node.left, depth + 1))
         return ans
