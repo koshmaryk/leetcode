@@ -14,7 +14,6 @@ class Solution:
             node, visited, depth = stack.pop()
             if node and not visited:
                 ans = max(ans, depth)
-                stack.append((node, True, depth))
                 stack.append((node.right, False, depth + 1))
                 stack.append((node.left, False, depth + 1))
         return ans
