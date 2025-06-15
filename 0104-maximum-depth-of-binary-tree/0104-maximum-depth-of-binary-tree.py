@@ -6,16 +6,15 @@
 #         self.right = right
 class Solution:
     def maxDepth(self, root: Optional[TreeNode]) -> int:
-        stack = []
-        if root is not None:
-            stack.append((root, 1))
-
-        maxDepth = 0
-        while stack != []:
-            node, depth = stack.pop()
-            if node is not None:
-                maxDepth = max(maxDepth, depth)
-                stack.append((node.left, depth + 1))
-                stack.append((node.right, depth + 1))
-
-        return maxDepth
+        if not root:
+            return 0
+        stack = [(root, False, 1)]
+        ans = 0
+        while stack:
+            node, visited, depth = stack.pop()
+            if node and not visited:
+                ans = max(ans, depth)
+                stack.append((node, True, depth))
+                stack.append((node.right, False, depth + 1))
+                stack.append((node.left, False, depth + 1))
+        return ans
