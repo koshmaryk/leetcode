@@ -13,7 +13,7 @@ class Solution:
                 if visited:
                     node.left, node.right = node.right, node.left
                 else:
+                    stack.append((node, True))
                     stack.append((node.right, False))
                     stack.append((node.left, False))
-                    stack.append((node, True))
         return root
