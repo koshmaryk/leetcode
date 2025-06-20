@@ -10,19 +10,18 @@ class Solution:
     def isSameTree(self, p: Optional[TreeNode], q: Optional[TreeNode]) -> bool:
         queue = deque([(p, q)])
         while queue:
-            curr1, curr2 = queue.popleft()
+            node1, node2 = queue.popleft()
 
-            if not curr1 and not curr2:
+            if not node1 and not node2:
                 continue
 
-            if not curr1 or not curr2:
+            if not node1 or not node2:
                 return False
 
-            if curr1.val != curr2.val:
+            if node1.val != node2.val:
                 return False
 
-            queue.append((curr1.left, curr2.left))
-            queue.append((curr1.right, curr2.right))
-
+            queue.append((node1.left, node2.left))
+            queue.append((node1.right, node2.right))
         return True
-        
+            
