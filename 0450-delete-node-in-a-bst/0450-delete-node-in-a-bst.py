@@ -15,9 +15,9 @@ class Solution:
             root.right = self.deleteNode(root.right, key)
         else:
             if not root.left:
-                return root.right
+                root = root.right
             elif not root.right:
-                return root.left
+                root = root.left
             else:
                 curr = root.right
                 while curr.left:
