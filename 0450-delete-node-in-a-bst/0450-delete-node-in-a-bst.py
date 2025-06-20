@@ -14,7 +14,7 @@
 / \   /        \    /  \  
 1  3  5         9  11  13
 
-
+Case 1 & 2
            7
         /     \ 
     4           10
@@ -23,16 +23,18 @@
 / \                /  \  
 1  3              11  13
 
-
+Case 3
            7
-        /     \ 
-    4           10
-   / \         /   \
-  2   6       8     12 
-/ \   /        \    /  \  
-1  3  5         9  11  13
-
-
+      /        \ 
+                10
+     \         /   \
+      6       8     12 
+      /        \    /  \  
+      5         9  11  13
+     /
+    2
+   /\
+  1  3
 '''
 
 class Solution:
@@ -43,13 +45,13 @@ class Solution:
             elif not root.right:
                 return root.left
             else:
-                right = root.right
-                left = root.left
-                # find largest in right subtree
-                while right.left:
-                    right = right.left
-                right.left = left
-                return root.right
+                right = root.right # 6
+                left = root.left # 2
+                # find smallest in right subtree, 4 successor = 5
+                while right.left: 
+                    right = right.left # 5
+                right.left = left # 5.left = 2
+                return root.right # 6
 
         if not root:
             return None
@@ -61,7 +63,7 @@ class Solution:
         while curr:
             if key < curr.val:
                 if curr.left and curr.left.val == key:
-                    curr.left = helper(curr.left)
+                    curr.left = helper(curr.left) # 7.left = 5
                     break
                 curr = curr.left
             else:
