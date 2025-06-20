@@ -4,24 +4,70 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
+# 
+'''
+           7
+        /     \ 
+    4           10
+   / \         /   \
+  2   6       8     12 
+/ \   /        \    /  \  
+1  3  5         9  11  13
+
+
+           7
+        /     \ 
+    4           10
+   / \         /   \
+  2   5       9     12 
+/ \                /  \  
+1  3              11  13
+
+
+           7
+        /     \ 
+    4           10
+   / \         /   \
+  2   6       8     12 
+/ \   /        \    /  \  
+1  3  5         9  11  13
+
+
+'''
+
 class Solution:
     def deleteNode(self, root: Optional[TreeNode], key: int) -> Optional[TreeNode]:
+        def helper(root):
+            if not root.left:
+                return root.right
+            elif not root.right:
+                return root.left
+            else:
+                right = root.right
+                left = root.left
+                # find largest in right subtree
+                while right.left:
+                    right = right.left
+                right.left = left
+                return root.right
+
         if not root:
             return None
 
-        if key < root.val:
-            root.left = self.deleteNode(root.left, key)
-        elif key > root.val:
-            root.right = self.deleteNode(root.right, key)
-        else:
-            if not root.left:
-                root = root.right
-            elif not root.right:
-                root = root.left
+        if root.val == key:
+            return helper(root)
+
+        curr = root
+        while curr:
+            if key < curr.val:
+                if curr.left and curr.left.val == key:
+                    curr.left = helper(curr.left)
+                    break
+                curr = curr.left
             else:
-                curr = root.right
-                while curr.left:
-                    curr = curr.left
-                root.val = curr.val
-                root.right = self.deleteNode(root.right, curr.val)
+                if curr.right and curr.right.val == key:
+                    curr.right = helper(curr.right)
+                    break
+                curr = curr.right
         return root
+        
