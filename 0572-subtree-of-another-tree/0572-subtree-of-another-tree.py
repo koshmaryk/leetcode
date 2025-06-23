@@ -4,38 +4,24 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-from collections import deque
-
 class Solution:
     def isSubtree(self, root: Optional[TreeNode], subRoot: Optional[TreeNode]) -> bool:
-        def isSameTree(q, p):
-            queue = deque([(q, p)])
-            while queue:
-                node1, node2 = queue.popleft()
+        def isSameTree(p, q):
+            if not p and not q:
+                return True
+            
+            if not p or not q or p.val != q.val:
+                return False
 
-                if not node1 and not node2:
-                    continue
-                
-                if not node1 or not node2:
-                    return False
+            return isSameTree(p.left, q.left) and isSameTree(p.right, q.right)
 
-                if node1.val != node2.val:
-                    return False
-
-                queue.append((node1.left, node2.left))
-                queue.append((node1.right, node2.right))
+        if not subRoot:
             return True
 
-        queue = deque([root])
-        while queue:
-            node = queue.popleft()
+        if not root:
+            return False
 
-            if node.val == subRoot.val and isSameTree(node, subRoot):
-                return True
+        if isSameTree(root, subRoot):
+            return True
 
-            if node.left:
-                queue.append(node.left)
-            if node.right:
-                queue.append(node.right)
-
-        return False
+        return self.isSubtree(root.left, subRoot) or self.isSubtree(root.right, subRoot)
