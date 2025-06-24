@@ -8,19 +8,17 @@ import heapq
 
 class Solution:
     def kthSmallest(self, root: Optional[TreeNode], k: int) -> int:
-        pq = []
+        values = []
         stack = [(root, False)]
         while stack:
             node, visited = stack.pop()
             if node:
                 if visited:
-                    heapq.heappush(pq, -node.val)
-                    if len(pq) > k:
-                        heapq.heappop(pq)
+                    values.append(node.val)
                 else:
                     stack.append((node.right, False))
                     stack.append((node, True))
                     stack.append((node.left, False))
         
-        return -pq[0]
+        return values[k - 1]
         
