@@ -4,18 +4,18 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
+from collections import deque
+
 class Solution:
     def isValidBST(self, root: Optional[TreeNode]) -> bool:
-        stack = [(root, float('-inf'), float('inf'), False)]
-        while stack:
-            node, min, max, visited = stack.pop()
-            if node:
-                if visited:
-                    if not (min < node.val < max):
-                        return False
-
-                else:
-                    stack.append((node.right, node.val, max, False))
-                    stack.append((node, min, max, True))
-                    stack.append((node.left, min, node.val, False))
+        queue = deque([(root, float('-inf'), float('inf'))])
+        while queue:
+            node, min, max = queue.popleft()
+            if not (min < node.val < max):
+                return False
+            
+            if node.left:
+                queue.append((node.left, min, node.val))
+            if node.right:
+                queue.append((node.right, node.val, max))
         return True
