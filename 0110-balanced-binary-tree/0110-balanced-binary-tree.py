@@ -19,6 +19,6 @@ class Solution:
                     heights[node] = 1 + max(left_height, right_height)
                 else:
                     stack.append((node, True))
-                    stack.append((node.left, False))
                     stack.append((node.right, False))
+                    stack.append((node.left, False))
         return True
