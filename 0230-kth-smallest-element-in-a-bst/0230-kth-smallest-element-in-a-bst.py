@@ -14,6 +14,10 @@ class Solution:
             node, visited = stack.pop()
             if node:
                 if visited:
+                    k -= 1
+                    if k == 0:
+                        return node.val
+
                     values.append(node.val)
                 else:
                     stack.append((node.right, False))
