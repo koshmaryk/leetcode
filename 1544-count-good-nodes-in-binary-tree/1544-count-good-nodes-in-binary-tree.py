@@ -7,16 +7,19 @@
 class Solution:
     def goodNodes(self, root: TreeNode) -> int:
         count = 0
-        stack = [(root, root.val, False)]
-        while stack:
-            node, maximum, visited = stack.pop()
-            if node:
-                if visited:
-                    if node.val >= maximum:
-                        count += 1
-                else:
-                    maximum = max(maximum, node.val)
-                    stack.append((node.right, maximum, False))
-                    stack.append((node, maximum, True))
-                    stack.append((node.left, maximum, False))
+        
+        def dfs(node, maximum):
+            nonlocal count
+
+            if not node:
+                return None
+            
+            if node.val >= maximum:
+                count += 1
+
+            maximum = max(maximum, node.val)
+            dfs(node.left, maximum)
+            dfs(node.right, maximum)
+
+        dfs(root, root.val)
         return count
