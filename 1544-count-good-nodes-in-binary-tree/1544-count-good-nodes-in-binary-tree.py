@@ -4,22 +4,20 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
+from collections import deque
+
 class Solution:
     def goodNodes(self, root: TreeNode) -> int:
         count = 0
-        
-        def dfs(node, maximum):
-            nonlocal count
-
-            if not node:
-                return None
-            
+        queue = deque([(root, root.val)])
+        while queue:
+            node, maximum = queue.popleft()
             if node.val >= maximum:
                 count += 1
-
+            
             maximum = max(maximum, node.val)
-            dfs(node.left, maximum)
-            dfs(node.right, maximum)
-
-        dfs(root, root.val)
+            if node.left:
+                queue.append((node.left, maximum))
+            if node.right:
+                queue.append((node.right, maximum))
         return count
