@@ -27,7 +27,7 @@ class Solution:
                 and bottomLeft.isLeaf
                 and bottomRight.isLeaf
                 and topLeft.val == topRight.val == bottomLeft.val == bottomRight.val):
-                return Node(topLeft.val, True)
+                return topLeft
 
             return Node(0, False, topLeft, topRight, bottomLeft, bottomRight)
 
