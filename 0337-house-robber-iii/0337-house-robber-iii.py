@@ -9,27 +9,46 @@
     / \   
    2   3 
   /\   /\ 
- 4  5 6  7    
+ 4  5 6  7
+
+               [23, 22]                
+             /        \   
+          [2,9]      [3,13] 
+        /    \       /     \ 
+      [4,0] [5,0]  [6,0] [7,0]
+
+  [0,0] [0,0] [0,0] [0,0] [0,0] [0,0]
+
+         4
+        /
+       1
+      /
+     2
+    /
+   3 
+
+         [7,4]
+        /
+       [4,3
+      /
+     [2,3]
+    /
+   [3,0]
+  /
+ [0,0] 
 '''
 class Solution:
     def rob(self, root: Optional[TreeNode]) -> int:
-        memo = {}
+        def helper(node):
+            if not node:
+                return (0, 0) # (rob, not_rob)
 
-        def helper(root):
-            if not root:
-                return 0
+            left_rob, left_not_rob = helper(node.left)
+            right_rob, right_not_rob = helper(node.right)
 
-            if root in memo:
-                return memo[root]
-
-            rob_curr = root.val
-            if root.left:
-                rob_curr += helper(root.left.left) + helper(root.left.right)
-            if root.right:
-                rob_curr += helper(root.right.left) + helper(root.right.right)
-
-            not_rob_curr = helper(root.left) + helper(root.right)
-            memo[root] = max(rob_curr, not_rob_curr)
-            return memo[root]
+            rob_curr = node.val + left_not_rob + right_not_rob
+            not_rob_curr = max(left_rob, left_not_rob) + max(right_rob, right_not_rob)
+            return (rob_curr, not_rob_curr)
         
-        return helper(root)
+        rob, not_rob = helper(root)
+        return max(rob, not_rob)
