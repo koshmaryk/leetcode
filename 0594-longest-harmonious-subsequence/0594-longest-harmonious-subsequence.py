@@ -1,16 +1,15 @@
-class Solution:
-    def findLHS(self, nums: List[int]) -> int:
-        nums.sort()
-        # 1,2,2,2,3,3,5,7
-        # 1,1,2,2
-        # l = 0, r = 3
-        ans  = 0
-        l = 0
-        for r in range(0, len(nums)):
-            while nums[r] - nums[l] > 1:
-                l += 1
+from collections import defaultdict
 
-            if nums[r] - nums[l] == 1:
-                ans = max(ans, r - l + 1)
-           
+class Solution:
+    # 1,3,2,2,5,2,3,7
+    # 1:1, 2:3, 3:2, 5:1, 7:1
+    def findLHS(self, nums: List[int]) -> int:
+        count = defaultdict(int)
+        for num in nums:
+            count[num] += 1
+
+        ans = 0
+        for num in count:
+            if num + 1 in count:
+                ans = max(ans, count[num] + count[num + 1])
         return ans
