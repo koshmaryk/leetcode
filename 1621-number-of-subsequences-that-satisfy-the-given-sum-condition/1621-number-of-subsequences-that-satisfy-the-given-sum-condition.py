@@ -4,6 +4,7 @@ class Solution:
 
         ans = 0
         for l in range(len(nums)):
+            # nums[l] is the smallest possible value for nums[r], since r >= l
             if nums[l] * 2 > target:
                 break
 
@@ -15,6 +16,6 @@ class Solution:
                 else:
                     bad = mid
             
-            ans += 2**(good - 1 - l)
+            ans += 2**(bad - l)
 
         return ans % (10**9 + 7)
