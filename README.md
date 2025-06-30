@@ -192,6 +192,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0543-diameter-of-binary-tree](https://github.com/koshmaryk/leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/koshmaryk/leetcode/tree/master/0572-subtree-of-another-tree) |
 | [0744-network-delay-time](https://github.com/koshmaryk/leetcode/tree/master/0744-network-delay-time) |
+| [0801-is-graph-bipartite](https://github.com/koshmaryk/leetcode/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/koshmaryk/leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/koshmaryk/leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Breadth-First Search
@@ -208,6 +209,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/koshmaryk/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0417-pacific-atlantic-water-flow](https://github.com/koshmaryk/leetcode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0744-network-delay-time](https://github.com/koshmaryk/leetcode/tree/master/0744-network-delay-time) |
+| [0801-is-graph-bipartite](https://github.com/koshmaryk/leetcode/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/koshmaryk/leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/koshmaryk/leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Graph
@@ -216,6 +218,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0133-clone-graph](https://github.com/koshmaryk/leetcode/tree/master/0133-clone-graph) |
 | [0207-course-schedule](https://github.com/koshmaryk/leetcode/tree/master/0207-course-schedule) |
 | [0744-network-delay-time](https://github.com/koshmaryk/leetcode/tree/master/0744-network-delay-time) |
+| [0801-is-graph-bipartite](https://github.com/koshmaryk/leetcode/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/koshmaryk/leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [2040-minimum-cost-to-reach-destination-in-time](https://github.com/koshmaryk/leetcode/tree/master/2040-minimum-cost-to-reach-destination-in-time) |
 ## Topological Sort
@@ -295,6 +298,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/koshmaryk/leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0200-number-of-islands](https://github.com/koshmaryk/leetcode/tree/master/0200-number-of-islands) |
+| [0801-is-graph-bipartite](https://github.com/koshmaryk/leetcode/tree/master/0801-is-graph-bipartite) |
 ## Matrix
 |  |
 | ------- |
