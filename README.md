@@ -41,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0680-valid-palindrome-ii](https://github.com/koshmaryk/leetcode/tree/master/0680-valid-palindrome-ii) |
 | [1023-time-based-key-value-store](https://github.com/koshmaryk/leetcode/tree/master/1023-time-based-key-value-store) |
 | [1894-merge-strings-alternately](https://github.com/koshmaryk/leetcode/tree/master/1894-merge-strings-alternately) |
+| [3617-find-the-original-typed-string-i](https://github.com/koshmaryk/leetcode/tree/master/3617-find-the-original-typed-string-i) |
 | [3825-apply-substitutions](https://github.com/koshmaryk/leetcode/tree/master/3825-apply-substitutions) |
 ## Greedy
 |  |
