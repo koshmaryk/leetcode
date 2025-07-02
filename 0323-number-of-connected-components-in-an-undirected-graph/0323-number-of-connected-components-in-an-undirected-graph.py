@@ -23,18 +23,11 @@ class UnionFind:
 
 class Solution:
     def countComponents(self, n: int, edges: List[List[int]]) -> int:
-        graph = defaultdict(list)
-        for a,b in edges:
-            graph[a].append(b)
-            graph[b].append(a)
-
         uf = UnionFind(n)
-
         count = n
-        for u in range(n):
-            for v in graph[u]:
-                if uf.find(u) != uf.find(v):
-                    uf.union(u, v)
-                    count -= 1
+        for a,b in edges:
+            if uf.find(a) != uf.find(b):
+                uf.union(a, b)
+                count -= 1
         return count
         
