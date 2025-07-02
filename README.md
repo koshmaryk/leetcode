@@ -42,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1023-time-based-key-value-store](https://github.com/koshmaryk/leetcode/tree/master/1023-time-based-key-value-store) |
 | [1894-merge-strings-alternately](https://github.com/koshmaryk/leetcode/tree/master/1894-merge-strings-alternately) |
 | [3617-find-the-original-typed-string-i](https://github.com/koshmaryk/leetcode/tree/master/3617-find-the-original-typed-string-i) |
+| [3618-find-the-original-typed-string-ii](https://github.com/koshmaryk/leetcode/tree/master/3618-find-the-original-typed-string-ii) |
 | [3825-apply-substitutions](https://github.com/koshmaryk/leetcode/tree/master/3825-apply-substitutions) |
 ## Greedy
 |  |
@@ -257,6 +258,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0337-house-robber-iii](https://github.com/koshmaryk/leetcode/tree/master/0337-house-robber-iii) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/koshmaryk/leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [2040-minimum-cost-to-reach-destination-in-time](https://github.com/koshmaryk/leetcode/tree/master/2040-minimum-cost-to-reach-destination-in-time) |
+| [3618-find-the-original-typed-string-ii](https://github.com/koshmaryk/leetcode/tree/master/3618-find-the-original-typed-string-ii) |
 ## Sliding Window
 |  |
 | ------- |
@@ -275,6 +277,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0209-minimum-size-subarray-sum](https://github.com/koshmaryk/leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [0238-product-of-array-except-self](https://github.com/koshmaryk/leetcode/tree/master/0238-product-of-array-except-self) |
 | [0560-subarray-sum-equals-k](https://github.com/koshmaryk/leetcode/tree/master/0560-subarray-sum-equals-k) |
+| [3618-find-the-original-typed-string-ii](https://github.com/koshmaryk/leetcode/tree/master/3618-find-the-original-typed-string-ii) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
