@@ -7,15 +7,11 @@ class Solution:
             graph[a].append(b)
             graph[b].append(a)
 
-        def bfs(u):
-            queue = deque([u])
-            while queue:
-                u = queue.popleft()
-                visited[u] = True
-
-                for v in graph[u]:
-                    if not visited[v]:
-                        queue.append(v)
+        def dfs(u):
+            visited[u] = True
+            for v in graph[u]:
+                if not visited[v]:
+                    dfs(v)
 
         visited = [False] * n
 
@@ -23,5 +19,5 @@ class Solution:
         for u in range(n):
             if not visited[u]:
                 count += 1
-                bfs(u)
+                dfs(u)
         return count
