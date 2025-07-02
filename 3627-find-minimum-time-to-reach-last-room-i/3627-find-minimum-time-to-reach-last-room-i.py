@@ -15,7 +15,7 @@ class Solution:
             for di,dj in directions:
                 ni, nj = i + di, j + dj
                 if 0 <= ni < n and 0 <= nj < m and not visited[ni][nj]:
-                    next_dist = max(dist[i][j], moveTime[ni][nj]) + 1
+                    next_dist = max(curr_dist, moveTime[ni][nj]) + 1
                     if next_dist < dist[ni][nj]:
                         dist[ni][nj] = next_dist
                         heapq.heappush(pq, (next_dist, ni, nj))
