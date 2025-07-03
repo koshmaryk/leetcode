@@ -5,17 +5,16 @@ class Solution:
             graph[a].append(b)
             graph[b].append(a)
 
-        def dfs(u):
+        parent = {0: 0}
+        stack = [0]
+        while stack:
+            u = stack.pop()
             for v in graph[u]:
                 if v == parent[u]:
                     continue
                 if v in parent:
                     return False
                 parent[v] = u
-                dfs(v)
-            return True
+                stack.append(v)
 
-        parent = {0: 0}
-        if not dfs(0):
-            return False
         return len(parent) == n
