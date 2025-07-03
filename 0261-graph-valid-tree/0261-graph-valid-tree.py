@@ -1,0 +1,21 @@
+from collections import defaultdict
+
+class Solution:
+    def validTree(self, n: int, edges: List[List[int]]) -> bool:
+        graph = defaultdict(list)
+        for a,b in edges:
+            graph[a].append(b)
+            graph[b].append(a)
+
+        parent = {0: -1}
+        queue = deque([0])
+        while queue:
+            u = queue.popleft()
+            for v in graph[u]:
+                if v == parent[u]:
+                    continue
+                if v in parent:
+                    return False
+                parent[v] = u
+                queue.append(v)
+        return len(parent) == n
