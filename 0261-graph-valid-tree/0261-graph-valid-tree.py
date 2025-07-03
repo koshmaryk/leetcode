@@ -1,5 +1,3 @@
-from collections import defaultdict
-
 class Solution:
     def validTree(self, n: int, edges: List[List[int]]) -> bool:
         graph = defaultdict(list)
@@ -7,16 +5,17 @@ class Solution:
             graph[a].append(b)
             graph[b].append(a)
 
-        parent = {0: 0}
-        queue = deque([0])
-        while queue:
-            u = queue.popleft()
+        def dfs(u):
             for v in graph[u]:
                 if v == parent[u]:
                     continue
                 if v in parent:
                     return False
                 parent[v] = u
-                queue.append(v)
+                dfs(v)
+            return True
 
+        parent = {0: 0}
+        if not dfs(0):
+            return False
         return len(parent) == n
