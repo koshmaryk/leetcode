@@ -7,7 +7,7 @@ class Solution:
             graph[a].append(b)
             graph[b].append(a)
 
-        parent = {0: -1}
+        parent = {0: 0}
         queue = deque([0])
         while queue:
             u = queue.popleft()
@@ -18,4 +18,5 @@ class Solution:
                     return False
                 parent[v] = u
                 queue.append(v)
+
         return len(parent) == n
