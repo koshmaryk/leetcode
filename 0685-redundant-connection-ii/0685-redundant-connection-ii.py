@@ -45,7 +45,7 @@ class Solution:
             return []
         
         
-        if not candidate_1:
+        if not candidate_1 and not candidate_2:
             return detectCycle([])
         
         if not detectCycle(candidate_2):
