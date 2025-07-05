@@ -26,4 +26,7 @@ class Solution:
             if colors[u] == -1:
                 if isCycle(u):
                     return []
-        return ts[::-1]
+        ans = []
+        while ts:
+            ans.append(ts.pop())
+        return ans
