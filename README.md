@@ -85,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0229-majority-element-ii](https://github.com/koshmaryk/leetcode/tree/master/0229-majority-element-ii) |
 | [0238-product-of-array-except-self](https://github.com/koshmaryk/leetcode/tree/master/0238-product-of-array-except-self) |
 | [0239-sliding-window-maximum](https://github.com/koshmaryk/leetcode/tree/master/0239-sliding-window-maximum) |
+| [0286-walls-and-gates](https://github.com/koshmaryk/leetcode/tree/master/0286-walls-and-gates) |
 | [0287-find-the-duplicate-number](https://github.com/koshmaryk/leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0347-top-k-frequent-elements](https://github.com/koshmaryk/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0417-pacific-atlantic-water-flow](https://github.com/koshmaryk/leetcode/tree/master/0417-pacific-atlantic-water-flow) |
@@ -226,6 +227,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0210-course-schedule-ii](https://github.com/koshmaryk/leetcode/tree/master/0210-course-schedule-ii) |
 | [0226-invert-binary-tree](https://github.com/koshmaryk/leetcode/tree/master/0226-invert-binary-tree) |
 | [0261-graph-valid-tree](https://github.com/koshmaryk/leetcode/tree/master/0261-graph-valid-tree) |
+| [0286-walls-and-gates](https://github.com/koshmaryk/leetcode/tree/master/0286-walls-and-gates) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/koshmaryk/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/koshmaryk/leetcode/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0417-pacific-atlantic-water-flow](https://github.com/koshmaryk/leetcode/tree/master/0417-pacific-atlantic-water-flow) |
@@ -354,6 +356,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0036-valid-sudoku](https://github.com/koshmaryk/leetcode/tree/master/0036-valid-sudoku) |
 | [0074-search-a-2d-matrix](https://github.com/koshmaryk/leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0200-number-of-islands](https://github.com/koshmaryk/leetcode/tree/master/0200-number-of-islands) |
+| [0286-walls-and-gates](https://github.com/koshmaryk/leetcode/tree/master/0286-walls-and-gates) |
 | [0417-pacific-atlantic-water-flow](https://github.com/koshmaryk/leetcode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0772-construct-quad-tree](https://github.com/koshmaryk/leetcode/tree/master/0772-construct-quad-tree) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/koshmaryk/leetcode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
