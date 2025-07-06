@@ -1,3 +1,5 @@
+import heapq
+
 class User:
     def __init__(self, id: int):
         self.id = id
@@ -23,23 +25,21 @@ class Twitter:
         self.users[userId] = user
         
 
-    def getNewsFeed(self, userId: int) -> List[int]:
+    def getNewsFeed(self, userId: int) -> list[int]:
         if userId not in self.users:
             return []
         
         tweets = []
-        tweets.extend(self.users[userId].tweets)
+        for tweet in self.users[userId].tweets[-10:]:
+            heapq.heappush(tweets, (-tweet.timestamp, tweet.id))
+        
         for followeeId in self.users[userId].followees:
-            tweets.extend(self.users[followeeId].tweets)
-        tweets.sort(key=lambda tweet: tweet.timestamp, reverse=True)
+            for tweet in self.users[followeeId].tweets[-10:]:
+                heapq.heappush(tweets, (-tweet.timestamp, tweet.id))
         
         news_feed = []
-        i = 0
-        while i < len(tweets):
-            news_feed.append(tweets[i].id)
-            i += 1
-            if len(news_feed) == 10:
-                break
+        while tweets and len(news_feed) < 10:
+            news_feed.append(heapq.heappop(tweets)[1])
         return news_feed
         
 
