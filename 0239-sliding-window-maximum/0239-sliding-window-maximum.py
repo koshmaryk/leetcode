@@ -16,18 +16,20 @@ class Solution:
     #
     # keep window boundary valid -> deque <- keep window ordered
     def maxSlidingWindow(self, nums: List[int], k: int) -> List[int]:
-        ans = []
-        window = deque()
-        for i in range(0, len(nums)):
-            while window and window[-1][0] < nums[i]:
-                window.pop() # pop back, keep window ordered
+        output = []
+        window_max = deque([])
+        l = 0
+        for r in range(len(nums)):
+            while window_max and nums[window_max[-1]] < nums[r]:
+                window_max.pop()
 
-            window.append((nums[i], i)) # push back
+            window_max.append(r)
 
-            while window and window[0][1] <= i - k:
-                window.popleft() # pop front
+            if l > window_max[0]:
+                window_max.popleft()
 
-            if i + 1 >= k: # first window onwards
-                ans.append(window[0][0]) # answer for this window
+            if r + 1 >= k:
+                output.append(nums[window_max[0]])
+                l += 1
         
-        return ans
+        return output
