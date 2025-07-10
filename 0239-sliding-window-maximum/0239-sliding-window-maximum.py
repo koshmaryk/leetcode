@@ -20,7 +20,7 @@ class Solution:
         window_max = deque([])
         l = 0
         for r in range(len(nums)):
-            while window_max and nums[window_max[-1]] < nums[r]:
+            while window_max and nums[window_max[-1]] <= nums[r]:
                 window_max.pop()
 
             window_max.append(r)
