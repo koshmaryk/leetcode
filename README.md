@@ -95,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0594-longest-harmonious-subsequence](https://github.com/koshmaryk/leetcode/tree/master/0594-longest-harmonious-subsequence) |
 | [0621-task-scheduler](https://github.com/koshmaryk/leetcode/tree/master/0621-task-scheduler) |
 | [0658-find-k-closest-elements](https://github.com/koshmaryk/leetcode/tree/master/0658-find-k-closest-elements) |
+| [0682-baseball-game](https://github.com/koshmaryk/leetcode/tree/master/0682-baseball-game) |
 | [0695-max-area-of-island](https://github.com/koshmaryk/leetcode/tree/master/0695-max-area-of-island) |
 | [0772-construct-quad-tree](https://github.com/koshmaryk/leetcode/tree/master/0772-construct-quad-tree) |
 | [0792-binary-search](https://github.com/koshmaryk/leetcode/tree/master/0792-binary-search) |
@@ -345,6 +346,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0144-binary-tree-preorder-traversal](https://github.com/koshmaryk/leetcode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/koshmaryk/leetcode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0232-implement-queue-using-stacks](https://github.com/koshmaryk/leetcode/tree/master/0232-implement-queue-using-stacks) |
+| [0682-baseball-game](https://github.com/koshmaryk/leetcode/tree/master/0682-baseball-game) |
 | [0937-online-stock-span](https://github.com/koshmaryk/leetcode/tree/master/0937-online-stock-span) |
 ## Monotonic Stack
 |  |
@@ -402,6 +404,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0682-baseball-game](https://github.com/koshmaryk/leetcode/tree/master/0682-baseball-game) |
 | [2058-concatenation-of-array](https://github.com/koshmaryk/leetcode/tree/master/2058-concatenation-of-array) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/koshmaryk/leetcode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 ## Trie
