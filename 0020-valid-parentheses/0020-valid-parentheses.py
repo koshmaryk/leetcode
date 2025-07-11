@@ -4,4 +4,4 @@ class Solution:
             s = s.replace('()', '')
             s = s.replace('{}', '')
             s = s.replace('[]', '')
-        return not s
+        return s == ''
