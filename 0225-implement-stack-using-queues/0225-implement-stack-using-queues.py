@@ -1,29 +1,22 @@
-from collections import deque
-
 class MyStack:
 
     def __init__(self):
-        self.q1 = deque([])
-        self.q2 = deque([])
-        self._top = None
+        self.queue = None
 
     def push(self, x: int) -> None:
-        self.q1.append(x)
-        self._top = x
+        self.queue = deque([x, self.queue])
 
     def pop(self) -> int:
-        while len(self.q1) > 1:
-            self._top = self.q1.popleft()
-            self.q2.append(self._top)
-        top = self.q1.popleft()
-        self.q1, self.q2 = self.q2, self.q1
+        top = self.queue.popleft()
+        self.queue = self.queue.popleft()
         return top
 
     def top(self) -> int:
-        return self._top
+        return self.queue[0]
 
     def empty(self) -> bool:
-        return len(self.q1) == 0
+        return not self.queue
+        
 
 
 # Your MyStack object will be instantiated and called as such:
@@ -32,8 +25,3 @@ class MyStack:
 # param_2 = obj.pop()
 # param_3 = obj.top()
 # param_4 = obj.empty()
-#
-# top 2
-# q1 1 2
-# q2 
-#
