@@ -5,19 +5,22 @@ class MyStack:
     def __init__(self):
         self.q1 = deque([])
         self.q2 = deque([])
+        self._top = None
 
     def push(self, x: int) -> None:
-        self.q2.append(x)
-        while self.q1:
-            self.q2.append(self.q1.popleft())
-        self.q1, self.q2 = self.q2, self.q1
-
+        self.q1.append(x)
+        self._top = x
 
     def pop(self) -> int:
-        return self.q1.popleft()
+        while len(self.q1) > 1:
+            self._top = self.q1.popleft()
+            self.q2.append(self._top)
+        top = self.q1.popleft()
+        self.q1, self.q2 = self.q2, self.q1
+        return top
 
     def top(self) -> int:
-        return self.q1[0]
+        return self._top
 
     def empty(self) -> bool:
         return len(self.q1) == 0
@@ -30,7 +33,7 @@ class MyStack:
 # param_3 = obj.top()
 # param_4 = obj.empty()
 #
-# 3
-# 3 2 1
-# 
+# top 2
+# q1 1 2
+# q2 
 #
