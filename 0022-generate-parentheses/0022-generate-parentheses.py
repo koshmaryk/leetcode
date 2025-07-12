@@ -1,5 +1,3 @@
-from collections import deque
-
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
         def valid(s: str):
@@ -10,15 +8,16 @@ class Solution:
                     return False
             return count == 0
 
-        output = []
-        queue = deque([""])
-        while queue:
-            s = queue.popleft()
+        def dfs(s: str):
             if len(s) == 2 * n:
                 if valid(s):
                     output.append(s)
-                continue
+                return
 
-            queue.append(s + "(")
-            queue.append(s + ")")
+            dfs(s + "(")
+            dfs(s + ")")
+
+
+        output = []
+        dfs("")
         return output
