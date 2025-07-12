@@ -1,24 +1,25 @@
-from collections import deque
-
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
-        def valid(s: str):
-            count = 0
-            for c in s:
-                count += 1 if c == "(" else -1
-                if count < 0:
-                    return False
-            return count == 0
-
         output = []
-        queue = deque([""])
-        while queue:
-            s = queue.popleft()
-            if len(s) == 2 * n:
-                if valid(s):
-                    output.append(s)
-                continue
+        stack = []
 
-            queue.append(s + "(")
-            queue.append(s + ")")
+        def backtrack(opened, closed):
+            if opened == n and closed == n:
+                output.append("".join(stack))
+                return
+
+            if opened < n:
+                stack.append("(")
+                backtrack(opened + 1, closed)
+                stack.pop()
+            if closed < opened:
+                stack.append(")")
+                backtrack(opened, closed + 1)
+                stack.pop()
+
+        backtrack(0, 0)
         return output
+
+        # Time Complexity: 2n! / ((n + 1)! * n!) or 4^n / √n
+        # C(n) = C(0) * C(n - 1) + C(1) * C(n - 2) + .. + C(n - 1) * C(0)
+        # Space Complexity: 2n
