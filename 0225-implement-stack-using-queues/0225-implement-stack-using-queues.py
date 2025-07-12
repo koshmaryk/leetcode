@@ -8,15 +8,17 @@ class MyStack:
         self._top = None
 
     def push(self, x: int) -> None:
-        self.q1.append(x)
+        self.q2.append(x)
         self._top = x
+        while self.q1:
+            self.q2.append(self.q1.popleft())
+        self.q1, self.q2 = self.q2, self.q1
+
 
     def pop(self) -> int:
-        while len(self.q1) > 1:
-            self._top = self.q1.popleft()
-            self.q2.append(self._top)
         top = self.q1.popleft()
-        self.q1, self.q2 = self.q2, self.q1
+        if self.q1:
+            self._top = self.q1[0]
         return top
 
     def top(self) -> int:
@@ -33,6 +35,6 @@ class MyStack:
 # param_3 = obj.top()
 # param_4 = obj.empty()
 #
-# 1 2
-# 
+# 1 2 3
+# 3 1 2
 #
