@@ -1,33 +1,33 @@
 class Solution:
     '''
-    s = 3[a2[bc]d]ef
+    "2[abc]3[cd]ef"
 
-    stack = abcbcdabcbcdabcbcdef
+    stack = abcabc 3
 
-    decodedString = 
+    abcabccdcdcdef
+    
+    curr_s = abcabccdcdcdef
+    curr_k = 0
 
-    k =
+    Time Complexity: maxK ^ countK * maxEncodedStringLength
+    Space Complexity: maxK ^ countK * maxEncodedStringLength
     '''
     def decodeString(self, s: str) -> str:
+        curr_s = ""
+        curr_k = 0
         stack = []
         for c in s:
-            if c == ']':
-                decodedString = []
-                while stack[-1] != '[':
-                   decodedString.append(stack.pop())
-                stack.pop() # [
-                
-                k = 0
-                base = 1
-                while stack and stack[-1].isdigit():
-                    k = k + int(stack.pop()) * base
-                    base *= 10
-
-                while k > 0:
-                    for i in range(len(decodedString) - 1, -1, -1):
-                        stack.append(decodedString[i])
-                    k -= 1
-                
+            if c.isdigit():
+                curr_k = curr_k * 10 + int(c)
+            elif c == "[":
+                stack.append(curr_s)
+                curr_s = ""
+                stack.append(curr_k)
+                curr_k = 0
+            elif c == "]":
+                prev_k = stack.pop()
+                prev_s = stack.pop()
+                curr_s = prev_s + prev_k * curr_s
             else:
-                stack.append(c)
-        return "".join(stack)
+                curr_s += c
+        return curr_s
