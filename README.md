@@ -345,6 +345,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0232-implement-queue-using-stacks](https://github.com/koshmaryk/leetcode/tree/master/0232-implement-queue-using-stacks) |
 | [0239-sliding-window-maximum](https://github.com/koshmaryk/leetcode/tree/master/0239-sliding-window-maximum) |
 | [0860-design-circular-queue](https://github.com/koshmaryk/leetcode/tree/master/0860-design-circular-queue) |
+| [0969-number-of-recent-calls](https://github.com/koshmaryk/leetcode/tree/master/0969-number-of-recent-calls) |
 ## Monotonic Queue
 |  |
 | ------- |
@@ -424,6 +425,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0789-kth-largest-element-in-a-stream](https://github.com/koshmaryk/leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0860-design-circular-queue](https://github.com/koshmaryk/leetcode/tree/master/0860-design-circular-queue) |
 | [0937-online-stock-span](https://github.com/koshmaryk/leetcode/tree/master/0937-online-stock-span) |
+| [0969-number-of-recent-calls](https://github.com/koshmaryk/leetcode/tree/master/0969-number-of-recent-calls) |
 | [1023-time-based-key-value-store](https://github.com/koshmaryk/leetcode/tree/master/1023-time-based-key-value-store) |
 ## Simulation
 |  |
@@ -468,6 +470,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0295-find-median-from-data-stream](https://github.com/koshmaryk/leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/koshmaryk/leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0937-online-stock-span](https://github.com/koshmaryk/leetcode/tree/master/0937-online-stock-span) |
+| [0969-number-of-recent-calls](https://github.com/koshmaryk/leetcode/tree/master/0969-number-of-recent-calls) |
 ## Tree
 |  |
 | ------- |
