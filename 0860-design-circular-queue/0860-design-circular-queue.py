@@ -34,10 +34,10 @@ class MyCircularQueue:
         
 
     def isEmpty(self) -> bool:
-        return self.getSize() == 0
+        return self.head == self.tail
 
     def isFull(self) -> bool:
-        return self.getSize() == self.capacity - 1
+        return self.head == (self.tail + 1) % self.capacity
 
     def getSize(self) -> int:
         if self.head > self.tail:
