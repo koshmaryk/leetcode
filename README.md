@@ -106,6 +106,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0739-daily-temperatures](https://github.com/koshmaryk/leetcode/tree/master/0739-daily-temperatures) |
 | [0772-construct-quad-tree](https://github.com/koshmaryk/leetcode/tree/master/0772-construct-quad-tree) |
 | [0792-binary-search](https://github.com/koshmaryk/leetcode/tree/master/0792-binary-search) |
+| [0860-design-circular-queue](https://github.com/koshmaryk/leetcode/tree/master/0860-design-circular-queue) |
 | [0907-koko-eating-bananas](https://github.com/koshmaryk/leetcode/tree/master/0907-koko-eating-bananas) |
 | [0917-boats-to-save-people](https://github.com/koshmaryk/leetcode/tree/master/0917-boats-to-save-people) |
 | [0990-verifying-an-alien-dictionary](https://github.com/koshmaryk/leetcode/tree/master/0990-verifying-an-alien-dictionary) |
@@ -343,6 +344,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0225-implement-stack-using-queues](https://github.com/koshmaryk/leetcode/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/koshmaryk/leetcode/tree/master/0232-implement-queue-using-stacks) |
 | [0239-sliding-window-maximum](https://github.com/koshmaryk/leetcode/tree/master/0239-sliding-window-maximum) |
+| [0860-design-circular-queue](https://github.com/koshmaryk/leetcode/tree/master/0860-design-circular-queue) |
 ## Monotonic Queue
 |  |
 | ------- |
@@ -420,6 +422,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/koshmaryk/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0355-design-twitter](https://github.com/koshmaryk/leetcode/tree/master/0355-design-twitter) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/koshmaryk/leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
+| [0860-design-circular-queue](https://github.com/koshmaryk/leetcode/tree/master/0860-design-circular-queue) |
 | [0937-online-stock-span](https://github.com/koshmaryk/leetcode/tree/master/0937-online-stock-span) |
 | [1023-time-based-key-value-store](https://github.com/koshmaryk/leetcode/tree/master/1023-time-based-key-value-store) |
 ## Simulation
@@ -540,6 +543,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0143-reorder-list](https://github.com/koshmaryk/leetcode/tree/master/0143-reorder-list) |
 | [0206-reverse-linked-list](https://github.com/koshmaryk/leetcode/tree/master/0206-reverse-linked-list) |
 | [0355-design-twitter](https://github.com/koshmaryk/leetcode/tree/master/0355-design-twitter) |
+| [0860-design-circular-queue](https://github.com/koshmaryk/leetcode/tree/master/0860-design-circular-queue) |
 ## Recursion
 |  |
 | ------- |
