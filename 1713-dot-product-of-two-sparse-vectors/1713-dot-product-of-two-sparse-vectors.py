@@ -18,7 +18,7 @@ class SparseVector:
             i, n = pair
             pos = self.binary_search(larger.nonzero, i)
             if pos != -1:
-                result += smaller.nonzero[index][1] * larger.nonzero[pos][1]
+                result += n * larger.nonzero[pos][1]
         
         return result
 
