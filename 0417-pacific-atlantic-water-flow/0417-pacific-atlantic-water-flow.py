@@ -1,7 +1,5 @@
 class Solution:
     def pacificAtlantic(self, heights: List[List[int]]) -> List[List[int]]:
-        # Time Complexity: O(m * n) for each ocean, each cell is visited at most once per ocean
-        # Space Complexity: O(m * n) sets for each ocean, dfs recursion stack
         def dfs(r, c, ocean):
             ocean.add((r, c))
             for dr, dc in directions:
@@ -10,9 +8,8 @@ class Solution:
                     dfs(nr, nc, ocean)
 
         m, n = len(heights), len(heights[0])
-        directions = [(-1, 0), (0, -1), (1, 0), (0, 1)]
-        pacific = set()
-        atlantic = set()
+        directions = [(0, -1), (0, 1), (-1, 0), (1, 0)]
+        pacific, atlantic = set(), set()
 
         for r in range(m):
             dfs(r, 0, pacific)
