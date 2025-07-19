@@ -29,8 +29,4 @@ class Solution:
             else:
                 output.extend(diagonal)
         return output
-            
-
-
-
         
