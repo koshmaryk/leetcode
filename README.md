@@ -98,6 +98,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/koshmaryk/leetcode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0417-pacific-atlantic-water-flow](https://github.com/koshmaryk/leetcode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0463-island-perimeter](https://github.com/koshmaryk/leetcode/tree/master/0463-island-perimeter) |
+| [0498-diagonal-traverse](https://github.com/koshmaryk/leetcode/tree/master/0498-diagonal-traverse) |
 | [0560-subarray-sum-equals-k](https://github.com/koshmaryk/leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0594-longest-harmonious-subsequence](https://github.com/koshmaryk/leetcode/tree/master/0594-longest-harmonious-subsequence) |
 | [0621-task-scheduler](https://github.com/koshmaryk/leetcode/tree/master/0621-task-scheduler) |
@@ -414,6 +415,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/koshmaryk/leetcode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0417-pacific-atlantic-water-flow](https://github.com/koshmaryk/leetcode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0463-island-perimeter](https://github.com/koshmaryk/leetcode/tree/master/0463-island-perimeter) |
+| [0498-diagonal-traverse](https://github.com/koshmaryk/leetcode/tree/master/0498-diagonal-traverse) |
 | [0695-max-area-of-island](https://github.com/koshmaryk/leetcode/tree/master/0695-max-area-of-island) |
 | [0772-construct-quad-tree](https://github.com/koshmaryk/leetcode/tree/master/0772-construct-quad-tree) |
 | [1036-rotting-oranges](https://github.com/koshmaryk/leetcode/tree/master/1036-rotting-oranges) |
@@ -442,6 +444,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0498-diagonal-traverse](https://github.com/koshmaryk/leetcode/tree/master/0498-diagonal-traverse) |
 | [0682-baseball-game](https://github.com/koshmaryk/leetcode/tree/master/0682-baseball-game) |
 | [0735-asteroid-collision](https://github.com/koshmaryk/leetcode/tree/master/0735-asteroid-collision) |
 | [2058-concatenation-of-array](https://github.com/koshmaryk/leetcode/tree/master/2058-concatenation-of-array) |
