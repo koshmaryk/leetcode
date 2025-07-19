@@ -1,13 +1,17 @@
 class Solution:
     '''
-        [1,1,1],
-        [1,0,1],
-        [1,1,1]
+        [0,1,2,0],
+        [3,4,5,2],
+        [1,3,1,5]
 
 
-        [1,0,0]
-        [0,0,0]
-        [0,0,0]
+        [0,0,0,0],
+        [0,4,5,0],
+        [0,3,1,0]
+
+        [0,0,0,0],
+        [0,4,5,2],
+        [0,3,1,5]
 
     '''
     def setZeroes(self, matrix: List[List[int]]) -> None:
@@ -16,15 +20,18 @@ class Solution:
         """
         m, n = len(matrix), len(matrix[0])
 
-        zeros = []
         for r in range(m):
             for c in range(n):
                 if matrix[r][c] == 0:
                     for i in range(m):
-                        zeros.append((i, c))
+                        if matrix[i][c] != 0:
+                            matrix[i][c] = float('inf')
 
                     for j in range(n):
-                        zeros.append((r, j))
+                        if matrix[r][j] != 0:
+                            matrix[r][j] = float('inf')
         
-        for r, c in zeros:
-            matrix[r][c] = 0
+        for r in range(m):
+            for c in range(n):
+                if matrix[r][c] == float('inf'):
+                    matrix[r][c] = 0
