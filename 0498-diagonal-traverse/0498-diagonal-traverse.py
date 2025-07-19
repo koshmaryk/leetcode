@@ -12,25 +12,18 @@ class Solution:
     def findDiagonalOrder(self, mat: List[List[int]]) -> List[int]:
         output = []
         m, n = len(mat), len(mat[0])
-        r, c = 0, 0
-        for _ in range(m * n):
-            output.append(mat[r][c])
+        for i in range(m + n - 1):
+            diagonal = []
 
-            if (r + c) % 2 == 0:
-                if c == n - 1:
-                    r += 1
-                elif r == 0:
-                    c += 1
-                else:
-                    r -= 1
-                    c += 1
+            r, c = 0 if i < n else i - n + 1, i if i < n else n - 1
+            while r < m and c >= 0:
+                diagonal.append(mat[r][c])
+                r += 1
+                c -= 1
+
+            if i % 2 == 0:
+                output.extend(diagonal[::-1])
             else:
-                if r == m - 1:
-                    c += 1
-                elif c == 0:
-                    r += 1
-                else:
-                    r += 1
-                    c -= 1
+                output.extend(diagonal)
         return output
         
