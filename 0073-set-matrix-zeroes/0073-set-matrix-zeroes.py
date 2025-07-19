@@ -19,19 +19,16 @@ class Solution:
         Do not return anything, modify matrix in-place instead.
         """
         m, n = len(matrix), len(matrix[0])
+        copy = [[matrix[r][c] for c in range(n)] for r in range(m)]
 
         for r in range(m):
             for c in range(n):
                 if matrix[r][c] == 0:
                     for i in range(m):
-                        if matrix[i][c] != 0:
-                            matrix[i][c] = float('inf')
-
+                        copy[i][c] = 0
                     for j in range(n):
-                        if matrix[r][j] != 0:
-                            matrix[r][j] = float('inf')
+                        copy[r][j] = 0
         
         for r in range(m):
             for c in range(n):
-                if matrix[r][c] == float('inf'):
-                    matrix[r][c] = 0
+                matrix[r][c] = copy[r][c]
