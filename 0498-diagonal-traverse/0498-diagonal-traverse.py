@@ -8,21 +8,14 @@ class Solution:
 
         5
         0= 0,0; 1=0,1; 2=0,2; 3=1,2; 4=2,2
-
-        0,0 0,0
-        0,1 1,0
-        2,0 0,2
-        1,2 2,1
-        2,2 2,2
     '''
     def findDiagonalOrder(self, mat: List[List[int]]) -> List[int]:
         output = []
         m, n = len(mat), len(mat[0])
-        arrow = 1
         r, c = 0, 0
-        for i in range(m * n):
+        for _ in range(m * n):
             output.append(mat[r][c])
-            
+
             if (r + c) % 2 == 0:
                 if c == n - 1:
                     r += 1
