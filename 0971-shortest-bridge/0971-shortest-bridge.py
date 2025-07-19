@@ -25,6 +25,7 @@ class Solution:
             for c in range(n):
                 if grid[r][c] == 1:
                     i, j = r, c
+                    break
 
         dfs(i, j)
 
