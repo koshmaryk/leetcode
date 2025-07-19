@@ -19,16 +19,15 @@ class Solution:
         Do not return anything, modify matrix in-place instead.
         """
         m, n = len(matrix), len(matrix[0])
-        copy = [[matrix[r][c] for c in range(n)] for r in range(m)]
+        rows, cols = [False] * m, [False] * n
 
         for r in range(m):
             for c in range(n):
                 if matrix[r][c] == 0:
-                    for i in range(m):
-                        copy[i][c] = 0
-                    for j in range(n):
-                        copy[r][j] = 0
+                    rows[r] = True
+                    cols[c] = True
         
         for r in range(m):
             for c in range(n):
-                matrix[r][c] = copy[r][c]
+                if rows[r] or cols[c]:
+                    matrix[r][c] = 0
