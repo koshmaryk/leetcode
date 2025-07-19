@@ -112,6 +112,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0860-design-circular-queue](https://github.com/koshmaryk/leetcode/tree/master/0860-design-circular-queue) |
 | [0907-koko-eating-bananas](https://github.com/koshmaryk/leetcode/tree/master/0907-koko-eating-bananas) |
 | [0917-boats-to-save-people](https://github.com/koshmaryk/leetcode/tree/master/0917-boats-to-save-people) |
+| [0971-shortest-bridge](https://github.com/koshmaryk/leetcode/tree/master/0971-shortest-bridge) |
 | [0990-verifying-an-alien-dictionary](https://github.com/koshmaryk/leetcode/tree/master/0990-verifying-an-alien-dictionary) |
 | [1014-k-closest-points-to-origin](https://github.com/koshmaryk/leetcode/tree/master/1014-k-closest-points-to-origin) |
 | [1036-rotting-oranges](https://github.com/koshmaryk/leetcode/tree/master/1036-rotting-oranges) |
@@ -241,6 +242,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0744-network-delay-time](https://github.com/koshmaryk/leetcode/tree/master/0744-network-delay-time) |
 | [0801-is-graph-bipartite](https://github.com/koshmaryk/leetcode/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/koshmaryk/leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
+| [0971-shortest-bridge](https://github.com/koshmaryk/leetcode/tree/master/0971-shortest-bridge) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/koshmaryk/leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [3825-apply-substitutions](https://github.com/koshmaryk/leetcode/tree/master/3825-apply-substitutions) |
 ## Breadth-First Search
@@ -268,6 +270,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0744-network-delay-time](https://github.com/koshmaryk/leetcode/tree/master/0744-network-delay-time) |
 | [0801-is-graph-bipartite](https://github.com/koshmaryk/leetcode/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/koshmaryk/leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
+| [0971-shortest-bridge](https://github.com/koshmaryk/leetcode/tree/master/0971-shortest-bridge) |
 | [1036-rotting-oranges](https://github.com/koshmaryk/leetcode/tree/master/1036-rotting-oranges) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/koshmaryk/leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/koshmaryk/leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
@@ -418,6 +421,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0498-diagonal-traverse](https://github.com/koshmaryk/leetcode/tree/master/0498-diagonal-traverse) |
 | [0695-max-area-of-island](https://github.com/koshmaryk/leetcode/tree/master/0695-max-area-of-island) |
 | [0772-construct-quad-tree](https://github.com/koshmaryk/leetcode/tree/master/0772-construct-quad-tree) |
+| [0971-shortest-bridge](https://github.com/koshmaryk/leetcode/tree/master/0971-shortest-bridge) |
 | [1036-rotting-oranges](https://github.com/koshmaryk/leetcode/tree/master/1036-rotting-oranges) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/koshmaryk/leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/koshmaryk/leetcode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
