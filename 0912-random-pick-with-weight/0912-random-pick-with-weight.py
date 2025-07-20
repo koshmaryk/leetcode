@@ -2,10 +2,16 @@ import random
 
 class Solution:
     '''
-        [0,1,4]
+        [1,2,3]
+        [1,2,2,3,3,3]
+
+        [0,1,3,6]
 
         [0,1)
-        [1,4)
+        [1,3)
+        [3,6)
+
+        0-5
 
     '''
 
@@ -16,7 +22,7 @@ class Solution:
             self.p[i + 1] = self.p[i] + weights[i]
 
     def pickIndex(self) -> int:
-        target = random.randint(0, self.p[-1] - 1)
+        target = self.p[-1] * random.random()
         bad, good = -1, len(self.p)
         while good - bad > 1:
             mid = (bad + good) // 2
