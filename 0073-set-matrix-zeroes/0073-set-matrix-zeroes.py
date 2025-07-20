@@ -9,25 +9,26 @@ class Solution:
         [0,4,5,0],
         [0,3,1,0]
 
-        [0,0,0,0],
-        [0,4,5,2],
-        [0,3,1,5]
-
     '''
     def setZeroes(self, matrix: List[List[int]]) -> None:
         """
         Do not return anything, modify matrix in-place instead.
         """
         m, n = len(matrix), len(matrix[0])
-        rows, cols = [False] * m, [False] * n
-
-        for r in range(m):
-            for c in range(n):
-                if matrix[r][c] == 0:
-                    rows[r] = True
-                    cols[c] = True
+        zero_1st_col = False
         
         for r in range(m):
-            for c in range(n):
-                if rows[r] or cols[c]:
+            if matrix[r][0] == 0:
+                zero_1st_col = True
+            for c in range(1, n):
+                if matrix[r][c] == 0:
+                    matrix[r][0] = 0
+                    matrix[0][c] = 0
+
+        for r in range(m - 1, -1, -1):
+            for c in range(n - 1, 0, -1):
+                if matrix[r][0] == 0 or matrix[0][c] == 0:
                     matrix[r][c] = 0
+
+            if zero_1st_col:
+                matrix[r][0] = 0
