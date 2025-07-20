@@ -5,49 +5,37 @@ class TicTacToe:
 
     '''
     def __init__(self, n: int):
+        self.n = n
         self.grid = [[0] * n for _ in range(n)]
         
+    def checkRow(self, col: int, player: int) -> bool:
+        for r in range(self.n):
+            if self.grid[r][col] != player:
+                return False
+        return True
+
+    def checkCol(self, row: int, player: int) -> bool:
+        for c in range(self.n):
+            if self.grid[row][c] != player:
+                return False
+        return True
+
+    def checkDiagonal(self, player: int) -> bool:
+        for r in range(self.n):
+            if self.grid[r][r] != player:
+                return False
+        return True
+
+    def checkAntiDiagonal(self, player: int) -> bool:
+        for r in range(self.n):
+            if self.grid[r][self.n - r - 1] != player:
+                return False
+        return True
 
     def move(self, row: int, col: int, player: int) -> int:
-        n = len(self.grid)
         self.grid[row][col] = player
 
-        rows = 0
-        for r in range(n):
-            if self.grid[r][col] == player:
-                rows += 1
-
-        if rows == n:
-            return player
-
-        cols = 0
-        for c in range(n):
-            if self.grid[row][c] == player:
-                cols += 1
-
-        if cols == n:
-            return player
-
-        diagonal = 0
-        r, c = 0, n -1
-        while r < n and c >= 0:
-            if self.grid[r][c] == player:
-                diagonal += 1
-            r += 1
-            c -= 1
-
-        if diagonal == n:
-            return player
-
-        diagonal = 0
-        r, c = 0, 0
-        while r < n and c < n:
-            if self.grid[r][c] == player:
-                diagonal += 1
-            r += 1
-            c += 1
-
-        if diagonal == n:
+        if self.checkRow(col, player) or self.checkCol(row, player) or self.checkDiagonal(player) or self.checkAntiDiagonal(player):
             return player
             
         return 0
