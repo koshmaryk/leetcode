@@ -1,12 +1,13 @@
 class Solution:
     '''
-        0 1 2 3  4  5  6
-        4,7,9,10,12,13,15 k = 3
+        0 1 2 3  4 
+        4,7,9,10,12 k = 3
 
-        nums[3] = 10
+        nums[mid] - nums[0] - mid >= k
 
-        10 - 4 = 6
-        6 - 3 = 3
+        12-4-4 = 4
+
+        4+3+1
     '''
     def missingElement(self, nums: List[int], k: int) -> int:
         bad, good = -1, len(nums)
