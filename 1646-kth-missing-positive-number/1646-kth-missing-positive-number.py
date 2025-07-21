@@ -12,7 +12,6 @@ class Solution:
     '''
     def findKthPositive(self, arr: List[int], k: int) -> int:
         bad, good = -1, len(arr) # -1,5; 1,5; 3,5; 3,4
-        l = []
         while good - bad > 1: # 6; 4; 3; 1
             mid = (bad + good) // 2 # 2; 3; 4; ...
             if arr[mid] - (mid + 1) >= k:
