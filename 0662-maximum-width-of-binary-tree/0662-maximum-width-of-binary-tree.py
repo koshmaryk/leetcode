@@ -4,23 +4,22 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-#
-# -2,-1,0,1,2
-from collections import deque
-
 class Solution:
     def widthOfBinaryTree(self, root: Optional[TreeNode]) -> int:
+        def dfs(node, depth, col):
+            if node:
+                nonlocal ans
+                if depth not in leftmost:
+                    leftmost[depth] = col
+
+                ans = max(ans, col - leftmost[depth] + 1)
+
+                dfs(node.left, depth + 1, 2 * col)
+                dfs(node.right, depth + 1, 2 * col + 1)
+
+        leftmost = {}
         ans = 0
-        queue = deque([(root, 0)])
-        while queue:
-            _, head_index = queue[0]
-            _, tail_index = queue[-1]
-            for _ in range(len(queue)):
-                node, col = queue.popleft()
-                if node.left:
-                    queue.append((node.left, 2 * col))
-                if node.right:
-                    queue.append((node.right, 2 * col + 1))
-            ans = max(ans, tail_index - head_index + 1)
+
+        dfs(root, 0, 0)
         return ans
-        
+
