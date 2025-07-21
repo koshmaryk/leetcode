@@ -260,6 +260,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0543-diameter-of-binary-tree](https://github.com/koshmaryk/leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0547-number-of-provinces](https://github.com/koshmaryk/leetcode/tree/master/0547-number-of-provinces) |
 | [0572-subtree-of-another-tree](https://github.com/koshmaryk/leetcode/tree/master/0572-subtree-of-another-tree) |
+| [0662-maximum-width-of-binary-tree](https://github.com/koshmaryk/leetcode/tree/master/0662-maximum-width-of-binary-tree) |
 | [0684-redundant-connection](https://github.com/koshmaryk/leetcode/tree/master/0684-redundant-connection) |
 | [0685-redundant-connection-ii](https://github.com/koshmaryk/leetcode/tree/master/0685-redundant-connection-ii) |
 | [0695-max-area-of-island](https://github.com/koshmaryk/leetcode/tree/master/0695-max-area-of-island) |
@@ -289,6 +290,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0417-pacific-atlantic-water-flow](https://github.com/koshmaryk/leetcode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0463-island-perimeter](https://github.com/koshmaryk/leetcode/tree/master/0463-island-perimeter) |
 | [0547-number-of-provinces](https://github.com/koshmaryk/leetcode/tree/master/0547-number-of-provinces) |
+| [0662-maximum-width-of-binary-tree](https://github.com/koshmaryk/leetcode/tree/master/0662-maximum-width-of-binary-tree) |
 | [0684-redundant-connection](https://github.com/koshmaryk/leetcode/tree/master/0684-redundant-connection) |
 | [0685-redundant-connection-ii](https://github.com/koshmaryk/leetcode/tree/master/0685-redundant-connection-ii) |
 | [0695-max-area-of-island](https://github.com/koshmaryk/leetcode/tree/master/0695-max-area-of-island) |
@@ -547,6 +549,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0450-delete-node-in-a-bst](https://github.com/koshmaryk/leetcode/tree/master/0450-delete-node-in-a-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/koshmaryk/leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/koshmaryk/leetcode/tree/master/0572-subtree-of-another-tree) |
+| [0662-maximum-width-of-binary-tree](https://github.com/koshmaryk/leetcode/tree/master/0662-maximum-width-of-binary-tree) |
 | [0772-construct-quad-tree](https://github.com/koshmaryk/leetcode/tree/master/0772-construct-quad-tree) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/koshmaryk/leetcode/tree/master/0784-insert-into-a-binary-search-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/koshmaryk/leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
@@ -583,6 +586,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0450-delete-node-in-a-bst](https://github.com/koshmaryk/leetcode/tree/master/0450-delete-node-in-a-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/koshmaryk/leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/koshmaryk/leetcode/tree/master/0572-subtree-of-another-tree) |
+| [0662-maximum-width-of-binary-tree](https://github.com/koshmaryk/leetcode/tree/master/0662-maximum-width-of-binary-tree) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/koshmaryk/leetcode/tree/master/0784-insert-into-a-binary-search-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/koshmaryk/leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/koshmaryk/leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
