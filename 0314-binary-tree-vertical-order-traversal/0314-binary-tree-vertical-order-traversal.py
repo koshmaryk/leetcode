@@ -12,10 +12,16 @@ class Solution:
             return []
         
         cols = defaultdict(list)
+        min_col, max_col = float('inf'), float('-inf')
+
         queue = deque([(root, 0)])
         while queue:
             for _ in range(len(queue)):
                 curr, col = queue.popleft()
+
+                min_col = min(min_col, col)
+                max_col = max(max_col, col)
+
                 cols[col].append(curr.val)
                 if curr.left:
                     queue.append((curr.left, col - 1))
@@ -23,6 +29,6 @@ class Solution:
                     queue.append((curr.right, col + 1))
 
         output = []
-        for key in sorted(cols.keys()): # x = log n; x log x
+        for key in range(min_col, max_col + 1):
             output.append(cols[key])
         return output
