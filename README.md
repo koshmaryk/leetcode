@@ -151,6 +151,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0229-majority-element-ii](https://github.com/koshmaryk/leetcode/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/koshmaryk/leetcode/tree/master/0242-valid-anagram) |
 | [0295-find-median-from-data-stream](https://github.com/koshmaryk/leetcode/tree/master/0295-find-median-from-data-stream) |
+| [0314-binary-tree-vertical-order-traversal](https://github.com/koshmaryk/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0347-top-k-frequent-elements](https://github.com/koshmaryk/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/koshmaryk/leetcode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0594-longest-harmonious-subsequence](https://github.com/koshmaryk/leetcode/tree/master/0594-longest-harmonious-subsequence) |
@@ -176,6 +177,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0219-contains-duplicate-ii](https://github.com/koshmaryk/leetcode/tree/master/0219-contains-duplicate-ii) |
 | [0229-majority-element-ii](https://github.com/koshmaryk/leetcode/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/koshmaryk/leetcode/tree/master/0242-valid-anagram) |
+| [0314-binary-tree-vertical-order-traversal](https://github.com/koshmaryk/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0347-top-k-frequent-elements](https://github.com/koshmaryk/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0348-design-tic-tac-toe](https://github.com/koshmaryk/leetcode/tree/master/0348-design-tic-tac-toe) |
 | [0355-design-twitter](https://github.com/koshmaryk/leetcode/tree/master/0355-design-twitter) |
@@ -248,6 +250,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/koshmaryk/leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0261-graph-valid-tree](https://github.com/koshmaryk/leetcode/tree/master/0261-graph-valid-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/koshmaryk/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0314-binary-tree-vertical-order-traversal](https://github.com/koshmaryk/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/koshmaryk/leetcode/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0337-house-robber-iii](https://github.com/koshmaryk/leetcode/tree/master/0337-house-robber-iii) |
 | [0417-pacific-atlantic-water-flow](https://github.com/koshmaryk/leetcode/tree/master/0417-pacific-atlantic-water-flow) |
@@ -279,6 +282,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0261-graph-valid-tree](https://github.com/koshmaryk/leetcode/tree/master/0261-graph-valid-tree) |
 | [0286-walls-and-gates](https://github.com/koshmaryk/leetcode/tree/master/0286-walls-and-gates) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/koshmaryk/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0314-binary-tree-vertical-order-traversal](https://github.com/koshmaryk/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/koshmaryk/leetcode/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0417-pacific-atlantic-water-flow](https://github.com/koshmaryk/leetcode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0463-island-perimeter](https://github.com/koshmaryk/leetcode/tree/master/0463-island-perimeter) |
@@ -536,6 +540,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0230-kth-smallest-element-in-a-bst](https://github.com/koshmaryk/leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/koshmaryk/leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/koshmaryk/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0314-binary-tree-vertical-order-traversal](https://github.com/koshmaryk/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0337-house-robber-iii](https://github.com/koshmaryk/leetcode/tree/master/0337-house-robber-iii) |
 | [0450-delete-node-in-a-bst](https://github.com/koshmaryk/leetcode/tree/master/0450-delete-node-in-a-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/koshmaryk/leetcode/tree/master/0543-diameter-of-binary-tree) |
@@ -571,6 +576,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0230-kth-smallest-element-in-a-bst](https://github.com/koshmaryk/leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/koshmaryk/leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/koshmaryk/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0314-binary-tree-vertical-order-traversal](https://github.com/koshmaryk/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0337-house-robber-iii](https://github.com/koshmaryk/leetcode/tree/master/0337-house-robber-iii) |
 | [0450-delete-node-in-a-bst](https://github.com/koshmaryk/leetcode/tree/master/0450-delete-node-in-a-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/koshmaryk/leetcode/tree/master/0543-diameter-of-binary-tree) |
