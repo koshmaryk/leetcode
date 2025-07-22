@@ -7,19 +7,16 @@ import heapq
 '''
 class Solution:
     def carPooling(self, trips: List[List[int]], capacity: int) -> bool:
-        trips.sort(key=lambda x:x[1])
+        timestamps = []
+        for passengers, pickup, dropoff in trips:
+            timestamps.append([pickup, passengers])
+            timestamps.append([dropoff, -passengers])
 
-        pq = []
-        total = 0
-        for i in range(len(trips)):
-            passengers, pickup, dropoff = trips[i]
-            while pq and pq[0][0] <= pickup:
-                total -= trips[heapq.heappop(pq)[1]][0]
+        timestamps.sort()
 
-            total += passengers
-            if total > capacity:
+        size = 0
+        for location, passengers in timestamps:
+            size += passengers
+            if size > capacity:
                 return False
-
-            heapq.heappush(pq, (dropoff, i))
-
         return True
