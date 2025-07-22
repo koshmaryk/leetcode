@@ -130,6 +130,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1059-missing-element-in-sorted-array](https://github.com/koshmaryk/leetcode/tree/master/1059-missing-element-in-sorted-array) |
 | [1127-last-stone-weight](https://github.com/koshmaryk/leetcode/tree/master/1127-last-stone-weight) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/koshmaryk/leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1184-car-pooling](https://github.com/koshmaryk/leetcode/tree/master/1184-car-pooling) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/koshmaryk/leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1646-kth-missing-positive-number](https://github.com/koshmaryk/leetcode/tree/master/1646-kth-missing-positive-number) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/koshmaryk/leetcode/tree/master/1713-dot-product-of-two-sparse-vectors) |
@@ -162,6 +163,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0658-find-k-closest-elements](https://github.com/koshmaryk/leetcode/tree/master/0658-find-k-closest-elements) |
 | [0917-boats-to-save-people](https://github.com/koshmaryk/leetcode/tree/master/0917-boats-to-save-people) |
 | [1014-k-closest-points-to-origin](https://github.com/koshmaryk/leetcode/tree/master/1014-k-closest-points-to-origin) |
+| [1184-car-pooling](https://github.com/koshmaryk/leetcode/tree/master/1184-car-pooling) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/koshmaryk/leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 ## Hash Table
 |  |
@@ -365,6 +367,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/koshmaryk/leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0912-random-pick-with-weight](https://github.com/koshmaryk/leetcode/tree/master/0912-random-pick-with-weight) |
 | [1046-max-consecutive-ones-iii](https://github.com/koshmaryk/leetcode/tree/master/1046-max-consecutive-ones-iii) |
+| [1184-car-pooling](https://github.com/koshmaryk/leetcode/tree/master/1184-car-pooling) |
 | [3618-find-the-original-typed-string-ii](https://github.com/koshmaryk/leetcode/tree/master/3618-find-the-original-typed-string-ii) |
 ## Heap (Priority Queue)
 |  |
@@ -383,6 +386,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0803-cheapest-flights-within-k-stops](https://github.com/koshmaryk/leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1014-k-closest-points-to-origin](https://github.com/koshmaryk/leetcode/tree/master/1014-k-closest-points-to-origin) |
 | [1127-last-stone-weight](https://github.com/koshmaryk/leetcode/tree/master/1127-last-stone-weight) |
+| [1184-car-pooling](https://github.com/koshmaryk/leetcode/tree/master/1184-car-pooling) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/koshmaryk/leetcode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/koshmaryk/leetcode/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 ## Queue
@@ -491,6 +495,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0498-diagonal-traverse](https://github.com/koshmaryk/leetcode/tree/master/0498-diagonal-traverse) |
 | [0682-baseball-game](https://github.com/koshmaryk/leetcode/tree/master/0682-baseball-game) |
 | [0735-asteroid-collision](https://github.com/koshmaryk/leetcode/tree/master/0735-asteroid-collision) |
+| [1184-car-pooling](https://github.com/koshmaryk/leetcode/tree/master/1184-car-pooling) |
 | [2058-concatenation-of-array](https://github.com/koshmaryk/leetcode/tree/master/2058-concatenation-of-array) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/koshmaryk/leetcode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 ## Trie
