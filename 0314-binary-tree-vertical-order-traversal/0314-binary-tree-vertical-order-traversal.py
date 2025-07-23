@@ -4,27 +4,25 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
+from collections import deque, defaultdict
+
 class Solution:
     def verticalOrder(self, root: Optional[TreeNode]) -> List[List[int]]:
-        if not root: 
+        if not root:
             return []
-
-        def dfs(node, row, col):
-            if node:
-                nonlocal min_col, max_col
-                min_col = min(min_col, col)
-                max_col = max(max_col, col)
-                cols[col].append((row, node.val))
         
-                dfs(node.left, row + 1, col - 1)
-                dfs(node.right, row + 1, col + 1)
-
-        min_col, max_col = float('inf'), float('-inf')
-        cols = defaultdict(list) # Space Complexity O(n)
-        dfs(root, 0, 0) # Time Complexity O(n), Space Complexity O(log n) - O(n)
+        cols = defaultdict(list)
+        queue = deque([(root, 0)])
+        while queue:
+            #for _ in range(len(queue)):
+            curr, col = queue.popleft()
+            cols[col].append(curr.val)
+            if curr.left:
+                queue.append((curr.left, col - 1))
+            if curr.right:
+                queue.append((curr.right, col + 1))
 
         output = []
-        for key in range(min_col, max_col + 1): # Time Complexity O(n)
-            cols[key].sort(key=lambda x:x[0]) # Time Complexity O(n log n)
-            output.append([val for _,val in cols[key]])  # Time Complexity O(n)
+        for key in sorted(cols.keys()): # x = log n; x log x
+            output.append(cols[key])
         return output
