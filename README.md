@@ -387,6 +387,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1014-k-closest-points-to-origin](https://github.com/koshmaryk/leetcode/tree/master/1014-k-closest-points-to-origin) |
 | [1127-last-stone-weight](https://github.com/koshmaryk/leetcode/tree/master/1127-last-stone-weight) |
 | [1184-car-pooling](https://github.com/koshmaryk/leetcode/tree/master/1184-car-pooling) |
+| [1955-seat-reservation-manager](https://github.com/koshmaryk/leetcode/tree/master/1955-seat-reservation-manager) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/koshmaryk/leetcode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/koshmaryk/leetcode/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 ## Queue
@@ -488,6 +489,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0969-number-of-recent-calls](https://github.com/koshmaryk/leetcode/tree/master/0969-number-of-recent-calls) |
 | [1023-time-based-key-value-store](https://github.com/koshmaryk/leetcode/tree/master/1023-time-based-key-value-store) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/koshmaryk/leetcode/tree/master/1713-dot-product-of-two-sparse-vectors) |
+| [1955-seat-reservation-manager](https://github.com/koshmaryk/leetcode/tree/master/1955-seat-reservation-manager) |
 ## Simulation
 |  |
 | ------- |
