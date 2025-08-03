@@ -6,9 +6,18 @@ class Solution:
 
         def robber(houses):
             m = len(houses)
-            rob1, rob2 = 0, 0
-            for i in range(m):
-                rob1, rob2 = rob2, max(rob2, rob1 + houses[i])
-            return rob2
-            
+
+            def helper(i):
+                if i >= m:
+                    return 0
+
+                if i in memo:
+                    return memo[i]
+                
+                memo[i] = max(helper(i + 1), helper(i + 2) + houses[i])
+                return memo[i]
+
+            memo = {}
+            return helper(0)
+  
         return max(robber(nums[:-1]), robber(nums[1:]))
