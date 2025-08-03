@@ -6,11 +6,17 @@ class Solution:
             return nums[0]
 
         def robber(start, stop):
-            rob1, rob2 = 0, 0
+            size = stop - start
+            if size == 1:
+                return nums[start]
 
-            for i in range(start, stop):
-                rob1, rob2 = rob2, max(nums[i] + rob1, rob2)
-            return rob2
+            dp = [0] * size
+            dp[0] = nums[start]
+            dp[1] = max(nums[start], nums[start + 1])
+
+            for i in range(2, size):
+                dp[i] = max(dp[i - 2] + nums[start + i], dp[i - 1])
+            return dp[size - 1]
 
         return max(robber(0, n - 1), robber(1, n))
         
