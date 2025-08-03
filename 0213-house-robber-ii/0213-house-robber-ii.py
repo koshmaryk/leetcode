@@ -8,16 +8,16 @@ class Solution:
             m = len(houses)
 
             def helper(i):
-                if i >= m:
+                if i < 0:
                     return 0
 
                 if i in memo:
                     return memo[i]
                 
-                memo[i] = max(helper(i + 1), helper(i + 2) + houses[i])
+                memo[i] = max(helper(i - 1), helper(i - 2) + houses[i])
                 return memo[i]
 
             memo = {}
-            return helper(0)
+            return helper(m - 1)
   
         return max(robber(nums[:-1]), robber(nums[1:]))
