@@ -8,8 +8,8 @@ class Solution:
         :rtype: int
         """
         while True:
-            x, y = rand7(), rand7()
-            rand = 7 * (x - 1) + y
-            if rand <= 10:
-                return rand
+            row, col = rand7(), rand7()
+            rand = 7 * (row - 1) + col
+            if rand <= 40:
+                return (rand - 1) % 10 + 1
         return -1
