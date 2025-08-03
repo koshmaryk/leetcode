@@ -1,22 +1,19 @@
 class Solution:
-    # 0 & n - 1; 1 & n
     def rob(self, nums: List[int]) -> int:
         n = len(nums)
         if n == 1:
             return nums[0]
 
-        def robber(i, j):
-            m = j - i
-            if m == 1:
-                return nums[i]
+        def robber(houses):
+            m = len(houses)
+            if m < 3:
+                return max(houses)
 
             dp = [0] * m
-            dp[0] = nums[i]
-            dp[1] = max(nums[i], nums[i + 1])
-
-            for k in range(2, m):
-                dp[k] = max(dp[k - 1], dp[k - 2] + nums[i + k])
-            return dp[m - 1]
-
-        return max(robber(0, n - 1), robber(1, n))
-        
+            dp[0] = houses[0]
+            dp[1] = max(houses[0], houses[1])
+            for i in range(2, m):
+                dp[i] = max(dp[i - 1], dp[i - 2] + houses[i])
+            return dp[-1]
+            
+        return max(robber(nums[:-1]), robber(nums[1:]))
