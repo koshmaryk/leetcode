@@ -6,14 +6,9 @@ class Solution:
 
         def robber(houses):
             m = len(houses)
-            if m < 3:
-                return max(houses)
-
-            dp = [0] * m
-            dp[0] = houses[0]
-            dp[1] = max(houses[0], houses[1])
-            for i in range(2, m):
-                dp[i] = max(dp[i - 1], dp[i - 2] + houses[i])
-            return dp[-1]
+            rob1, rob2 = 0, 0
+            for i in range(m):
+                rob1, rob2 = rob2, max(rob2, rob1 + houses[i])
+            return rob2
             
         return max(robber(nums[:-1]), robber(nums[1:]))
