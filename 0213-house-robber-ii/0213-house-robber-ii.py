@@ -5,18 +5,18 @@ class Solution:
         if n == 1:
             return nums[0]
 
-        def robber(start, stop):
-            size = stop - start
-            if size == 1:
-                return nums[start]
+        def robber(i, j):
+            m = j - i
+            if m == 1:
+                return nums[i]
 
-            dp = [0] * size
-            dp[0] = nums[start]
-            dp[1] = max(nums[start], nums[start + 1])
+            dp = [0] * m
+            dp[0] = nums[i]
+            dp[1] = max(nums[i], nums[i + 1])
 
-            for i in range(2, size):
-                dp[i] = max(dp[i - 2] + nums[start + i], dp[i - 1])
-            return dp[size - 1]
+            for k in range(2, m):
+                dp[k] = max(dp[k - 1], dp[k - 2] + nums[i + k])
+            return dp[m - 1]
 
         return max(robber(0, n - 1), robber(1, n))
         
