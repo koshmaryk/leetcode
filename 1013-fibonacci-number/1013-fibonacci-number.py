@@ -1,12 +1,14 @@
 class Solution:
     def fib(self, n: int) -> int:
-        if n < 2:
-            return n
+        def f(n):
+            if n < 2:
+                return n
 
-        a, b = 0, 1
-        for _ in range(2, n + 1):
-            temp = a + b
-            a = b
-            b = temp
+            if n in memo:
+                return memo[n]
 
-        return b
+            memo[n] = f(n - 1) + f(n - 2)
+            return memo[n]
+
+        memo = {}
+        return f(n)
