@@ -7,9 +7,10 @@ class Solution:
         """
         :rtype: int
         """
+        rand = 0
         while True:
             row, col = rand7(), rand7()
             rand = 7 * (row - 1) + col
             if rand <= 40:
-                return (rand - 1) % 10 + 1
-        return -1
+                break
+        return (rand - 1) % 10 + 1
