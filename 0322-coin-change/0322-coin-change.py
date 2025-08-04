@@ -10,10 +10,10 @@ class Solution:
             if amount in memo:
                 return memo[amount]
 
-            count = []
+            count = float(inf)
             for coin in coins:
-                count.append(1 + f(amount - coin))
-            memo[amount] = min(count)
+                count = min(count, 1 + f(amount - coin))
+            memo[amount] = count
             return memo[amount]
 
         memo = {}
