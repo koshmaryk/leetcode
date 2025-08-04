@@ -10,7 +10,7 @@ class Solution:
             if amount in memo:
                 return memo[amount]
 
-            count = float(inf)
+            count = float('inf')
             for coin in coins:
                 count = min(count, 1 + f(amount - coin))
             memo[amount] = count
