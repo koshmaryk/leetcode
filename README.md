@@ -50,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0680-valid-palindrome-ii](https://github.com/koshmaryk/leetcode/tree/master/0680-valid-palindrome-ii) |
 | [0990-verifying-an-alien-dictionary](https://github.com/koshmaryk/leetcode/tree/master/0990-verifying-an-alien-dictionary) |
 | [1023-time-based-key-value-store](https://github.com/koshmaryk/leetcode/tree/master/1023-time-based-key-value-store) |
+| [1250-longest-common-subsequence](https://github.com/koshmaryk/leetcode/tree/master/1250-longest-common-subsequence) |
 | [1894-merge-strings-alternately](https://github.com/koshmaryk/leetcode/tree/master/1894-merge-strings-alternately) |
 | [3617-find-the-original-typed-string-i](https://github.com/koshmaryk/leetcode/tree/master/3617-find-the-original-typed-string-i) |
 | [3618-find-the-original-typed-string-ii](https://github.com/koshmaryk/leetcode/tree/master/3618-find-the-original-typed-string-ii) |
@@ -376,6 +377,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0803-cheapest-flights-within-k-stops](https://github.com/koshmaryk/leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1013-fibonacci-number](https://github.com/koshmaryk/leetcode/tree/master/1013-fibonacci-number) |
 | [1236-n-th-tribonacci-number](https://github.com/koshmaryk/leetcode/tree/master/1236-n-th-tribonacci-number) |
+| [1250-longest-common-subsequence](https://github.com/koshmaryk/leetcode/tree/master/1250-longest-common-subsequence) |
 | [2040-minimum-cost-to-reach-destination-in-time](https://github.com/koshmaryk/leetcode/tree/master/2040-minimum-cost-to-reach-destination-in-time) |
 | [3618-find-the-original-typed-string-ii](https://github.com/koshmaryk/leetcode/tree/master/3618-find-the-original-typed-string-ii) |
 ## Sliding Window
