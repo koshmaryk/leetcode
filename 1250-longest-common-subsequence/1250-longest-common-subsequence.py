@@ -16,5 +16,19 @@ class Solution:
                     dp[i][j] = 1 + dp[i - 1][j - 1]
                 else:
                     dp[i][j] = max(dp[i - 1][j], dp[i][j - 1])
+
+        i, j = m, n
+        s = ""
+        while i > 0 and j > 0:
+            if dp[i][j] == dp[i - 1][j]:
+                i -= 1
+            elif dp[i][j] == dp[i][j - 1]:
+                j -= 1
+            else:
+                s = text1[i - 1] + s
+                i -= 1
+                j -= 1
+        print(s)
+        
         return dp[m][n]
         
