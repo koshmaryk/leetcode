@@ -1,3 +1,5 @@
+import math
+
 class Solution:
     '''
     n = 6, quantities = [11,6]
@@ -9,23 +11,11 @@ class Solution:
     '''
     def minimizedMaximum(self, n: int, quantities: List[int]) -> int:
         m = len(quantities)
-        maximum = max(quantities)
 
         def isGoodEnough(x):
-            i = 0
-            quantity = quantities[i]
-            for _ in range(n):
-                if quantity <= x:
-                    i += 1
-                    if i == m:
-                        return True
-                    else:
-                       quantity = quantities[i]
-                else:
-                    quantity -= x
-            return False
+            return sum([math.ceil(quantity / x) for quantity in quantities]) <= n
 
-        bad, good = 0, maximum
+        bad, good = 0, max(quantities)
         while good - bad > 1:
             guess = (bad + good) // 2
             if isGoodEnough(guess):
