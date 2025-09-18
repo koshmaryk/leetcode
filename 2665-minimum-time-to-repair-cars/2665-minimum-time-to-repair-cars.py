@@ -9,12 +9,12 @@ class Solution:
 
         time = 0
         while cars > 0:
-            next_time, rank, n = heapq.heappop(pq)
+            next_time, rank, repaired = heapq.heappop(pq)
 
             cars -= 1
             time = next_time
-            n += 1
+            repaired += 1
 
-            heapq.heappush(pq, (rank * n ** 2, rank, n))
+            heapq.heappush(pq, (rank * repaired ** 2, rank, repaired))
         return time
         
