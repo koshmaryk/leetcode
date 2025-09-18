@@ -6,7 +6,7 @@ class Solution:
                 repaired += int((t / rank) ** 0.5)
             return repaired >= cars
 
-        bad, good = 0, max(ranks) * cars ** 2
+        bad, good = 0, 101 * cars ** 2
         while good - bad > 1:
             guess = (bad + good) // 2
             if isGoodEnough(guess):
