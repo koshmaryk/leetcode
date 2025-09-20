@@ -21,7 +21,7 @@ class Solution:
 
         position.sort()
 
-        bad, good = 0, position[-1] - position[0] + 1
+        bad, good = 0, position[-1]
         while good - bad > 1:
             guess = (bad + good) // 2
             if isGoodEnough(guess):
