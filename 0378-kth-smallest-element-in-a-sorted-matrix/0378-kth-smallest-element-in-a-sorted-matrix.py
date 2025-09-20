@@ -25,7 +25,7 @@ class Solution:
                     c -= 1
             return cnt >= k
 
-        bad, good = matrix[0][0] - 1, matrix[n - 1][n - 1]
+        bad, good = matrix[0][0] - 1, matrix[n - 1][n - 1] + 1
         while good - bad > 1:
             guess = (bad + good) // 2
             if isGoodEnough(guess):
