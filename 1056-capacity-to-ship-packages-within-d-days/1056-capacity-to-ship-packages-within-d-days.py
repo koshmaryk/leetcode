@@ -1,25 +1,19 @@
 class Solution:
     def shipWithinDays(self, weights: List[int], days: int) -> int:
-        def isGoodEnough(max_weight):
-            days_used = 0
+        def isGoodEnough(capacity):
+            days_needed = 1
             total = 0
             for weight in weights:
-                if weight > max_weight:
+                if weight > capacity:
                     return False
-
-                if total + weight > max_weight:
-                    days_used += 1
-                    total = weight
-                else:
+                if total + weight <= capacity:
                     total += weight
-            return days_used + 1 <= days
+                else:
+                    days_needed += 1
+                    total = weight
+            return days_needed <= days
 
-        total = 0
-        for weight in weights:
-            total += weight
-
-        bad = 0
-        good = total + 1
+        bad, good = 0, sum(weights)
         while good - bad > 1:
             guess = (bad + good) // 2
             if isGoodEnough(guess):
