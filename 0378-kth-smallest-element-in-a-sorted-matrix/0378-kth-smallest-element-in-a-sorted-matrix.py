@@ -6,30 +6,21 @@ class Solution:
     [10,11,13]
     [12,13,15]
 
-    (0, 16)
-
-    13
+    k = 8
 
     '''
     def kthSmallest(self, matrix: List[List[int]], k: int) -> int:
         n = len(matrix)
+        minHeap = []
+        for r in range(min(k, n)):
+            minHeap.append((matrix[r][0], r, 0))
 
-        def isGoodEnough(target):
-            cnt = 0
-            r, c = 0, n - 1
-            while r < n and c >= 0:
-                if matrix[r][c] <= target:
-                    cnt += c + 1
-                    r += 1
-                else:
-                    c -= 1
-            return cnt >= k
+        heapq.heapify(minHeap)
 
-        bad, good = matrix[0][0] - 1, matrix[n - 1][n - 1] + 1
-        while good - bad > 1:
-            guess = (bad + good) // 2
-            if isGoodEnough(guess):
-                good = guess
-            else:
-                bad = guess
-        return good
+        ans = float('inf')
+        for i in range(k):
+            ans, r, c = heapq.heappop(minHeap)
+            if c + 1 < n:
+                heapq.heappush(minHeap, (matrix[r][c + 1], r, c + 1))
+        return ans
+
