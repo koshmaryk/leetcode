@@ -253,6 +253,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/koshmaryk/leetcode/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1059-missing-element-in-sorted-array](https://github.com/koshmaryk/leetcode/tree/master/1059-missing-element-in-sorted-array) |
 | [1192-divide-chocolate](https://github.com/koshmaryk/leetcode/tree/master/1192-divide-chocolate) |
+| [1307-ugly-number-iii](https://github.com/koshmaryk/leetcode/tree/master/1307-ugly-number-iii) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/koshmaryk/leetcode/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/koshmaryk/leetcode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/koshmaryk/leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
@@ -278,6 +279,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1013-fibonacci-number](https://github.com/koshmaryk/leetcode/tree/master/1013-fibonacci-number) |
 | [1014-k-closest-points-to-origin](https://github.com/koshmaryk/leetcode/tree/master/1014-k-closest-points-to-origin) |
 | [1236-n-th-tribonacci-number](https://github.com/koshmaryk/leetcode/tree/master/1236-n-th-tribonacci-number) |
+| [1307-ugly-number-iii](https://github.com/koshmaryk/leetcode/tree/master/1307-ugly-number-iii) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/koshmaryk/leetcode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 ## Depth-First Search
 |  |
@@ -741,4 +743,9 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/koshmaryk/leetcode/tree/master/0062-unique-paths) |
+| [1307-ugly-number-iii](https://github.com/koshmaryk/leetcode/tree/master/1307-ugly-number-iii) |
+## Number Theory
+|  |
+| ------- |
+| [1307-ugly-number-iii](https://github.com/koshmaryk/leetcode/tree/master/1307-ugly-number-iii) |
 <!---LeetCode Topics End-->
