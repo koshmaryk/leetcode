@@ -322,6 +322,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0803-cheapest-flights-within-k-stops](https://github.com/koshmaryk/leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0971-shortest-bridge](https://github.com/koshmaryk/leetcode/tree/master/0971-shortest-bridge) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/koshmaryk/leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
+| [2347-count-nodes-equal-to-average-of-subtree](https://github.com/koshmaryk/leetcode/tree/master/2347-count-nodes-equal-to-average-of-subtree) |
 | [3825-apply-substitutions](https://github.com/koshmaryk/leetcode/tree/master/3825-apply-substitutions) |
 ## Breadth-First Search
 |  |
@@ -631,6 +632,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0784-insert-into-a-binary-search-tree](https://github.com/koshmaryk/leetcode/tree/master/0784-insert-into-a-binary-search-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/koshmaryk/leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/koshmaryk/leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
+| [2347-count-nodes-equal-to-average-of-subtree](https://github.com/koshmaryk/leetcode/tree/master/2347-count-nodes-equal-to-average-of-subtree) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -667,6 +669,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0784-insert-into-a-binary-search-tree](https://github.com/koshmaryk/leetcode/tree/master/0784-insert-into-a-binary-search-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/koshmaryk/leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/koshmaryk/leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
+| [2347-count-nodes-equal-to-average-of-subtree](https://github.com/koshmaryk/leetcode/tree/master/2347-count-nodes-equal-to-average-of-subtree) |
 ## Geometry
 |  |
 | ------- |
