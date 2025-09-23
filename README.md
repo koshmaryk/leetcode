@@ -160,6 +160,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2019-product-of-two-run-length-encoded-arrays](https://github.com/koshmaryk/leetcode/tree/master/2019-product-of-two-run-length-encoded-arrays) |
 | [2040-minimum-cost-to-reach-destination-in-time](https://github.com/koshmaryk/leetcode/tree/master/2040-minimum-cost-to-reach-destination-in-time) |
 | [2058-concatenation-of-array](https://github.com/koshmaryk/leetcode/tree/master/2058-concatenation-of-array) |
+| [2169-simple-bank-system](https://github.com/koshmaryk/leetcode/tree/master/2169-simple-bank-system) |
 | [2188-minimized-maximum-of-products-distributed-to-any-store](https://github.com/koshmaryk/leetcode/tree/master/2188-minimized-maximum-of-products-distributed-to-any-store) |
 | [2294-minimum-time-to-complete-trips](https://github.com/koshmaryk/leetcode/tree/master/2294-minimum-time-to-complete-trips) |
 | [2665-minimum-time-to-repair-cars](https://github.com/koshmaryk/leetcode/tree/master/2665-minimum-time-to-repair-cars) |
@@ -224,6 +225,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1023-time-based-key-value-store](https://github.com/koshmaryk/leetcode/tree/master/1023-time-based-key-value-store) |
 | [1039-find-the-town-judge](https://github.com/koshmaryk/leetcode/tree/master/1039-find-the-town-judge) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/koshmaryk/leetcode/tree/master/1713-dot-product-of-two-sparse-vectors) |
+| [2169-simple-bank-system](https://github.com/koshmaryk/leetcode/tree/master/2169-simple-bank-system) |
 | [3825-apply-substitutions](https://github.com/koshmaryk/leetcode/tree/master/3825-apply-substitutions) |
 | [3838-path-existence-queries-in-a-graph-i](https://github.com/koshmaryk/leetcode/tree/master/3838-path-existence-queries-in-a-graph-i) |
 ## Binary Search
@@ -557,6 +559,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1023-time-based-key-value-store](https://github.com/koshmaryk/leetcode/tree/master/1023-time-based-key-value-store) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/koshmaryk/leetcode/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [1955-seat-reservation-manager](https://github.com/koshmaryk/leetcode/tree/master/1955-seat-reservation-manager) |
+| [2169-simple-bank-system](https://github.com/koshmaryk/leetcode/tree/master/2169-simple-bank-system) |
 ## Simulation
 |  |
 | ------- |
@@ -566,6 +569,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0735-asteroid-collision](https://github.com/koshmaryk/leetcode/tree/master/0735-asteroid-collision) |
 | [1184-car-pooling](https://github.com/koshmaryk/leetcode/tree/master/1184-car-pooling) |
 | [2058-concatenation-of-array](https://github.com/koshmaryk/leetcode/tree/master/2058-concatenation-of-array) |
+| [2169-simple-bank-system](https://github.com/koshmaryk/leetcode/tree/master/2169-simple-bank-system) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/koshmaryk/leetcode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 ## Trie
 |  |
