@@ -5,31 +5,28 @@ class Bank:
         
 
     def transfer(self, account1: int, account2: int, money: int) -> bool:
-        if self.withdraw(account1, money):
-            if self.deposit(account2, money):
-                return True
-            self.deposit(account1, money)
-            
+        if self.valid(account1) and self.valid(account2) and self.balance[account1 - 1] >= money:
+            self.balance[account1 - 1] -= money
+            self.balance[account2 - 1] += money
+            return True
         return False
         
 
     def deposit(self, account: int, money: int) -> bool:
-        if not (1 <= account <= len(self.balance)):
-            return False
-
-        self.balance[account - 1] += money
-        return True
+        if self.valid(account):
+            self.balance[account - 1] += money
+            return True
+        return False
 
 
     def withdraw(self, account: int, money: int) -> bool:
-        if not (1 <= account <= len(self.balance)):
-            return False
+        if self.valid(account) and self.balance[account - 1] >= money:
+            self.balance[account - 1] -= money
+            return True
+        return False
 
-        if self.balance[account - 1] < money:
-            return False
-
-        self.balance[account - 1] -= money
-        return True
+    def valid(self, account: int) -> bool:
+        return 1 <= account <= len(self.balance)
 
 
 # Your Bank object will be instantiated and called as such:
