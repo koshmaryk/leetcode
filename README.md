@@ -149,6 +149,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1171-shortest-path-in-binary-matrix](https://github.com/koshmaryk/leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1184-car-pooling](https://github.com/koshmaryk/leetcode/tree/master/1184-car-pooling) |
 | [1192-divide-chocolate](https://github.com/koshmaryk/leetcode/tree/master/1192-divide-chocolate) |
+| [1335-maximum-candies-allocated-to-k-children](https://github.com/koshmaryk/leetcode/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/koshmaryk/leetcode/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/koshmaryk/leetcode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/koshmaryk/leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
@@ -254,6 +255,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1059-missing-element-in-sorted-array](https://github.com/koshmaryk/leetcode/tree/master/1059-missing-element-in-sorted-array) |
 | [1192-divide-chocolate](https://github.com/koshmaryk/leetcode/tree/master/1192-divide-chocolate) |
 | [1307-ugly-number-iii](https://github.com/koshmaryk/leetcode/tree/master/1307-ugly-number-iii) |
+| [1335-maximum-candies-allocated-to-k-children](https://github.com/koshmaryk/leetcode/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/koshmaryk/leetcode/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/koshmaryk/leetcode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/koshmaryk/leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
