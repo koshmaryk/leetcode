@@ -4,8 +4,7 @@
 #         self.val = x
 #         self.left = None
 #         self.right = None
-
-from collections import defaultdict
+from collections import defaultdict, deque
 
 class Solution:
     def distanceK(self, root: TreeNode, target: TreeNode, k: int) -> List[int]:
@@ -15,7 +14,7 @@ class Solution:
             if node and parent:
                 graph[node.val].append(parent.val)
                 graph[parent.val].append(node.val)
-            
+
             if node.left:
                 build_graph(node.left, node)
             if node.right:
@@ -26,15 +25,17 @@ class Solution:
         answer = []
         visited = set([target.val])
 
-        def dfs(u, d):
+        queue = deque([(target.val, 0)])
+        while queue:
+            u, d = queue.popleft()
+
             if d == k:
                 answer.append(u)
-                return
+                continue
 
             for v in graph[u]:
                 if v not in visited:
                     visited.add(v)
-                    dfs(v, d + 1)
+                    queue.append((v, d + 1))
 
-        dfs(target.val, 0)
         return answer
