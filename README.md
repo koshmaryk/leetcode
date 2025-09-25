@@ -100,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/koshmaryk/leetcode/tree/master/0189-rotate-array) |
 | [0198-house-robber](https://github.com/koshmaryk/leetcode/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/koshmaryk/leetcode/tree/master/0200-number-of-islands) |
+| [0204-count-primes](https://github.com/koshmaryk/leetcode/tree/master/0204-count-primes) |
 | [0209-minimum-size-subarray-sum](https://github.com/koshmaryk/leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [0213-house-robber-ii](https://github.com/koshmaryk/leetcode/tree/master/0213-house-robber-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/koshmaryk/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
@@ -283,6 +284,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0070-climbing-stairs](https://github.com/koshmaryk/leetcode/tree/master/0070-climbing-stairs) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/koshmaryk/leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0189-rotate-array](https://github.com/koshmaryk/leetcode/tree/master/0189-rotate-array) |
+| [0204-count-primes](https://github.com/koshmaryk/leetcode/tree/master/0204-count-primes) |
 | [0380-insert-delete-getrandom-o1](https://github.com/koshmaryk/leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0903-implement-rand10-using-rand7](https://github.com/koshmaryk/leetcode/tree/master/0903-implement-rand10-using-rand7) |
 | [0912-random-pick-with-weight](https://github.com/koshmaryk/leetcode/tree/master/0912-random-pick-with-weight) |
@@ -767,5 +769,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Number Theory
 |  |
 | ------- |
+| [0204-count-primes](https://github.com/koshmaryk/leetcode/tree/master/0204-count-primes) |
 | [1307-ugly-number-iii](https://github.com/koshmaryk/leetcode/tree/master/1307-ugly-number-iii) |
+## Enumeration
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/koshmaryk/leetcode/tree/master/0204-count-primes) |
 <!---LeetCode Topics End-->
