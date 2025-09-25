@@ -11,8 +11,6 @@ class Solution:
                     continue
                 if y > x:
                     continue
-                if y > 100 and x < 100:
-                    continue
 
                 ans += count[x] * count[y]
                 if x == y:
