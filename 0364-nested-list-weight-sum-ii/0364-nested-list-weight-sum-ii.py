@@ -46,23 +46,22 @@ class Solution:
     '''
     [1,[2,2],[[3],2],1]
 
-
+    integer * (max_d - d + 1)
+    
     '''
     def depthSumInverse(self, nestedList: List[NestedInteger]) -> int:
-        ints = [] # int, depth
         max_d, d = 1, 1
+        s, p = 0, 0
         q = deque(nestedList)
         while q:
             max_d = max(max_d, d)
             for _ in range(len(q)):
                 curr = q.popleft()
                 if curr.isInteger():
-                    ints.append((curr.getInteger(), d))
+                    s += curr.getInteger()
+                    p += curr.getInteger() * d
                 else:
                     q.extend(curr.getList())
             d += 1
 
-        total = 0
-        for integer, d in ints:
-            total += integer * (max_d - d + 1)
-        return total
+        return s * max_d - p + s
