@@ -1,21 +1,23 @@
 class Solution:
     def searchRange(self, nums: List[int], target: int) -> List[int]:
+        n = len(nums)
         if not nums:
             return [-1, -1]
 
-        bad, good = -1, len(nums)
-        while good - bad > 1:
-            mid = (bad + good) // 2
-            if nums[mid] > target:
-                good = mid
-            else:
-                bad = mid
-        
-        if good <= len(nums) and nums[good - 1] != target:
+        def search(bad, good, p):
+            while good - bad > 1:
+                mid = (bad + good) // 2
+                if p(mid):
+                    good = mid
+                else:
+                    bad = mid
+            return bad, good
+
+        _, first = search(bad=-1, good=n, p=lambda x: nums[x] >= target)
+
+        if first == n or nums[first] != target:
             return [-1, -1]
-        else:
-            first, last = good - 1, good - 1
-            while first > 0 and nums[first - 1] == target:
-                first -= 1
-          
-            return [first, last]
+
+        last, _ = search(bad=-1, good=n, p=lambda x: nums[x] > target)
+        return [first, last]
+        
