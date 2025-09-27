@@ -1,19 +1,14 @@
 class Solution:
+    ''' 
+    3,0,6,1,5
+
+    6,5,3,1,0
+
+    '''
     def hIndex(self, citations: List[int]) -> int:
-        n = len(citations)
-
-        def isGoodEnough(h):
-            cnt = 0
-            for citation in citations:
-                if citation >= h:
-                    cnt += 1
-            return cnt >= h
-
-        bad, good = n, 0
-        while bad - good > 1:
-            guess = (bad + good) // 2
-            if isGoodEnough(guess):
-                good = guess
-            else:
-                bad = guess
-        return bad if isGoodEnough(bad) else good
+        citations.sort(reverse=True) # 6,5,3,1,0
+        h = 0
+        for i, citation in enumerate(citations): # 0,6 | 1,5 | 2,3 | 3,1 | ... 
+            if citation >= i + 1:
+                h = i + 1 # 1 | 2 | 3 | 3 ...
+        return h
