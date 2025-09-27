@@ -50,20 +50,23 @@ class Solution:
     
     '''
     def depthSumInverse(self, nestedList: List[NestedInteger]) -> int:
-        max_d = 1
-        s, p = 0, 0
 
         def dfs(nestedList, d):
-            nonlocal max_d, s, p
-            max_d = max(max_d, d)
+            max_d = 1
+            s, p = 0, 0
             for nested in nestedList:
                 if nested.isInteger():
                     s += nested.getInteger()
                     p += nested.getInteger() * d
+                    max_d = max(max_d, d)
                 else:
-                    dfs(nested.getList(), d + 1)
+                    maxq, sq, pq = dfs(nested.getList(), d + 1)
+                    s += sq
+                    p += pq
+                    max_d = max(max_d, maxq)
+            return max_d, s, p
 
 
-        dfs(nestedList, 1)
+        max_d, s, p = dfs(nestedList, 1)
         return max_d * s - p + s
        
