@@ -10,9 +10,7 @@ class Solution:
     '''
     def hIndex(self, citations: List[int]) -> int:
         n = len(citations)
-        ans = 0
         for i, citation in enumerate(citations):
             if citation >= n - i:
-                ans = n - i
-                break
-        return ans
+                return n - i
+        return 0
