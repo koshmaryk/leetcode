@@ -713,6 +713,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0206-reverse-linked-list](https://github.com/koshmaryk/leetcode/tree/master/0206-reverse-linked-list) |
 | [0328-odd-even-linked-list](https://github.com/koshmaryk/leetcode/tree/master/0328-odd-even-linked-list) |
 | [0355-design-twitter](https://github.com/koshmaryk/leetcode/tree/master/0355-design-twitter) |
+| [0850-insert-into-a-sorted-circular-linked-list](https://github.com/koshmaryk/leetcode/tree/master/0850-insert-into-a-sorted-circular-linked-list) |
 | [0860-design-circular-queue](https://github.com/koshmaryk/leetcode/tree/master/0860-design-circular-queue) |
 ## Recursion
 |  |
