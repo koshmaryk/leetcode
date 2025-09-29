@@ -9,7 +9,12 @@ class Node:
 class Solution:
     '''
     40/5
-    30 10 20
+            p  c
+    30 head=10 20
+
+    10
+
+    head=5 10 10 15
     '''
     def insert(self, head: 'Optional[Node]', insertVal: int) -> 'Node':
         if not head:
@@ -20,12 +25,10 @@ class Solution:
         prev, curr = head, head.next
         while True:
             if prev.val <= insertVal <= curr.val:
-                prev.next = Node(insertVal, curr)
-                return head
+                break
 
             if prev.val > curr.val and (insertVal >= prev.val or insertVal <= curr.val):
-                prev.next = Node(insertVal, curr)
-                return head
+                break
 
             prev, curr = curr, curr.next
 
