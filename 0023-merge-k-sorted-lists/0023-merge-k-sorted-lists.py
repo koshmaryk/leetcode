@@ -5,16 +5,7 @@
 #         self.next = next
 class Solution:
     def mergeKLists(self, lists: List[Optional[ListNode]]) -> Optional[ListNode]:
-        def mergeHelper(l, r):
-            if r - l < 2:
-                return lists[l]
-
-            mid = (l + r) // 2
-            l = mergeHelper(l, mid)
-            r = mergeHelper(mid, r)
-            return mergeTwoLists(l, r)
-
-        def mergeTwoLists(l1, l2):
+        def merge(l1, l2):
             sentinel = ListNode()
             curr = sentinel
             while l1 and l2:
@@ -23,17 +14,21 @@ class Solution:
                     l1 = l1.next
                 else:
                     curr.next = l2
-                    l2 = l2.next
+                    l2 = l2. next
+                
                 curr = curr.next
 
             if l1 or l2:
                 curr.next = l1 if l1 else l2
-            
+
             return sentinel.next
 
-        if not lists:
+        k = len(lists)
+        if k == 0:
             return None
 
-        return mergeHelper(0, len(lists))
+        for i in range(1, k):
+            lists[i] = merge(lists[i - 1], lists[i])
 
+        return lists[-1]
         
