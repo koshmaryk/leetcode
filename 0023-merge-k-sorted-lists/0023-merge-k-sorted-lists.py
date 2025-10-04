@@ -23,12 +23,18 @@ class Solution:
 
             return sentinel.next
 
+        def divideAndConquer(l, r):
+            if r - l < 2:
+                return lists[l]
+
+            mid = (l + r) // 2
+            left = divideAndConquer(l , mid)
+            right = divideAndConquer(mid, r)
+            return merge(left, right)
+
         k = len(lists)
         if k == 0:
             return None
 
-        for i in range(1, k):
-            lists[i] = merge(lists[i - 1], lists[i])
-
-        return lists[-1]
+        return divideAndConquer(0, k)
         
