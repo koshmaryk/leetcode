@@ -1,4 +1,6 @@
 class Solution:
+    from collections import defaultdict
+
     '''
     [1,2,2,3,4,1]
 
@@ -7,16 +9,15 @@ class Solution:
     [0,0,1,1,2,2]
     '''
     def maxFrequencyElements(self, nums: List[int]) -> int:
-        count = [0] * 101
+        freq = defaultdict(int)
         for num in nums:
-            count[num] += 1
+            freq[num] += 1
 
-        count.sort()
+        max_freq = max(freq.values())
 
         ans = 0
-        max_cnt = count[100]
-        for i in range(100, -1, -1):
-            if count[i] == max_cnt:
-                ans += max_cnt
+        for v in freq.values():
+            if v == max_freq:
+                ans += v
         return ans
         
