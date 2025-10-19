@@ -142,6 +142,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0792-binary-search](https://github.com/koshmaryk/leetcode/tree/master/0792-binary-search) |
 | [0802-k-th-smallest-prime-fraction](https://github.com/koshmaryk/leetcode/tree/master/0802-k-th-smallest-prime-fraction) |
 | [0852-friends-of-appropriate-ages](https://github.com/koshmaryk/leetcode/tree/master/0852-friends-of-appropriate-ages) |
+| [0854-making-a-large-island](https://github.com/koshmaryk/leetcode/tree/master/0854-making-a-large-island) |
 | [0860-design-circular-queue](https://github.com/koshmaryk/leetcode/tree/master/0860-design-circular-queue) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/koshmaryk/leetcode/tree/master/0882-peak-index-in-a-mountain-array) |
 | [0907-koko-eating-bananas](https://github.com/koshmaryk/leetcode/tree/master/0907-koko-eating-bananas) |
@@ -346,6 +347,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0744-network-delay-time](https://github.com/koshmaryk/leetcode/tree/master/0744-network-delay-time) |
 | [0801-is-graph-bipartite](https://github.com/koshmaryk/leetcode/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/koshmaryk/leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
+| [0854-making-a-large-island](https://github.com/koshmaryk/leetcode/tree/master/0854-making-a-large-island) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/koshmaryk/leetcode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0971-shortest-bridge](https://github.com/koshmaryk/leetcode/tree/master/0971-shortest-bridge) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/koshmaryk/leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
@@ -381,6 +383,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0744-network-delay-time](https://github.com/koshmaryk/leetcode/tree/master/0744-network-delay-time) |
 | [0801-is-graph-bipartite](https://github.com/koshmaryk/leetcode/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/koshmaryk/leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
+| [0854-making-a-large-island](https://github.com/koshmaryk/leetcode/tree/master/0854-making-a-large-island) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/koshmaryk/leetcode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0971-shortest-bridge](https://github.com/koshmaryk/leetcode/tree/master/0971-shortest-bridge) |
 | [1036-rotting-oranges](https://github.com/koshmaryk/leetcode/tree/master/1036-rotting-oranges) |
@@ -547,6 +550,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0685-redundant-connection-ii](https://github.com/koshmaryk/leetcode/tree/master/0685-redundant-connection-ii) |
 | [0695-max-area-of-island](https://github.com/koshmaryk/leetcode/tree/master/0695-max-area-of-island) |
 | [0801-is-graph-bipartite](https://github.com/koshmaryk/leetcode/tree/master/0801-is-graph-bipartite) |
+| [0854-making-a-large-island](https://github.com/koshmaryk/leetcode/tree/master/0854-making-a-large-island) |
 | [3838-path-existence-queries-in-a-graph-i](https://github.com/koshmaryk/leetcode/tree/master/3838-path-existence-queries-in-a-graph-i) |
 ## Matrix
 |  |
@@ -564,6 +568,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0498-diagonal-traverse](https://github.com/koshmaryk/leetcode/tree/master/0498-diagonal-traverse) |
 | [0695-max-area-of-island](https://github.com/koshmaryk/leetcode/tree/master/0695-max-area-of-island) |
 | [0772-construct-quad-tree](https://github.com/koshmaryk/leetcode/tree/master/0772-construct-quad-tree) |
+| [0854-making-a-large-island](https://github.com/koshmaryk/leetcode/tree/master/0854-making-a-large-island) |
 | [0971-shortest-bridge](https://github.com/koshmaryk/leetcode/tree/master/0971-shortest-bridge) |
 | [1036-rotting-oranges](https://github.com/koshmaryk/leetcode/tree/master/1036-rotting-oranges) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/koshmaryk/leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
