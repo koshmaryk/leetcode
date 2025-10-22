@@ -25,7 +25,8 @@ class Solution:
             if len(heap) > ladders:
                 bricks -= heapq.heappop(heap)
             
-            if bricks < 0:
-                return i
+                if bricks < 0:
+                    return i
+                    
         return n - 1
                 
