@@ -1,29 +1,17 @@
-import heapq
-
 class Solution:
-    '''
-    100 0, 100 1, 100 2
-
-    '''
     def arrayRankTransform(self, arr: List[int]) -> List[int]:
         n = len(arr)
+        sorted_arr = sorted(arr)
 
-        pq = []
+        ranks = {}
+        rank = 1
         for i in range(n):
-            pq.append((arr[i], i))
-
-        heapq.heapify(pq)
-        
-        output = [0] * n
-        rank = 0
-        prev = float('inf')
-        while pq:
-            curr, idx = heapq.heappop(pq) # 100, 0
-
-            if curr != prev:
-                prev = curr
+            if i > 0 and sorted_arr[i] > sorted_arr[i - 1]:
                 rank += 1
-            
-            output[idx] = rank
 
+            ranks[sorted_arr[i]] = rank
+
+        output = [0] * n
+        for i in range(n):
+            output[i] = ranks[arr[i]]
         return output
