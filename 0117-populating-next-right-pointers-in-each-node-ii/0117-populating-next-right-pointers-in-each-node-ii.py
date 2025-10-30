@@ -6,25 +6,26 @@ class Node:
         self.left = left
         self.right = right
         self.next = next
+
+
+                
+              1
+x ->      2       3  
 """
-from collections import deque
 
 class Solution:
     def connect(self, root: 'Node') -> 'Node':
-        if not root:
-            return None
-
-        queue = deque([root])
-        while queue:
-            level_size = len(queue)
-            for i in range(level_size):
-                curr = queue.popleft()
-                if i < level_size - 1:
-                    curr.next = queue[0]
-                
+        leftmost = root # 1
+        while leftmost:
+            curr = leftmost # 1 | 2 
+            sentinel = tail = Node(-101) # x->2->3-> | x->4->5->7->
+            while curr: # 3
                 if curr.left:
-                    queue.append(curr.left)
+                    tail.next = curr.left
+                    tail = tail.next
                 if curr.right:
-                    queue.append(curr.right)
+                    tail.next = curr.right
+                    tail = tail.next
+                curr = curr.next
+            leftmost = sentinel.next # 2 | 4
         return root
-        
