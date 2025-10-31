@@ -1,10 +1,9 @@
 class Solution:
     def judgeSquareSum(self, c: int) -> bool:
-        n = int(sqrt(c)) + 1
-        s = set()
-        for number in range(n):
-            s.add(number*number)
-            if (c - number*number) in s:
+        a = 0
+        while a * a <= c:
+            b = (c - a * a) ** 0.5
+            if b == int(b):
                 return True
+            a += 1
         return False
-        
