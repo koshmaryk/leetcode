@@ -6,20 +6,21 @@ class Solution:
 
     bcabdcd -> abdcd
 
-    
+    bcab -> bca
 
     '''
     from collections import Counter
 
     def removeDuplicateLetters(self, s: str) -> str:
-        count = Counter(s)
-        
-        p = 0
-        for i in range(len(s)):
-            if s[i] < s[p]: p = i
+        last_occurence = {c:i for i, c in enumerate(s)}
 
-            count[s[i]] -= 1
-            if count[s[i]] == 0:
-                break
+        seen = set()
+        stack = []
+        for i, c in enumerate(s):
+            if c not in seen:
+                while stack and c < stack[-1] and i < last_occurence[stack[-1]]:
+                    seen.remove(stack.pop())
 
-        return s[p] + self.removeDuplicateLetters(s[p::].replace(s[p], "")) if s else ""
+                seen.add(c)
+                stack.append(c)
+        return "".join(stack)
