@@ -4,28 +4,24 @@ class Solution:
     [1,5,1],
     [4,2,1]
 
-    [0,0,0],
-    [0,0,0],
-    [0,0,1]
+    [7,6,3],
+    [8,7,2],
+    [7,3,1]
 
     dp[i][j] = grid[i][j] + min(dp[i][j + 1], dp[i + 1][j])
 
     '''
     def minPathSum(self, grid: List[List[int]]) -> int:
         m, n = len(grid), len(grid[0])
-
-        memo = {}
-        def calculate(i, j):
-            if i == m or j == n:
-                return float('inf')
-
-            if i == m - 1 and j == n - 1:
-                return grid[i][j]
-
-            if (i, j) in memo:
-                return memo[(i, j)]
-
-            memo[(i, j)] = grid[i][j] + min(calculate(i + 1, j), calculate(i, j + 1))
-            return memo[(i, j)]
-
-        return calculate(0, 0)
+        dp = [[0] * n for _ in range(m)]
+        for i in range(m - 1, - 1, -1):
+            for j in range(n - 1, - 1, -1):
+                if i == m - 1 and j != n - 1:
+                    dp[i][j] = grid[i][j] + dp[i][j + 1]
+                elif i != m - 1 and j == n - 1:
+                    dp[i][j] = grid[i][j] + dp[i + 1][j]
+                elif i != m - 1 and j != n - 1:
+                    dp[i][j] = grid[i][j] + min(dp[i][j + 1], dp[i + 1][j])
+                else:
+                    dp[i][j] = grid[i][j]
+        return dp[0][0]
