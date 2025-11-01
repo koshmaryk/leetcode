@@ -15,11 +15,20 @@ class Solution:
     '''
     def change(self, amount: int, coins: List[int]) -> int:
         n = len(coins)
-        dp = [0] * (amount + 1)
-        dp[0] = 1
+        memo = {}
         
-        for coin in coins:
-            for s in range(coin, amount + 1):
-                dp[s] += dp[s - coin]
-        return dp[amount]
+        def f(i, s):
+            if s == 0:
+                return 1
+
+            if i == n or s < 0:
+                return 0
+
+            if (i, s) in memo:
+                return memo[(i, s)]
+
+            memo[(i, s)] = f(i + 1, s) + f(i, s - coins[i])
+            return memo[(i, s)]
+
+        return f(0, amount)
         
