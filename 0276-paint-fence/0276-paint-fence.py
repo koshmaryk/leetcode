@@ -1,19 +1,14 @@
 class Solution:
     def numWays(self, n: int, k: int) -> int:
-        memo = {}
+        if n == 1:
+            return k
 
-        def totalWays(i):
-            if i == 1:
-                return k
+        if n == 2:
+            return k * k
 
-            if i == 2:
-                return k * k
-
-            if i in memo:
-                return memo[i]
-
-            memo[i] = (k - 1) * (totalWays(i - 2) + totalWays(i - 1))
-            return memo[i]
-
-        return totalWays(n)
-        
+        dp = [0] * n
+        dp[0] = k
+        dp[1] = k * k
+        for i in range(2, n):
+            dp[i] = (k - 1) * (dp[i - 1] + dp[i - 2])
+        return dp[n - 1]
