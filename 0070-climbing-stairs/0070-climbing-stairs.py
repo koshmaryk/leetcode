@@ -1,14 +1,19 @@
 class Solution:
     def climbStairs(self, n: int) -> int:
-        if n < 2:
-            return n
+        memo = {}
 
-        dp = [0] * (n + 1)
-        dp[0] = 1
+        def count(i):
+            if i == 0:
+                return 1
 
-        k = 2
-        for i in range(1, n + 1):
-            for j in range(1, min(i, k) + 1):
-                dp[i] += dp[i - j]
-        return dp[n]
-        
+            if i == 1:
+                return 1
+
+            if i in memo:
+                return memo[i]
+
+            memo[i] = count(i - 1) + count(i - 2)
+            return memo[i]
+
+        return count(n)
+                
