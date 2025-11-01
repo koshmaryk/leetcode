@@ -3,11 +3,25 @@ class Solution:
     dp[s] = min(dp[s], 1 + dp[s - coin])
     '''
     def coinChange(self, coins: List[int], amount: int) -> int:
-        dp = [float('inf') for _ in range(amount + 1)]
-        dp[0] = 0
-        for s in range(amount + 1):
+        memo = {}
+
+        def f(s):
+            if s < 0:
+                return float('inf')
+            
+            if s == 0:
+                return 0
+
+            if s in memo:
+                return memo[s]
+
+            count = float('inf')
             for coin in coins:
-                if s >= coin:
-                    dp[s] = min(dp[s], 1 + dp[s - coin])
-        return -1 if dp[amount] == float('inf') else dp[amount]
+                count = min(count, 1 + f(s - coin))
+            memo[s] = count
+            return memo[s]
+
+
+        ans = f(amount)
+        return -1 if ans == float('inf') else ans
         
