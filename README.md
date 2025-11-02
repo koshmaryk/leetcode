@@ -461,6 +461,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0518-coin-change-ii](https://github.com/koshmaryk/leetcode/tree/master/0518-coin-change-ii) |
 | [0747-min-cost-climbing-stairs](https://github.com/koshmaryk/leetcode/tree/master/0747-min-cost-climbing-stairs) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/koshmaryk/leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
+| [0930-all-possible-full-binary-trees](https://github.com/koshmaryk/leetcode/tree/master/0930-all-possible-full-binary-trees) |
 | [1013-fibonacci-number](https://github.com/koshmaryk/leetcode/tree/master/1013-fibonacci-number) |
 | [1236-n-th-tribonacci-number](https://github.com/koshmaryk/leetcode/tree/master/1236-n-th-tribonacci-number) |
 | [1250-longest-common-subsequence](https://github.com/koshmaryk/leetcode/tree/master/1250-longest-common-subsequence) |
@@ -710,6 +711,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0784-insert-into-a-binary-search-tree](https://github.com/koshmaryk/leetcode/tree/master/0784-insert-into-a-binary-search-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/koshmaryk/leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/koshmaryk/leetcode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
+| [0930-all-possible-full-binary-trees](https://github.com/koshmaryk/leetcode/tree/master/0930-all-possible-full-binary-trees) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/koshmaryk/leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [2347-count-nodes-equal-to-average-of-subtree](https://github.com/koshmaryk/leetcode/tree/master/2347-count-nodes-equal-to-average-of-subtree) |
 ## Binary Search Tree
@@ -754,6 +756,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0784-insert-into-a-binary-search-tree](https://github.com/koshmaryk/leetcode/tree/master/0784-insert-into-a-binary-search-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/koshmaryk/leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/koshmaryk/leetcode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
+| [0930-all-possible-full-binary-trees](https://github.com/koshmaryk/leetcode/tree/master/0930-all-possible-full-binary-trees) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/koshmaryk/leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [2347-count-nodes-equal-to-average-of-subtree](https://github.com/koshmaryk/leetcode/tree/master/2347-count-nodes-equal-to-average-of-subtree) |
 ## Geometry
@@ -785,6 +788,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0143-reorder-list](https://github.com/koshmaryk/leetcode/tree/master/0143-reorder-list) |
 | [0206-reverse-linked-list](https://github.com/koshmaryk/leetcode/tree/master/0206-reverse-linked-list) |
 | [0394-decode-string](https://github.com/koshmaryk/leetcode/tree/master/0394-decode-string) |
+| [0930-all-possible-full-binary-trees](https://github.com/koshmaryk/leetcode/tree/master/0930-all-possible-full-binary-trees) |
 | [1013-fibonacci-number](https://github.com/koshmaryk/leetcode/tree/master/1013-fibonacci-number) |
 | [2050-count-good-numbers](https://github.com/koshmaryk/leetcode/tree/master/2050-count-good-numbers) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/koshmaryk/leetcode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
@@ -825,6 +829,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/koshmaryk/leetcode/tree/master/0070-climbing-stairs) |
+| [0930-all-possible-full-binary-trees](https://github.com/koshmaryk/leetcode/tree/master/0930-all-possible-full-binary-trees) |
 | [1013-fibonacci-number](https://github.com/koshmaryk/leetcode/tree/master/1013-fibonacci-number) |
 | [1236-n-th-tribonacci-number](https://github.com/koshmaryk/leetcode/tree/master/1236-n-th-tribonacci-number) |
 ## Rejection Sampling
