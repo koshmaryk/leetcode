@@ -13,22 +13,35 @@
 
   4 5
 
+
+T(n) = T(1) * T(n - 2) + T(3) * T(n - 4) + .. + T(n - 2) * T(1)
+
 '''
 class Solution:
     def allPossibleFBT(self, n: int) -> List[Optional[TreeNode]]:
-        trees = []
-        if n % 2 == 0:
+        memo = {}
+
+        def generate(n):
+            trees = []
+            if n % 2 == 0:
+                return trees
+
+            if n == 1:
+                trees.append(TreeNode(0))
+                return trees
+
+            if n in memo:
+                return memo[n]
+
+            for root in range(1, n, 2):
+                leftSubTree = generate(root)
+                rightSubTree = generate(n - root - 1)
+
+                for l in leftSubTree:
+                    for r in rightSubTree:
+                        trees.append(TreeNode(0, l, r))
+            
+            memo[n] = trees
             return trees
 
-        if n == 1:
-            trees.append(TreeNode())
-            return trees
-
-        for i in range(1, n, 2):
-            left = self.allPossibleFBT(i)
-            right = self.allPossibleFBT(n - i - 1)
-
-            for l in left:
-                for r in right:
-                    trees.append(TreeNode(0, l, r))
-        return trees
+        return generate(n)
