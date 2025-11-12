@@ -4,17 +4,16 @@ import heapq
 class Solution:
     def findCheapestPrice(self, n: int, flights: List[List[int]], src: int, dst: int, k: int) -> int:
         graph = defaultdict(list)
-        for f, t, price in flights:
-            graph[f].append((t, price))
+        for s,d,p in flights:
+            graph[s].append((d,p))
 
         dist = {}
         dist[(src, 0)] = 0
 
-        pq = []
-        heapq.heappush(pq, (0, src, 0))
-
+        pq = [(0, src, 0)]
         while pq:
             price, city, stops = heapq.heappop(pq)
+
             if city == dst:
                 return price
 
@@ -27,6 +26,5 @@ class Solution:
                 if (next_city, new_stops) not in dist or new_price < dist[(next_city, new_stops)]:
                     dist[(next_city, new_stops)] = new_price
                     heapq.heappush(pq, (new_price, next_city, new_stops))
-
         return -1
         
