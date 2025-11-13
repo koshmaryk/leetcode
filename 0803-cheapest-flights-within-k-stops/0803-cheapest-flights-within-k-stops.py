@@ -13,14 +13,13 @@ class Solution:
         
         while pq:
             price, stop, city = heapq.heappop(pq)
+            if city == dst:
+                return price
             
-            if stop >= stops[city] or stop > k + 1:
+            if stop >= stops[city] or stop > k:
                 continue
             
             stops[city] = stop
-            
-            if city == dst:
-                return price
             
             for next_city, next_price in graph[city]:
                 heapq.heappush(pq, (price + next_price, stop + 1, next_city))
