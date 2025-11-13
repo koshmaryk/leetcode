@@ -2,7 +2,6 @@ class Solution:
     def minNumberOperations(self, target: List[int]) -> int:
         n = len(target)
         ans = target[0]
-        for i in range(n - 1):
-            if target[i + 1] > target[i]:
-                ans += target[i + 1] - target[i]
+        for i in range(1, n):
+            ans += max(target[i] - target[i - 1], 0)
         return ans
