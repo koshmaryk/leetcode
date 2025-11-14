@@ -1,4 +1,4 @@
-from collections import defaultdict
+from collections import defaultdict, deque
 import heapq
 
 
@@ -17,21 +17,26 @@ class Solution:
         groups = {} # O(c)
         heaps = defaultdict(list) # O(c)
 
-        def dfs(u, idx):
-            if u in online:
+        def bfs(start, idx):
+            if start in online:
                 return
+                
+            queue = deque([start])
+            while queue:
+                u = queue.popleft()
 
-            groups[u] = idx # O(1)
-            heapq.heappush(heaps[idx], u) # O(log c)
-            online.add(u) # O(1)
+                groups[u] = idx # O(1)
+                heapq.heappush(heaps[idx], u) # O(log c)
+                online.add(u) # O(1)
 
-            for v in graph[u]:
-                dfs(v, idx)
+                for v in graph[u]:
+                    if v not in online:
+                        queue.append(v)
 
         # O(c log c)
         idx = 0
         for u in range(1, c + 1):
-            dfs(u, idx)
+            bfs(u, idx)
             idx += 1
 
         # TC O(c log c)
