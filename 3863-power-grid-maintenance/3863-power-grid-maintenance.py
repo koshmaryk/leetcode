@@ -1,33 +1,15 @@
 from collections import defaultdict
 import heapq
 
-# TC O(M * Ⲁ(c)), where M = len(connections)
-# SC O(c)
-class UnionFind:
-
-    def __init__(self, c):
-        self.parent = list(range(c))
-
-    def find(self, u):
-        if self.parent[u] != u:
-            self.parent[u] = self.find(self.parent[u])
-        return self.parent[u]
-
-    def union(self, u, v):
-        u_root, v_root = self.find(u), self.find(v)
-        if u_root != v_root:
-            if u_root > v_root:
-                self.parent[u_root] = v_root
-            else:
-                self.parent[v_root] = u_root
 
 # TC O(c log c + M)
 # SC O(c)
 class Solution:
     def processQueries(self, c: int, connections: List[List[int]], queries: List[List[int]]) -> List[int]:
-        uf = UnionFind(c + 1)
+        graph = defaultdict(list)
         for u,v in connections:
-            uf.union(u, v)
+            graph[u].append(v)
+            graph[v].append(u)
 
         answer = []
 
@@ -35,12 +17,22 @@ class Solution:
         groups = {} # O(c)
         heaps = defaultdict(list) # O(c)
 
-        # O(c log c)
-        for u in range(c + 1):
-            group_id = uf.find(u) # Ⲁ(c)
-            groups[u] = group_id # O(1)
-            heapq.heappush(heaps[group_id], u) # O(log c)
+        def dfs(u, idx):
+            if u in online:
+                return
+
+            groups[u] = idx # O(1)
+            heapq.heappush(heaps[idx], u) # O(log c)
             online.add(u) # O(1)
+
+            for v in graph[u]:
+                dfs(v, idx)
+
+        # O(c log c)
+        idx = 0
+        for u in range(1, c + 1):
+            dfs(u, idx)
+            idx += 1
 
         # TC O(c log c)
         for y,x in queries:
