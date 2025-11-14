@@ -48,7 +48,7 @@ class Solution:
                 if x in online: # O(1)
                     answer.append(x)
                 else:
-                    group = heaps[uf.find(x)] # O(Ⲁ(n))
+                    group = heaps[groups[x]] # O(1)
                     while group and group[0] not in online:
                         heapq.heappop(group) # O(log c)
 
