@@ -14,7 +14,6 @@ class Solution:
             return count == 0
 
         output = set()
-        visited = set()
         queue = deque([s])
         while queue and not output:
             size = len(queue)
@@ -24,9 +23,8 @@ class Solution:
                     output.add(curr)
 
                 for i in range(len(curr)):
-                    candidate = curr[:i] + curr[i+1:]
-                    if candidate not in visited and curr[i] in "()":
-                        visited.add(candidate)
+                    if curr[i] in "()":
+                        candidate = curr[:i] + curr[i+1:]
                         queue.append(candidate)
 
         return list(output)
