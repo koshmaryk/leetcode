@@ -1,5 +1,10 @@
 from collections import deque
 
+'''
+()()(() = ()()()
+)( = ""
+()())() = ()()(), (())()
+'''
 class Solution:
     def removeInvalidParentheses(self, s: str) -> List[str]:
         def valid(candidate):
@@ -14,18 +19,28 @@ class Solution:
             return count == 0
 
         output = set()
-        queue = deque([s])
-        while queue and not output:
-            size = len(queue)
-            for _ in range(size):
-                curr = queue.popleft()
-                if valid(curr):
-                    output.add(curr)
+        visited = set()
 
-                for i in range(len(curr)):
-                    if curr[i] in "()":
-                        candidate = curr[:i] + curr[i+1:]
-                        queue.append(candidate)
+        min_depth = float('inf')
+
+        def dfs(curr, depth):
+            nonlocal min_depth
+            if valid(curr): # O(n)
+                if depth == min_depth:
+                    output.add(curr)
+                if depth < min_depth:
+                    min_depth = depth
+                    output.clear()
+                    output.add(curr)
+                return
+
+            for i in range(len(curr)):
+                candidate = curr[:i] + curr[i+1:]
+                if candidate not in visited and curr[i] in "()":
+                    visited.add(candidate)
+                    dfs(candidate, depth + 1)
+
+        dfs(s, 0)
 
         return list(output)
         
