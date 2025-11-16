@@ -7,40 +7,35 @@ from collections import deque
 '''
 class Solution:
     def removeInvalidParentheses(self, s: str) -> List[str]:
-        def valid(candidate):
-            count = 0
-            for c in candidate:
-                if c == "(":
-                    count += 1
-                if c == ")":
-                    count -= 1
-                if count < 0:
-                    return False
-            return count == 0
-
         output = set()
-        visited = set()
+        min_removals = float('inf')
 
-        min_depth = float('inf')
-
-        def dfs(curr, depth):
-            nonlocal min_depth
-            if valid(curr): # O(n)
-                if depth == min_depth:
-                    output.add(curr)
-                if depth < min_depth:
-                    min_depth = depth
-                    output.clear()
-                    output.add(curr)
+        def backtrack(i, opened, closed, expr, removals):
+            nonlocal min_removals
+            if i == len(s):
+                if opened == closed and removals <= min_removals:
+                    if removals < min_removals:
+                        min_removals = removals
+                        output.clear()
+                    output.add("".join(expr))
                 return
 
-            for i in range(len(curr)):
-                candidate = curr[:i] + curr[i+1:]
-                if candidate not in visited and curr[i] in "()":
-                    visited.add(candidate)
-                    dfs(candidate, depth + 1)
+            if s[i] not in "()":
+                expr.append(s[i])
+                backtrack(i + 1,  opened, closed, expr, removals)
+                expr.pop()
+            else:
+                # exclude curr ( or )
+                backtrack(i + 1,  opened, closed, expr, removals + 1)
 
-        dfs(s, 0)
+                # include curr if valid
+                expr.append(s[i])
+                if s[i] == "(":
+                    backtrack(i + 1,  opened + 1, closed, expr, removals)
+                if s[i] == ")" and closed < opened:
+                    backtrack(i + 1,  opened, closed + 1, expr, removals)
+                expr.pop()
 
+        backtrack(0,0,0,[],0)
         return list(output)
         
