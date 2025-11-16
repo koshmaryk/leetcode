@@ -4,21 +4,34 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
+'''
+        -10
+    9       20
+        15      7
+    -10    -10    
+
+    1
+  /
+  2  
+/   \
+3   4
+'''
 class Solution:
     def maxPathSum(self, root: Optional[TreeNode]) -> int:
         ans = float('-inf')
 
-        def helper(node):
+        def dfs(node):
             nonlocal ans
-
             if not node:
                 return 0
 
-            leftMax = max(helper(node.left), 0)
-            rightMax = max(helper(node.right), 0)
+            leftMax = max(dfs(node.left), 0)
+            rightMax = max(dfs(node.right), 0)
 
-            ans = max(ans, leftMax + rightMax + node.val)
-            return max(leftMax + node.val, rightMax + node.val)
+            ans = max(ans, leftMax + node.val + rightMax)
+            return max(leftMax, rightMax) + node.val
 
-        helper(root)
+
+        dfs(root)
         return ans
+        
