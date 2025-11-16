@@ -1,21 +1,27 @@
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
-        output = []
-        stack = []
+        # ((((((((((((
+        def valid(s):
+            count = 0
+            for c in s:
+                if c == "(":
+                    count += 1
+                if c == ")":
+                    count -=1
+                if count < 0:
+                    return False
+            return count == 0
 
-        def generate(opened, closed):
-            if opened == n and closed == n:
-                output.append("".join(stack))
+        output = []
+
+        def dfs(s):
+            if len(s) == 2 * n:
+                if valid(s):
+                    output.append(s)
                 return
 
-            if opened < n:
-                stack.append("(")
-                generate(opened + 1, closed)
-                stack.pop()
-            if closed < opened:
-                stack.append(")")
-                generate(opened, closed + 1)
-                stack.pop()
+            dfs(s + "(")
+            dfs(s + ")")
 
-        generate(0, 0)
+        dfs("")
         return output
