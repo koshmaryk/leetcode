@@ -196,6 +196,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2294-minimum-time-to-complete-trips](https://github.com/koshmaryk/leetcode/tree/master/2294-minimum-time-to-complete-trips) |
 | [2665-minimum-time-to-repair-cars](https://github.com/koshmaryk/leetcode/tree/master/2665-minimum-time-to-repair-cars) |
 | [3154-maximum-value-of-an-ordered-triplet-i](https://github.com/koshmaryk/leetcode/tree/master/3154-maximum-value-of-an-ordered-triplet-i) |
+| [3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/koshmaryk/leetcode/tree/master/3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/koshmaryk/leetcode/tree/master/3242-count-elements-with-maximum-frequency) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/koshmaryk/leetcode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/koshmaryk/leetcode/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
@@ -505,6 +506,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0594-longest-harmonious-subsequence](https://github.com/koshmaryk/leetcode/tree/master/0594-longest-harmonious-subsequence) |
 | [0658-find-k-closest-elements](https://github.com/koshmaryk/leetcode/tree/master/0658-find-k-closest-elements) |
 | [1046-max-consecutive-ones-iii](https://github.com/koshmaryk/leetcode/tree/master/1046-max-consecutive-ones-iii) |
+| [3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/koshmaryk/leetcode/tree/master/3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -515,6 +517,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0912-random-pick-with-weight](https://github.com/koshmaryk/leetcode/tree/master/0912-random-pick-with-weight) |
 | [1046-max-consecutive-ones-iii](https://github.com/koshmaryk/leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1184-car-pooling](https://github.com/koshmaryk/leetcode/tree/master/1184-car-pooling) |
+| [3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/koshmaryk/leetcode/tree/master/3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3618-find-the-original-typed-string-ii](https://github.com/koshmaryk/leetcode/tree/master/3618-find-the-original-typed-string-ii) |
 ## Heap (Priority Queue)
 |  |
@@ -548,6 +551,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0239-sliding-window-maximum](https://github.com/koshmaryk/leetcode/tree/master/0239-sliding-window-maximum) |
 | [0860-design-circular-queue](https://github.com/koshmaryk/leetcode/tree/master/0860-design-circular-queue) |
 | [0969-number-of-recent-calls](https://github.com/koshmaryk/leetcode/tree/master/0969-number-of-recent-calls) |
+| [3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/koshmaryk/leetcode/tree/master/3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 ## Monotonic Queue
 |  |
 | ------- |
@@ -834,6 +838,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0287-find-the-duplicate-number](https://github.com/koshmaryk/leetcode/tree/master/0287-find-the-duplicate-number) |
+| [3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/koshmaryk/leetcode/tree/master/3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/koshmaryk/leetcode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 ## Merge Sort
 |  |
