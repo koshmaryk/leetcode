@@ -1,13 +1,15 @@
 class Solution:
     def carPooling(self, trips: List[List[int]], capacity: int) -> bool:
-        ts = [0] * 1001
+        ts = []
         for passangers,pickup,dropoff in trips:
-            ts[pickup] += passangers
-            ts[dropoff] -= passangers
-        
+            ts.append((pickup, passangers))
+            ts.append((dropoff, -passangers))
+
+        ts.sort()
+
         total = 0
-        for i in range(1001):
-            total += ts[i]
+        for i in range(len(ts)):
+            total += ts[i][1]
             if total > capacity:
                 return False
         return True
