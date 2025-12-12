@@ -97,6 +97,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0035-search-insert-position](https://github.com/koshmaryk/leetcode/tree/master/0035-search-insert-position) |
 | [0036-valid-sudoku](https://github.com/koshmaryk/leetcode/tree/master/0036-valid-sudoku) |
 | [0042-trapping-rain-water](https://github.com/koshmaryk/leetcode/tree/master/0042-trapping-rain-water) |
+| [0046-permutations](https://github.com/koshmaryk/leetcode/tree/master/0046-permutations) |
 | [0049-group-anagrams](https://github.com/koshmaryk/leetcode/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/koshmaryk/leetcode/tree/master/0053-maximum-subarray) |
 | [0056-merge-intervals](https://github.com/koshmaryk/leetcode/tree/master/0056-merge-intervals) |
@@ -876,6 +877,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/koshmaryk/leetcode/tree/master/0022-generate-parentheses) |
+| [0046-permutations](https://github.com/koshmaryk/leetcode/tree/master/0046-permutations) |
 | [0079-word-search](https://github.com/koshmaryk/leetcode/tree/master/0079-word-search) |
 | [0095-unique-binary-search-trees-ii](https://github.com/koshmaryk/leetcode/tree/master/0095-unique-binary-search-trees-ii) |
 | [0301-remove-invalid-parentheses](https://github.com/koshmaryk/leetcode/tree/master/0301-remove-invalid-parentheses) |
