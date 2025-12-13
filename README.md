@@ -883,6 +883,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0022-generate-parentheses](https://github.com/koshmaryk/leetcode/tree/master/0022-generate-parentheses) |
 | [0046-permutations](https://github.com/koshmaryk/leetcode/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/koshmaryk/leetcode/tree/master/0047-permutations-ii) |
+| [0077-combinations](https://github.com/koshmaryk/leetcode/tree/master/0077-combinations) |
 | [0079-word-search](https://github.com/koshmaryk/leetcode/tree/master/0079-word-search) |
 | [0095-unique-binary-search-trees-ii](https://github.com/koshmaryk/leetcode/tree/master/0095-unique-binary-search-trees-ii) |
 | [0301-remove-invalid-parentheses](https://github.com/koshmaryk/leetcode/tree/master/0301-remove-invalid-parentheses) |
