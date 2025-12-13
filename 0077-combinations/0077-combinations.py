@@ -1,4 +1,8 @@
 class Solution:
+    '''
+    TC O( n! / k! * (n - k)! ) -  binomial coefficient, n choose k
+    SC O(k)
+    '''
     def combine(self, n: int, k: int) -> List[List[int]]:
         output = []
 
