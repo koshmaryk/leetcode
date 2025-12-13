@@ -7,11 +7,11 @@ class Solution:
                 output.append(prefix[:])
                 return
 
-            for c in range(1, n + 1):
-                if len(prefix) > 0 and c <= prefix[-1]:
+            for c in range(n, 0, -1):
+                if len(prefix) > 0 and c >= prefix[-1]:
                     continue
 
-                if n - c < k - len(prefix) - 1:
+                if c - 1 < k - len(prefix) - 1:
                     break
 
                 prefix.append(c)
