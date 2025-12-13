@@ -1,4 +1,8 @@
 class Solution:
+    '''
+    TC O(n^ T/m)
+    SC O(T/m)
+    '''
     def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
         n = len(candidates)
         output = []
