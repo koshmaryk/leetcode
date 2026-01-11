@@ -3,13 +3,10 @@ class Solution:
         n = len(nums)
         
         ans = float('-inf')
-        curr = 0
-        l = 0
-        for r in range(n):
-            curr += nums[r]
-            ans = max(ans, curr)
-            while curr < 0:
-                curr -= nums[l]
-                l += 1
+        p = 0
+        smallest_sum = 0
+        for i in range(n):
+            p += nums[i]
+            ans = max(ans, p - smallest_sum)
+            smallest_sum = min(smallest_sum, p)
         return ans
-        
