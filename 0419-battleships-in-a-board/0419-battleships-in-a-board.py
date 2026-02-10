@@ -13,10 +13,10 @@ class Solution:
 
         directions = [(0, 1), (1, 0), (0, -1), (-1, 0)]
         def dfs(r, c):
-           for dr, dc in directions:
+            visited.add((r, c))
+            for dr, dc in directions:
                 nr, nc = r + dr, c + dc
                 if 0 <= nr < m and 0 <= nc < n and board[nr][nc] == "X" and (nr, nc) not in visited:
-                    visited.add((nr, nc))
                     dfs(nr, nc)
 
         ans = 0
