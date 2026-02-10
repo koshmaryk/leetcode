@@ -3,25 +3,17 @@ class Solution:
 
     x..x
     ...x
-    ...x
+    xx.x
 
     '''
     def countBattleships(self, board: List[List[str]]) -> int:
         m, n = len(board), len(board[0])
 
-        directions = [(0, 1), (1, 0), (0, -1), (-1, 0)]
-        def dfs(r, c):
-            board[r][c] = "."
-            for dr, dc in directions:
-                nr, nc = r + dr, c + dc
-                if 0 <= nr < m and 0 <= nc < n and board[nr][nc] == "X":
-                    dfs(nr, nc)
-
         ans = 0
         for r in range(m):
             for c in range(n):
                 if board[r][c] == "X":
-                    dfs(r, c)
-                    ans += 1
+                    if (r == 0 or board[r - 1][c] != "X") and (c == 0 or board[r][c - 1] != "X"):
+                        ans += 1
         return ans
         
