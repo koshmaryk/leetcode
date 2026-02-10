@@ -24,6 +24,6 @@ class Solution:
                 backtrack(index + 1, s)
                 s.pop()
 
-        backtrack(0, [])
+        backtrack(0, [])    
         return combinations
 
