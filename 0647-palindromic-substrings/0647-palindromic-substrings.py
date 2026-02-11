@@ -15,10 +15,11 @@ class Solution:
     xabcbax
 
     abcba
+      0 1 2 3 4
       a b c b a
-    0 T F
-    1   T F
-    2     T F
+    0 T F F F F
+    1   T F T F
+    2     T F F
     3       T F
     4         T
 
@@ -51,4 +52,5 @@ class Solution:
                 j = i + length - 1
                 dp[i][j] = dp[i + 1][j - 1] and s[i] == s[j]
                 ans += int(dp[i][j])
+
         return ans
