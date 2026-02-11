@@ -6,8 +6,8 @@ class Solution:
         mat = [[0] * C2 for _ in range(R1)]
 
         for i in range(R1):
-            for j in range(C1):
-                for k in range(C2):
-                    mat[i][k] += mat1[i][j] * mat2[j][k]
+            for k in range(C1):
+                for j in range(C2):
+                    mat[i][j] += mat1[i][k] * mat2[k][j]
         
         return mat        
