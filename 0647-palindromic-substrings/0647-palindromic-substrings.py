@@ -17,7 +17,7 @@ class Solution:
     abcba
       0 1 2 3 4
       a b c b a
-    0 T F F F F
+    0 T F F F T
     1   T F T F
     2     T F F
     3       T F
