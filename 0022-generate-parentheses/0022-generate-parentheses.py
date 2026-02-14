@@ -1,27 +1,25 @@
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
-        # ((((((((((((
         def valid(s):
-            count = 0
+            cnt = 0
             for c in s:
-                if c == "(":
-                    count += 1
-                if c == ")":
-                    count -=1
-                if count < 0:
+                if c == '(':
+                    cnt += 1
+                if c == ')':
+                    cnt -= 1
+                if cnt < 0:
                     return False
-            return count == 0
+            return cnt == 0
 
         output = []
-
-        def dfs(s):
-            if len(s) == 2 * n:
-                if valid(s):
-                    output.append(s)
+        def gen(prefix):
+            if len(prefix) == 2*n:
+                if valid(prefix):
+                    output.append(prefix)
                 return
 
-            dfs(s + "(")
-            dfs(s + ")")
-
-        dfs("")
+            gen(prefix + ')')
+            gen(prefix + '(')
+        
+        gen("")
         return output
