@@ -21,18 +21,16 @@ node 3 = 645 + 31
 '''
 class Solution:
     def sumNumbers(self, root: Optional[TreeNode]) -> int:
-        total = 0
         
         def dfs(node, number):
-            nonlocal total
             if not node.left and not node.right:
-                total += number
-                return
+                return number
 
+            total = 0
             if node.left:
-                dfs(node.left, number * 10 + node.left.val)
+                total += dfs(node.left, number * 10 + node.left.val)
             if node.right:
-                dfs(node.right, number * 10 + node.right.val)
+                total += dfs(node.right, number * 10 + node.right.val)
+            return total
 
-        dfs(root, root.val)
-        return total
+        return dfs(root, root.val)
