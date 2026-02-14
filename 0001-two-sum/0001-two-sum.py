@@ -1,10 +1,19 @@
 class Solution:
+    '''
+    [3,3] 6 [0,1]
+
+    [1,2,5,3,8] 4 [0,3]
+
+    '''
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         n = len(nums)
-        kv = {}
+
+        seen = {}
         for i in range(n):
             diff = target - nums[i]
-            if diff in kv:
-                return [kv[diff], i]
-            kv[nums[i]] = i
-        return []
+            if diff in seen:
+                return [seen[diff], i]
+            
+            seen[nums[i]] = i
+        return [-1, -1]
+        
