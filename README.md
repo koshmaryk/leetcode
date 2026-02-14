@@ -63,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0567-permutation-in-string](https://github.com/koshmaryk/leetcode/tree/master/0567-permutation-in-string) |
 | [0647-palindromic-substrings](https://github.com/koshmaryk/leetcode/tree/master/0647-palindromic-substrings) |
 | [0680-valid-palindrome-ii](https://github.com/koshmaryk/leetcode/tree/master/0680-valid-palindrome-ii) |
+| [0824-goat-latin](https://github.com/koshmaryk/leetcode/tree/master/0824-goat-latin) |
 | [0990-verifying-an-alien-dictionary](https://github.com/koshmaryk/leetcode/tree/master/0990-verifying-an-alien-dictionary) |
 | [1023-time-based-key-value-store](https://github.com/koshmaryk/leetcode/tree/master/1023-time-based-key-value-store) |
 | [1159-smallest-subsequence-of-distinct-characters](https://github.com/koshmaryk/leetcode/tree/master/1159-smallest-subsequence-of-distinct-characters) |
