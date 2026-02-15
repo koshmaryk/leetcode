@@ -15,26 +15,21 @@ class Solution:
     ((( )
     '''
     def minRemoveToMakeValid(self, s: str) -> str:
-        idx = set()
-        stack = []
-        for i, c in enumerate(s):
-            if c not in '()':
-                continue
+        
+        def remove_invalid(string, opened, closed):
+            sb = []
+            cnt = 0
+            for c in string:
+                if c == opened:
+                    cnt += 1
+                if c == closed:
+                    if cnt == 0:
+                        continue
+                    cnt -= 1
+                sb.append(c)
+            return "".join(sb)
 
-            if c == '(':
-                stack.append(i)
-            elif not stack: # )))), )(
-                idx.add(i)
-            else:  # ()
-                stack.pop()
-
-        while stack:
-            idx.add(stack.pop())
-
-        output = []
-        for i in range(len(s)):
-            if i in idx:
-                continue
-            output.append(s[i])
-        return "".join(output)
+        s = remove_invalid(s, "(", ")")
+        s = remove_invalid(s[::-1], ")", "(")
+        return s[::-1]
         
