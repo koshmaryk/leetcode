@@ -15,9 +15,9 @@ class Solution:
                 dp[i][i + 1] = True
                 ans = [i, i + 1]
 
-        for diff in range(2, n):
-            for i in range(n - diff):
-                j = i + diff
+        for length in range(3, n + 1):
+            for i in range(n - length + 1):
+                j = i + length - 1
                 if s[i] == s[j] and dp[i + 1][j - 1]:
                     dp[i][j] = True
                     ans = [i, j]
