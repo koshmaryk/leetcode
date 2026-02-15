@@ -4,21 +4,22 @@ class Solution:
     def longestPalindrome(self, s: str) -> str:
         n = len(s)
 
-        def valid(i, j):
-            l, r = i, j - 1
-            while l < r:
-                if s[l] != s[r]:
-                    return False
+        def expand(l, r):
+            while l >= 0 and r < n and s[l] == s[r]:
+                l -= 1
+                r += 1
+            return l + 1, r - 1
 
-                l += 1
-                r -= 1
+        i, j = 0, 0
+        for k in range(n):
+            odd = expand(k, k)
+            if odd[1] - odd[0] > j - i:
+                i, j = odd
 
-            return True
+            even = expand(k, k + 1)
+            if even[1] - even[0] > j - i:
+                i, j = even
 
-        for length in range(n, 0, -1):
-            for start in range(n - length + 1):
-                if valid(start, start + length):
-                    return s[start: start + length]
-
-        return ""
+        return s[i : j + 1]
+        
         
