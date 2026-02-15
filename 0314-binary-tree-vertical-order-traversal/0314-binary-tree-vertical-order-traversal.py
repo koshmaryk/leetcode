@@ -8,21 +8,24 @@ from collections import deque, defaultdict
 
 class Solution:
     def verticalOrder(self, root: Optional[TreeNode]) -> List[List[int]]:
+        output = []
         if not root:
-            return []
-        
+            return output
+            
         cols = defaultdict(list)
         queue = deque([(root, 0)])
+        min_col, max_col = float('inf'), float('-inf')
         while queue:
-            #for _ in range(len(queue)):
-            curr, col = queue.popleft()
-            cols[col].append(curr.val)
-            if curr.left:
-                queue.append((curr.left, col - 1))
-            if curr.right:
-                queue.append((curr.right, col + 1))
+            node, col = queue.popleft()
+            cols[col].append(node.val)
+            min_col = min(min_col, col)
+            max_col = max(max_col, col)
 
-        output = []
-        for key in sorted(cols.keys()): # x = log n; x log x
-            output.append(cols[key])
+            if node.left:
+                queue.append((node.left, col - 1))
+            if node.right:
+                queue.append((node.right, col + 1))
+
+        for col in range(min_col, max_col + 1):
+            output.append(cols[col])
         return output
