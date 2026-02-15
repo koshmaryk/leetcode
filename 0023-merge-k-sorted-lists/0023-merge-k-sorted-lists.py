@@ -21,18 +21,10 @@ class Solution:
 
             return sentinel.next
 
-        def mergeHelper(l, r):
-            if r - l < 2:
-                return lists[l]
-
-            mid = (l + r) // 2
-
-            left = mergeHelper(l, mid)
-            right = mergeHelper(mid, r)
-
-            return merge(left, right)
-
         if not lists:
             return None
 
-        return mergeHelper(0, len(lists))
+        for i in range(1, len(lists)):
+            lists[i] = merge(lists[i - 1], lists[i])
+
+        return lists[-1]
