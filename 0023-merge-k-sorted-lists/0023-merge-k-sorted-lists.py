@@ -14,27 +14,25 @@ class Solution:
                     l1 = l1.next
                 else:
                     curr.next = l2
-                    l2 = l2. next
-                
+                    l2 = l2.next
                 curr = curr.next
 
-            if l1 or l2:
-                curr.next = l1 if l1 else l2
+            curr.next = l1 if l1 else l2
 
             return sentinel.next
 
-        def divideAndConquer(l, r):
+        def mergeHelper(l, r):
             if r - l < 2:
                 return lists[l]
 
             mid = (l + r) // 2
-            left = divideAndConquer(l , mid)
-            right = divideAndConquer(mid, r)
+
+            left = mergeHelper(l, mid)
+            right = mergeHelper(mid, r)
+
             return merge(left, right)
 
-        k = len(lists)
-        if k == 0:
+        if not lists:
             return None
 
-        return divideAndConquer(0, k)
-        
+        return mergeHelper(0, len(lists))
