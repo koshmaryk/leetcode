@@ -1,40 +1,32 @@
-'''
-0,0,5,5,5,0,1,3,3
-
-'''
 class SparseVector:
     def __init__(self, nums: List[int]):
-        self.ranges = []
-        i = 0
-        while i < len(nums):
-            if nums[i] != 0:
-                start = i
-                val = nums[i]
-                while i < len(nums) and nums[i] == val:
-                    i += 1
-                self.ranges.append((start, i - 1, val))
-            else:
-                i += 1
-        
+        self.nonzero = []
+        for idx, num in enumerate(nums):
+            if num != 0:
+                self.nonzero.append((idx, num))
 
     # Return the dotProduct of two sparse vectors
     def dotProduct(self, vec: 'SparseVector') -> int:
         product = 0
-        p, q = 0, 0
-        while p < len(self.ranges) and q < len(vec.ranges):
-            s1, e1, v1 = self.ranges[p]
-            s2, e2, v2 = vec.ranges[q]
+        sparse, dense = self.nonzero, vec.nonzero
+        if len(sparse) > len(dense):
+            sparse, dense = dense, sparse
 
-            start = max(s1, s2)
-            end = min(e1, e2)
-            if start <= end:
-                product += v1 * v2 * (end - start + 1)
-            
-            if e1 < e2:
-                p += 1
-            else:
-                q += 1
+        for p, num1 in sparse:
+            num2 = self.bisect(dense, p)
+            if num2 != -1:
+                product += num1 * num2
         return product
+
+    def bisect(self, arr: List[Tuple[int, int]], target: int):
+        bad, good = -1, len(arr)
+        while good - bad > 1:
+            mid = (bad + good) // 2
+            if arr[mid][0] >= target:
+                good = mid
+            else:
+                bad = mid
+        return -1 if good == len(arr) or arr[good][0] != target else arr[good][1]
         
 
 # Your SparseVector object will be instantiated and called as such:
