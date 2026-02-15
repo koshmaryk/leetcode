@@ -11,8 +11,3 @@ class Solution:
             else:
                 stack.append(c)
         return len(stack) == 0
-
-
-# ([])
-#
-# )(
