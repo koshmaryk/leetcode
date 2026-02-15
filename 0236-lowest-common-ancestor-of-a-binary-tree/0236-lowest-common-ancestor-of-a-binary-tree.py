@@ -12,23 +12,13 @@ class Solution:
     case 3: x is LCA of p and q
     '''
     def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
-        parent = {root: None}
-        queue = deque([root])
-        while p not in parent or q not in parent:
-            curr = queue.popleft()
-            if curr.left:
-                parent[curr.left] = curr
-                queue.append(curr.left)
-            if curr.right:
-                parent[curr.right] = curr
-                queue.append(curr.right)
+        if not root or p == root or q == root:
+            return root
 
-        s = set()
-        while p:
-            s.add(p)
-            p = parent[p]
+        left = self.lowestCommonAncestor(root.left, p, q)
+        right = self.lowestCommonAncestor(root.right, p, q)
 
-        while q not in s:
-            q = parent[q]
+        if left and right:
+            return root
 
-        return q
+        return left if left else right
