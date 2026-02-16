@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0143-reorder-list](https://github.com/koshmaryk/leetcode/tree/master/0143-reorder-list) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/koshmaryk/leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/koshmaryk/leetcode/tree/master/0189-rotate-array) |
+| [0283-move-zeroes](https://github.com/koshmaryk/leetcode/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/koshmaryk/leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0295-find-median-from-data-stream](https://github.com/koshmaryk/leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0408-valid-word-abbreviation](https://github.com/koshmaryk/leetcode/tree/master/0408-valid-word-abbreviation) |
@@ -144,6 +145,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0239-sliding-window-maximum](https://github.com/koshmaryk/leetcode/tree/master/0239-sliding-window-maximum) |
 | [0274-h-index](https://github.com/koshmaryk/leetcode/tree/master/0274-h-index) |
 | [0275-h-index-ii](https://github.com/koshmaryk/leetcode/tree/master/0275-h-index-ii) |
+| [0283-move-zeroes](https://github.com/koshmaryk/leetcode/tree/master/0283-move-zeroes) |
 | [0286-walls-and-gates](https://github.com/koshmaryk/leetcode/tree/master/0286-walls-and-gates) |
 | [0287-find-the-duplicate-number](https://github.com/koshmaryk/leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/koshmaryk/leetcode/tree/master/0300-longest-increasing-subsequence) |
