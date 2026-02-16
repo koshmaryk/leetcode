@@ -1,22 +1,31 @@
 from collections import defaultdict
-import heapq
 
 class Solution:
+    '''
+    1,1,2,2,3
+
+    1:2, 2:2, 3:1
+
+    [[],[3],[1,2],[],[],[]]
+
+    k=3
+
+    '''
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
+        n = len(nums)
         counter = defaultdict(int)
         for num in nums:
             counter[num] += 1
 
-        pq = []
+        buckets = [[] for _ in range(n + 1)]
         for num,freq in counter.items():
-            heapq.heappush(pq, (freq, num))
+            buckets[freq].append(num)
 
-            if len(pq) > k:
-                heapq.heappop(pq)
-        
         ans = []
-        while pq:
-            _, num = heapq.heappop(pq)
-            ans.append(num)
+        for i in range(len(buckets) - 1, -1, -1):
+            for num in buckets[i]:
+                ans.append(num)
+                if len(ans) == k:
+                    return ans      
         return ans
     
