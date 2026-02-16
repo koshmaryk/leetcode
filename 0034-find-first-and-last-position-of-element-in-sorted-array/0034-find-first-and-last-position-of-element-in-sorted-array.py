@@ -15,10 +15,9 @@ class Solution:
 
 
         _, first = bisect(arr=nums, p=lambda x: nums[x] >= target)
-        if first == len(nums) or nums[first] != target:
-            return [-1, -1]
-
         last, _ = bisect(arr=nums, p=lambda x: nums[x] > target)
+        if first > last:
+            return [-1, -1]
         return [first, last]
 
 
