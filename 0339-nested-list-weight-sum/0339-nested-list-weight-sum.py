@@ -40,20 +40,18 @@
 #        The result is undefined if this NestedInteger holds a single integer
 #        :rtype List[NestedInteger]
 #        """
-from collections import deque
 
 class Solution:
     def depthSum(self, nestedList: List[NestedInteger]) -> int:
-        total = 0
-        depth = 1
-        queue = deque(nestedList)
-        while queue:
-            qsize = len(queue)
-            for _ in range(qsize):
-                curr = queue.popleft()
-                if curr.isInteger():
-                    total += curr.getInteger() * depth
+        def dfs(nestedList, depth):
+            total = 0
+            for nested in nestedList:
+                if nested.isInteger():
+                    total += nested.getInteger() * depth
                 else:
-                    queue.extend(curr.getList())
-            depth += 1
-        return total
+                    total += dfs(nested.getList(), depth + 1)
+            return total
+
+        return dfs(nestedList, 1)
+
+        
