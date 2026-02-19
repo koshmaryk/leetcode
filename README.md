@@ -276,6 +276,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0128-longest-consecutive-sequence](https://github.com/koshmaryk/leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0133-clone-graph](https://github.com/koshmaryk/leetcode/tree/master/0133-clone-graph) |
 | [0141-linked-list-cycle](https://github.com/koshmaryk/leetcode/tree/master/0141-linked-list-cycle) |
+| [0146-lru-cache](https://github.com/koshmaryk/leetcode/tree/master/0146-lru-cache) |
 | [0217-contains-duplicate](https://github.com/koshmaryk/leetcode/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/koshmaryk/leetcode/tree/master/0219-contains-duplicate-ii) |
 | [0229-majority-element-ii](https://github.com/koshmaryk/leetcode/tree/master/0229-majority-element-ii) |
@@ -694,6 +695,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/koshmaryk/leetcode/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/koshmaryk/leetcode/tree/master/0155-min-stack) |
 | [0225-implement-stack-using-queues](https://github.com/koshmaryk/leetcode/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/koshmaryk/leetcode/tree/master/0232-implement-queue-using-stacks) |
@@ -865,6 +867,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/koshmaryk/leetcode/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 | [0141-linked-list-cycle](https://github.com/koshmaryk/leetcode/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/koshmaryk/leetcode/tree/master/0143-reorder-list) |
+| [0146-lru-cache](https://github.com/koshmaryk/leetcode/tree/master/0146-lru-cache) |
 | [0206-reverse-linked-list](https://github.com/koshmaryk/leetcode/tree/master/0206-reverse-linked-list) |
 | [0328-odd-even-linked-list](https://github.com/koshmaryk/leetcode/tree/master/0328-odd-even-linked-list) |
 | [0355-design-twitter](https://github.com/koshmaryk/leetcode/tree/master/0355-design-twitter) |
@@ -972,4 +975,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/koshmaryk/leetcode/tree/master/0207-course-schedule) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/koshmaryk/leetcode/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
