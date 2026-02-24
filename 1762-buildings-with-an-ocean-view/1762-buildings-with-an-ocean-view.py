@@ -3,12 +3,8 @@ class Solution:
     4,3,2,1
     0,1,2,3
 
-    0,1,2,3
-
     4,2,3,1
     0,2,3
-
-    4,3,1
 
     1,2,3,4
     3
@@ -17,16 +13,11 @@ class Solution:
     '''
     def findBuildings(self, heights: List[int]) -> List[int]:
         n = len(heights)
-        answer = [] # 1,3,4
+        answer = []
 
-        stack = [] # 4
+        max_height = 0
         for i in range(n - 1, -1, -1):
-            while stack and heights[stack[-1]] < heights[i]:
-                stack.pop()
-
-            if not stack:
+            if heights[i] > max_height:
+                max_height = heights[i]
                 answer.append(i)
-
-            stack.append(i)
-
         return answer[::-1]
