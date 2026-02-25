@@ -9,8 +9,14 @@ class Solution:
 
     [4,2,5,1,3], target = 2.2
 
-    4 => 1.8
+    4 -> 1.8
+    5 -> 2.8
 
+
+    [4,2,5,1,3], target = 1.5
+
+    diff = 2.5; 0.5; 0.5
+    closest = 4; 2; 1
 
     '''
     def closestValue(self, root: Optional[TreeNode], target: float) -> int:
