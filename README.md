@@ -57,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0125-valid-palindrome](https://github.com/koshmaryk/leetcode/tree/master/0125-valid-palindrome) |
 | [0127-word-ladder](https://github.com/koshmaryk/leetcode/tree/master/0127-word-ladder) |
 | [0242-valid-anagram](https://github.com/koshmaryk/leetcode/tree/master/0242-valid-anagram) |
+| [0249-group-shifted-strings](https://github.com/koshmaryk/leetcode/tree/master/0249-group-shifted-strings) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/koshmaryk/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0301-remove-invalid-parentheses](https://github.com/koshmaryk/leetcode/tree/master/0301-remove-invalid-parentheses) |
 | [0316-remove-duplicate-letters](https://github.com/koshmaryk/leetcode/tree/master/0316-remove-duplicate-letters) |
@@ -143,6 +144,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0229-majority-element-ii](https://github.com/koshmaryk/leetcode/tree/master/0229-majority-element-ii) |
 | [0238-product-of-array-except-self](https://github.com/koshmaryk/leetcode/tree/master/0238-product-of-array-except-self) |
 | [0239-sliding-window-maximum](https://github.com/koshmaryk/leetcode/tree/master/0239-sliding-window-maximum) |
+| [0249-group-shifted-strings](https://github.com/koshmaryk/leetcode/tree/master/0249-group-shifted-strings) |
 | [0274-h-index](https://github.com/koshmaryk/leetcode/tree/master/0274-h-index) |
 | [0275-h-index-ii](https://github.com/koshmaryk/leetcode/tree/master/0275-h-index-ii) |
 | [0283-move-zeroes](https://github.com/koshmaryk/leetcode/tree/master/0283-move-zeroes) |
@@ -283,6 +285,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0219-contains-duplicate-ii](https://github.com/koshmaryk/leetcode/tree/master/0219-contains-duplicate-ii) |
 | [0229-majority-element-ii](https://github.com/koshmaryk/leetcode/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/koshmaryk/leetcode/tree/master/0242-valid-anagram) |
+| [0249-group-shifted-strings](https://github.com/koshmaryk/leetcode/tree/master/0249-group-shifted-strings) |
 | [0311-sparse-matrix-multiplication](https://github.com/koshmaryk/leetcode/tree/master/0311-sparse-matrix-multiplication) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/koshmaryk/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0347-top-k-frequent-elements](https://github.com/koshmaryk/leetcode/tree/master/0347-top-k-frequent-elements) |
