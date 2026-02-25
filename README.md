@@ -298,6 +298,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/koshmaryk/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0348-design-tic-tac-toe](https://github.com/koshmaryk/leetcode/tree/master/0348-design-tic-tac-toe) |
 | [0355-design-twitter](https://github.com/koshmaryk/leetcode/tree/master/0355-design-twitter) |
+| [0359-logger-rate-limiter](https://github.com/koshmaryk/leetcode/tree/master/0359-logger-rate-limiter) |
 | [0380-insert-delete-getrandom-o1](https://github.com/koshmaryk/leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0424-longest-repeating-character-replacement](https://github.com/koshmaryk/leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0560-subarray-sum-equals-k](https://github.com/koshmaryk/leetcode/tree/master/0560-subarray-sum-equals-k) |
@@ -728,6 +729,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0346-moving-average-from-data-stream](https://github.com/koshmaryk/leetcode/tree/master/0346-moving-average-from-data-stream) |
 | [0348-design-tic-tac-toe](https://github.com/koshmaryk/leetcode/tree/master/0348-design-tic-tac-toe) |
 | [0355-design-twitter](https://github.com/koshmaryk/leetcode/tree/master/0355-design-twitter) |
+| [0359-logger-rate-limiter](https://github.com/koshmaryk/leetcode/tree/master/0359-logger-rate-limiter) |
 | [0380-insert-delete-getrandom-o1](https://github.com/koshmaryk/leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0729-my-calendar-i](https://github.com/koshmaryk/leetcode/tree/master/0729-my-calendar-i) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/koshmaryk/leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
@@ -789,6 +791,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0295-find-median-from-data-stream](https://github.com/koshmaryk/leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0346-moving-average-from-data-stream](https://github.com/koshmaryk/leetcode/tree/master/0346-moving-average-from-data-stream) |
+| [0359-logger-rate-limiter](https://github.com/koshmaryk/leetcode/tree/master/0359-logger-rate-limiter) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/koshmaryk/leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0937-online-stock-span](https://github.com/koshmaryk/leetcode/tree/master/0937-online-stock-span) |
 | [0969-number-of-recent-calls](https://github.com/koshmaryk/leetcode/tree/master/0969-number-of-recent-calls) |
