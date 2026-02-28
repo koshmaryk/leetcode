@@ -27,20 +27,22 @@ r=3
 '''
 class Solution:
     def maxProduct(self, root: Optional[TreeNode]) -> int:
-        tree_sums = []
-        def dfs(node):
+        def get_total(node):
             if not node:
                 return 0
+            return get_total(node.left) + node.val + get_total(node.right)
 
-            left_sum = dfs(node.left)
-            right_sum = dfs(node.right)
-            total_sum = left_sum + node.val + right_sum
-            tree_sums.append(total_sum)
-            return total_sum
+        total = get_total(root)
 
-        total_sum = dfs(root)
-
-        ans = 0
-        for tree_sum in tree_sums:
-            ans = max(ans, (total_sum - tree_sum) * tree_sum)
+        ans = 0 
+        def dfs(node):
+            nonlocal ans
+            if not node:
+                return 0
+            
+            subtree_sum = dfs(node.left) + node.val + dfs(node.right)
+            ans = max(ans, (total - subtree_sum) * subtree_sum)
+            return subtree_sum
+        
+        dfs(root)
         return ans % (10**9 + 7)
