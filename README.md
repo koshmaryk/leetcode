@@ -81,6 +81,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1894-merge-strings-alternately](https://github.com/koshmaryk/leetcode/tree/master/1894-merge-strings-alternately) |
 | [3617-find-the-original-typed-string-i](https://github.com/koshmaryk/leetcode/tree/master/3617-find-the-original-typed-string-i) |
 | [3618-find-the-original-typed-string-ii](https://github.com/koshmaryk/leetcode/tree/master/3618-find-the-original-typed-string-ii) |
+| [3713-longest-balanced-substring-i](https://github.com/koshmaryk/leetcode/tree/master/3713-longest-balanced-substring-i) |
 | [3825-apply-substitutions](https://github.com/koshmaryk/leetcode/tree/master/3825-apply-substitutions) |
 ## Greedy
 |  |
@@ -321,6 +322,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1777-determine-if-two-strings-are-close](https://github.com/koshmaryk/leetcode/tree/master/1777-determine-if-two-strings-are-close) |
 | [2169-simple-bank-system](https://github.com/koshmaryk/leetcode/tree/master/2169-simple-bank-system) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/koshmaryk/leetcode/tree/master/3242-count-elements-with-maximum-frequency) |
+| [3713-longest-balanced-substring-i](https://github.com/koshmaryk/leetcode/tree/master/3713-longest-balanced-substring-i) |
 | [3825-apply-substitutions](https://github.com/koshmaryk/leetcode/tree/master/3825-apply-substitutions) |
 | [3838-path-existence-queries-in-a-graph-i](https://github.com/koshmaryk/leetcode/tree/master/3838-path-existence-queries-in-a-graph-i) |
 | [3863-power-grid-maintenance](https://github.com/koshmaryk/leetcode/tree/master/3863-power-grid-maintenance) |
@@ -800,6 +802,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0621-task-scheduler](https://github.com/koshmaryk/leetcode/tree/master/0621-task-scheduler) |
 | [1777-determine-if-two-strings-are-close](https://github.com/koshmaryk/leetcode/tree/master/1777-determine-if-two-strings-are-close) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/koshmaryk/leetcode/tree/master/3242-count-elements-with-maximum-frequency) |
+| [3713-longest-balanced-substring-i](https://github.com/koshmaryk/leetcode/tree/master/3713-longest-balanced-substring-i) |
 ## Quickselect
 |  |
 | ------- |
@@ -1027,6 +1030,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0204-count-primes](https://github.com/koshmaryk/leetcode/tree/master/0204-count-primes) |
+| [3713-longest-balanced-substring-i](https://github.com/koshmaryk/leetcode/tree/master/3713-longest-balanced-substring-i) |
 ## Counting Sort
 |  |
 | ------- |
