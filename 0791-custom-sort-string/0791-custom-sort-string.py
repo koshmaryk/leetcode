@@ -1,3 +1,5 @@
+from collections import defaultdict
+
 class Solution:
     '''
     3 2 1 0 0 ... 
@@ -12,8 +14,15 @@ class Solution:
 
     '''
     def customSortString(self, order: str, s: str) -> str:
-        priority = {}
-        for i, c in enumerate(order):
-            priority[c] = i
-        return ''.join(sorted(s, key=lambda x: priority.get(x, 26)))
-     
+        counter = defaultdict(int)
+        for c in s:
+            counter[c] += 1
+        
+        permutation = []
+        for c in order:
+            if c in counter:
+                permutation.append(c * counter.pop(c))
+
+        for c,freq in counter.items():
+            permutation.append(c * freq)
+        return ''.join(permutation)
