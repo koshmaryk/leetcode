@@ -137,6 +137,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0150-evaluate-reverse-polish-notation](https://github.com/koshmaryk/leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/koshmaryk/leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0157-read-n-characters-given-read4](https://github.com/koshmaryk/leetcode/tree/master/0157-read-n-characters-given-read4) |
+| [0158-read-n-characters-given-read4-ii-call-multiple-times](https://github.com/koshmaryk/leetcode/tree/master/0158-read-n-characters-given-read4-ii-call-multiple-times) |
 | [0162-find-peak-element](https://github.com/koshmaryk/leetcode/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/koshmaryk/leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/koshmaryk/leetcode/tree/master/0189-rotate-array) |
@@ -744,6 +745,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0157-read-n-characters-given-read4](https://github.com/koshmaryk/leetcode/tree/master/0157-read-n-characters-given-read4) |
+| [0158-read-n-characters-given-read4-ii-call-multiple-times](https://github.com/koshmaryk/leetcode/tree/master/0158-read-n-characters-given-read4-ii-call-multiple-times) |
 | [0374-guess-number-higher-or-lower](https://github.com/koshmaryk/leetcode/tree/master/0374-guess-number-higher-or-lower) |
 ## Design
 |  |
@@ -777,6 +779,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0157-read-n-characters-given-read4](https://github.com/koshmaryk/leetcode/tree/master/0157-read-n-characters-given-read4) |
+| [0158-read-n-characters-given-read4-ii-call-multiple-times](https://github.com/koshmaryk/leetcode/tree/master/0158-read-n-characters-given-read4-ii-call-multiple-times) |
 | [0348-design-tic-tac-toe](https://github.com/koshmaryk/leetcode/tree/master/0348-design-tic-tac-toe) |
 | [0498-diagonal-traverse](https://github.com/koshmaryk/leetcode/tree/master/0498-diagonal-traverse) |
 | [0682-baseball-game](https://github.com/koshmaryk/leetcode/tree/master/0682-baseball-game) |
