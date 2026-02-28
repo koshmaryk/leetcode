@@ -27,4 +27,4 @@ class Solution:
                         grid[nr][nc] = ROTTEN
                         queue.append((nr, nc))
             t += 1
-        return t if fresh_oranges == 0 else -1
+        return max(t, 0) if fresh_oranges == 0 else -1
