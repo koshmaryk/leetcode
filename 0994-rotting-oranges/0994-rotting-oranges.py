@@ -3,36 +3,28 @@ from collections import deque
 class Solution:
     def orangesRotting(self, grid: List[List[int]]) -> int:
         m, n = len(grid), len(grid[0])
-
         EMPTY, FRESH, ROTTEN = 0, 1, 2
         directions = [(0, 1), (1, 0), (-1, 0), (0, -1)]
 
-        dist = [[float('inf')] * n for _ in range(m)]
-
-        def bfs(row, col):
-            visited = set([(row, col)])
-            queue = deque([(row, col, 0)])
-            while queue:
-                r, c, d = queue.popleft()
-                for dr, dc in directions:
-                    nr, nc = r + dr, c + dc
-                    if 0 <= nr < m and 0 <= nc < n and (nr, nc) not in visited and grid[nr][nc] == FRESH:
-                        dist[nr][nc] = min(dist[nr][nc], d + 1)
-                        visited.add((nr, nc))
-                        queue.append((nr, nc, d + 1))
-
-        for r in range(m):
-            for c in range(n):
-                if grid[r][c] == ROTTEN:
-                    bfs(r, c)
-
-        ans = 0
+        fresh_oranges = 0
+        queue = deque([])
         for r in range(m):
             for c in range(n):
                 if grid[r][c] == FRESH:
-                    if dist[r][c] == float('inf'):
-                        return -1
+                    fresh_oranges += 1
+                if grid[r][c] == ROTTEN:
+                    queue.append((r, c))
 
-                    ans = max(ans, dist[r][c])
-        return ans
-
+        t = -1
+        while queue:
+            level_size = len(queue)
+            for _ in range(level_size):
+                r, c = queue.popleft()
+                for dr, dc in directions:
+                    nr, nc = r + dr, c + dc
+                    if 0 <= nr < m and 0 <= nc < n and grid[nr][nc] == FRESH:
+                        fresh_oranges -= 1
+                        grid[nr][nc] = ROTTEN
+                        queue.append((nr, nc))
+            t += 1
+        return t if fresh_oranges == 0 else -1
