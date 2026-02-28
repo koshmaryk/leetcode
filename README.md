@@ -433,6 +433,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/koshmaryk/leetcode/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0337-house-robber-iii](https://github.com/koshmaryk/leetcode/tree/master/0337-house-robber-iii) |
 | [0339-nested-list-weight-sum](https://github.com/koshmaryk/leetcode/tree/master/0339-nested-list-weight-sum) |
+| [0341-flatten-nested-list-iterator](https://github.com/koshmaryk/leetcode/tree/master/0341-flatten-nested-list-iterator) |
 | [0364-nested-list-weight-sum-ii](https://github.com/koshmaryk/leetcode/tree/master/0364-nested-list-weight-sum-ii) |
 | [0417-pacific-atlantic-water-flow](https://github.com/koshmaryk/leetcode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0419-battleships-in-a-board](https://github.com/koshmaryk/leetcode/tree/master/0419-battleships-in-a-board) |
@@ -631,6 +632,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0225-implement-stack-using-queues](https://github.com/koshmaryk/leetcode/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/koshmaryk/leetcode/tree/master/0232-implement-queue-using-stacks) |
 | [0239-sliding-window-maximum](https://github.com/koshmaryk/leetcode/tree/master/0239-sliding-window-maximum) |
+| [0341-flatten-nested-list-iterator](https://github.com/koshmaryk/leetcode/tree/master/0341-flatten-nested-list-iterator) |
 | [0346-moving-average-from-data-stream](https://github.com/koshmaryk/leetcode/tree/master/0346-moving-average-from-data-stream) |
 | [0362-design-hit-counter](https://github.com/koshmaryk/leetcode/tree/master/0362-design-hit-counter) |
 | [0860-design-circular-queue](https://github.com/koshmaryk/leetcode/tree/master/0860-design-circular-queue) |
@@ -657,6 +659,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0225-implement-stack-using-queues](https://github.com/koshmaryk/leetcode/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/koshmaryk/leetcode/tree/master/0232-implement-queue-using-stacks) |
 | [0316-remove-duplicate-letters](https://github.com/koshmaryk/leetcode/tree/master/0316-remove-duplicate-letters) |
+| [0341-flatten-nested-list-iterator](https://github.com/koshmaryk/leetcode/tree/master/0341-flatten-nested-list-iterator) |
 | [0364-nested-list-weight-sum-ii](https://github.com/koshmaryk/leetcode/tree/master/0364-nested-list-weight-sum-ii) |
 | [0394-decode-string](https://github.com/koshmaryk/leetcode/tree/master/0394-decode-string) |
 | [0426-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/koshmaryk/leetcode/tree/master/0426-convert-binary-search-tree-to-sorted-doubly-linked-list) |
@@ -751,6 +754,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0295-find-median-from-data-stream](https://github.com/koshmaryk/leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/koshmaryk/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0303-range-sum-query-immutable](https://github.com/koshmaryk/leetcode/tree/master/0303-range-sum-query-immutable) |
+| [0341-flatten-nested-list-iterator](https://github.com/koshmaryk/leetcode/tree/master/0341-flatten-nested-list-iterator) |
 | [0346-moving-average-from-data-stream](https://github.com/koshmaryk/leetcode/tree/master/0346-moving-average-from-data-stream) |
 | [0348-design-tic-tac-toe](https://github.com/koshmaryk/leetcode/tree/master/0348-design-tic-tac-toe) |
 | [0355-design-twitter](https://github.com/koshmaryk/leetcode/tree/master/0355-design-twitter) |
@@ -851,6 +855,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/koshmaryk/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/koshmaryk/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0337-house-robber-iii](https://github.com/koshmaryk/leetcode/tree/master/0337-house-robber-iii) |
+| [0341-flatten-nested-list-iterator](https://github.com/koshmaryk/leetcode/tree/master/0341-flatten-nested-list-iterator) |
 | [0426-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/koshmaryk/leetcode/tree/master/0426-convert-binary-search-tree-to-sorted-doubly-linked-list) |
 | [0450-delete-node-in-a-bst](https://github.com/koshmaryk/leetcode/tree/master/0450-delete-node-in-a-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/koshmaryk/leetcode/tree/master/0543-diameter-of-binary-tree) |
@@ -1060,4 +1065,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0173-binary-search-tree-iterator](https://github.com/koshmaryk/leetcode/tree/master/0173-binary-search-tree-iterator) |
+| [0341-flatten-nested-list-iterator](https://github.com/koshmaryk/leetcode/tree/master/0341-flatten-nested-list-iterator) |
 <!---LeetCode Topics End-->
