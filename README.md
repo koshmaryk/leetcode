@@ -161,6 +161,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0287-find-the-duplicate-number](https://github.com/koshmaryk/leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/koshmaryk/leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0303-range-sum-query-immutable](https://github.com/koshmaryk/leetcode/tree/master/0303-range-sum-query-immutable) |
+| [0304-range-sum-query-2d-immutable](https://github.com/koshmaryk/leetcode/tree/master/0304-range-sum-query-2d-immutable) |
 | [0311-sparse-matrix-multiplication](https://github.com/koshmaryk/leetcode/tree/master/0311-sparse-matrix-multiplication) |
 | [0322-coin-change](https://github.com/koshmaryk/leetcode/tree/master/0322-coin-change) |
 | [0346-moving-average-from-data-stream](https://github.com/koshmaryk/leetcode/tree/master/0346-moving-average-from-data-stream) |
@@ -592,6 +593,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0238-product-of-array-except-self](https://github.com/koshmaryk/leetcode/tree/master/0238-product-of-array-except-self) |
 | [0253-meeting-rooms-ii](https://github.com/koshmaryk/leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0303-range-sum-query-immutable](https://github.com/koshmaryk/leetcode/tree/master/0303-range-sum-query-immutable) |
+| [0304-range-sum-query-2d-immutable](https://github.com/koshmaryk/leetcode/tree/master/0304-range-sum-query-2d-immutable) |
 | [0370-range-addition](https://github.com/koshmaryk/leetcode/tree/master/0370-range-addition) |
 | [0528-random-pick-with-weight](https://github.com/koshmaryk/leetcode/tree/master/0528-random-pick-with-weight) |
 | [0560-subarray-sum-equals-k](https://github.com/koshmaryk/leetcode/tree/master/0560-subarray-sum-equals-k) |
@@ -724,6 +726,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0130-surrounded-regions](https://github.com/koshmaryk/leetcode/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/koshmaryk/leetcode/tree/master/0200-number-of-islands) |
 | [0286-walls-and-gates](https://github.com/koshmaryk/leetcode/tree/master/0286-walls-and-gates) |
+| [0304-range-sum-query-2d-immutable](https://github.com/koshmaryk/leetcode/tree/master/0304-range-sum-query-2d-immutable) |
 | [0311-sparse-matrix-multiplication](https://github.com/koshmaryk/leetcode/tree/master/0311-sparse-matrix-multiplication) |
 | [0348-design-tic-tac-toe](https://github.com/koshmaryk/leetcode/tree/master/0348-design-tic-tac-toe) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/koshmaryk/leetcode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
@@ -758,6 +761,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0295-find-median-from-data-stream](https://github.com/koshmaryk/leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/koshmaryk/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0303-range-sum-query-immutable](https://github.com/koshmaryk/leetcode/tree/master/0303-range-sum-query-immutable) |
+| [0304-range-sum-query-2d-immutable](https://github.com/koshmaryk/leetcode/tree/master/0304-range-sum-query-2d-immutable) |
 | [0341-flatten-nested-list-iterator](https://github.com/koshmaryk/leetcode/tree/master/0341-flatten-nested-list-iterator) |
 | [0346-moving-average-from-data-stream](https://github.com/koshmaryk/leetcode/tree/master/0346-moving-average-from-data-stream) |
 | [0348-design-tic-tac-toe](https://github.com/koshmaryk/leetcode/tree/master/0348-design-tic-tac-toe) |
