@@ -4,6 +4,11 @@
     aa.abb.bb
         |    
 
+aaabbbb
+
+ans = 2
+
+
 #b [0:i-1]   
 #a [i:n-1]
 
@@ -20,12 +25,11 @@ count_b = 5
 class Solution:
     def minimumDeletions(self, s: str) -> int:
         ans = 0
-        stack = []
+        count_b = 0
         for c in s:
-            if stack and stack[-1] == 'b' and c == 'a':
-                stack.pop()
+            if c == 'b':
+                count_b += 1
+            elif count_b > 0:
+                count_b -= 1
                 ans += 1
-            else:
-                stack.append(c)
-
         return ans
