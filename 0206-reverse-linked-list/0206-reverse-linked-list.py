@@ -4,11 +4,25 @@
 #         self.val = val
 #         self.next = next
 """
-1,2,3,4,5
+1,2,3
 
-next 1
-prev
-curr 1
+head 1
+newHead = reverse(2->3)
+
+    head = 2
+    newHead = reverse(3)
+
+        head = 3
+        newHead = 3
+        return 3
+    
+    head.next.next = head # 3->2
+    head.next = None # 2->
+    return 3
+
+head.next.next = head # 2->1
+head.next = None # 1->
+return 3
 
 """
 class Solution:
@@ -21,5 +35,5 @@ class Solution:
             newHead = self.reverseList(head.next)
             head.next.next = head
             head.next = None
-        return newHead
+        return newHead # 3->2->1
         
