@@ -43,7 +43,7 @@ class Solution:
                     stack.append((node.right, False))
                     stack.append((node, True))
                     stack.append((node.left, False))
-        
+
         prev.right = head
         head.left = prev
         return head
