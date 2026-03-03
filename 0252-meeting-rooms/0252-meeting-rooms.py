@@ -7,12 +7,9 @@
 """
 class Solution:
     def canAttendMeetings(self, intervals: List[List[int]]) -> bool:
+        n = len(intervals)
         intervals.sort()
-
-        merged = []
-        for interval in intervals:
-            if not merged or merged[-1][1] <= interval[0]:
-                merged.append(interval)
-            else:
-                merged[-1][1] = max(merged[-1][1], interval[1])
-        return len(merged) == len(intervals)
+        for i in range(n - 1):
+            if intervals[i][1] > intervals[i + 1][0]:
+                return False
+        return True
