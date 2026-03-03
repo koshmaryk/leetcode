@@ -1,17 +1,18 @@
+from collections import defaultdict
+
 class Solution:
     def maxProduct(self, words: List[str]) -> int:
-        masks = []
+        masks = defaultdict(int)
         for word in words:
             mask = 0
             for c in word:
                 mask |= 1 << (ord(c) - ord('a'))
-            masks.append(mask)
+            masks[mask] = max(masks[mask], len(word))
 
-        n = len(words)
         max_product = 0
-        for i in range(n):
-            for j in range(i + 1, n):
-                if masks[i] & masks[j] == 0:
-                    max_product = max(max_product, len(words[i]) * len(words[j]))
+        for x in masks:
+            for y in masks:
+                if x & y == 0:
+                    max_product = max(max_product, masks[x] * masks[y])
         return max_product
         
