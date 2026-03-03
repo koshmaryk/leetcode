@@ -1,12 +1,17 @@
 class Solution:
     def maxProduct(self, words: List[str]) -> int:
-        char_sets = [set(word) for word in words]
+        masks = []
+        for word in words:
+            mask = 0
+            for c in word:
+                mask |= 1 << (ord(c) - ord('a'))
+            masks.append(mask)
 
         n = len(words)
         max_product = 0
         for i in range(n):
             for j in range(i + 1, n):
-                if not (char_sets[i] & char_sets[j]):
+                if masks[i] & masks[j] == 0:
                     max_product = max(max_product, len(words[i]) * len(words[j]))
         return max_product
         
