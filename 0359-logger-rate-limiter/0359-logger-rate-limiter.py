@@ -1,3 +1,5 @@
+from collections import deque
+
 class Logger:
 
     '''
@@ -11,14 +13,28 @@ class Logger:
 
     '''
     def __init__(self):
-        self.messages = {}
+        self.messages = deque()
+        self.active = set()
+        self.window = 10
         
 
     def shouldPrintMessage(self, timestamp: int, message: str) -> bool:
-        if message not in self.messages or timestamp >= self.messages[message] + 10:
-            self.messages[message] = timestamp
+        self._cleanup(timestamp)
+        if message not in self.active:
+            self.active.add(message)
+            self.messages.append((message, timestamp))
             return True
         return False
+
+    
+    def _cleanup(self, timestamp: int):
+        while self.messages:
+            message, ts = self.messages[0]
+            if timestamp - ts >= self.window:
+                self.messages.popleft()
+                self.active.remove(message)
+            else:
+                break
 
 
 # Your Logger object will be instantiated and called as such:
