@@ -28,13 +28,9 @@ class Logger:
 
     
     def _cleanup(self, timestamp: int):
-        while self.messages:
-            message, ts = self.messages[0]
-            if timestamp - ts >= self.window:
-                self.messages.popleft()
-                self.active.remove(message)
-            else:
-                break
+        while self.messages and timestamp - self.messages[0][1] >= self.window:
+            self.active.remove(self.messages[0][0])
+            self.messages.popleft()
 
 
 # Your Logger object will be instantiated and called as such:
