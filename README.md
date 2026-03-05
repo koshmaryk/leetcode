@@ -1102,4 +1102,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0173-binary-search-tree-iterator](https://github.com/koshmaryk/leetcode/tree/master/0173-binary-search-tree-iterator) |
 | [0341-flatten-nested-list-iterator](https://github.com/koshmaryk/leetcode/tree/master/0341-flatten-nested-list-iterator) |
+## Union-Find
+|  |
+| ------- |
+| [0695-max-area-of-island](https://github.com/koshmaryk/leetcode/tree/master/0695-max-area-of-island) |
 <!---LeetCode Topics End-->
