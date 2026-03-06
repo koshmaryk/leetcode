@@ -4,7 +4,7 @@ class Solution {
 
         var groups = new HashMap<String, List<String>>();
         for (String s: strs) {
-            char[] chs = s.toCharArray();
+            var chs = s.toCharArray();
             Arrays.sort(chs);
             var key = String.valueOf(chs);
             if (!groups.containsKey(key)) groups.put(key, new ArrayList<>());
