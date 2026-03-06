@@ -1105,5 +1105,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Union-Find
 |  |
 | ------- |
+| [0128-longest-consecutive-sequence](https://github.com/koshmaryk/leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0695-max-area-of-island](https://github.com/koshmaryk/leetcode/tree/master/0695-max-area-of-island) |
 <!---LeetCode Topics End-->
