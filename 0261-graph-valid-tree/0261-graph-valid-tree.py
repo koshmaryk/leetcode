@@ -1,4 +1,4 @@
-from collections import defaultdict
+from collections import defaultdict, deque
 
 class Solution:
     def validTree(self, n: int, edges: List[List[int]]) -> bool:
@@ -11,9 +11,9 @@ class Solution:
             graph[v].append(u)
 
         parent = {0: 0}
-        stack = [0]
-        while stack:
-            u = stack.pop()
+        queue = deque([0])
+        while queue:
+            u = queue.popleft()
             for v in graph[u]:
                 if v == parent[u]:
                     continue
@@ -22,5 +22,5 @@ class Solution:
                     return False
 
                 parent[v] = u
-                stack.append(v)
+                queue.append(v)
         return len(parent) == n
