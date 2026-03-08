@@ -1,12 +1,14 @@
+from collections import defaultdict
+
 class Solution:
     def validTree(self, n: int, edges: List[List[int]]) -> bool:
-        if len(edges) != n - 1:
+        if n - 1 != len(edges):
             return False
-            
+
         graph = defaultdict(list)
-        for a,b in edges:
-            graph[a].append(b)
-            graph[b].append(a)
+        for u,v in edges:
+            graph[u].append(v)
+            graph[v].append(u)
 
         parent = {0: 0}
         stack = [0]
@@ -15,9 +17,10 @@ class Solution:
             for v in graph[u]:
                 if v == parent[u]:
                     continue
+
                 if v in parent:
                     return False
+
                 parent[v] = u
                 stack.append(v)
-
         return len(parent) == n
