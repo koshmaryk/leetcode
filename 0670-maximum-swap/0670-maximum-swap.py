@@ -8,13 +8,18 @@
 """
 class Solution:
     def maximumSwap(self, num: int) -> int:
-        s = str(num)
+        s = list(str(num))
         n = len(s)
-        max_num = num
+
+        last = {}
         for i in range(n):
-            for j in range(i + 1, n):
-                ls = list(s)
-                ls[i], ls[j] = ls[j], ls[i]
-                max_num = max(max_num, int("".join(ls)))
-        return max_num
+            last[s[i]] = i
+
+        for i in range(n):
+            for digit in range(9, int(s[i]), -1):
+                if str(digit) in last and last[str(digit)] > i:
+                    j = last[str(digit)]
+                    s[i], s[j] = s[j], s[i]
+                    return int("".join(s))
+        return num
         
