@@ -34,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0802-k-th-smallest-prime-fraction](https://github.com/koshmaryk/leetcode/tree/master/0802-k-th-smallest-prime-fraction) |
 | [0852-friends-of-appropriate-ages](https://github.com/koshmaryk/leetcode/tree/master/0852-friends-of-appropriate-ages) |
 | [0917-boats-to-save-people](https://github.com/koshmaryk/leetcode/tree/master/0917-boats-to-save-people) |
+| [0986-interval-list-intersections](https://github.com/koshmaryk/leetcode/tree/master/0986-interval-list-intersections) |
 | [1570-dot-product-of-two-sparse-vectors](https://github.com/koshmaryk/leetcode/tree/master/1570-dot-product-of-two-sparse-vectors) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/koshmaryk/leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1650-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/koshmaryk/leetcode/tree/master/1650-lowest-common-ancestor-of-a-binary-tree-iii) |
@@ -213,6 +214,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0912-random-pick-with-weight](https://github.com/koshmaryk/leetcode/tree/master/0912-random-pick-with-weight) |
 | [0917-boats-to-save-people](https://github.com/koshmaryk/leetcode/tree/master/0917-boats-to-save-people) |
 | [0971-shortest-bridge](https://github.com/koshmaryk/leetcode/tree/master/0971-shortest-bridge) |
+| [0986-interval-list-intersections](https://github.com/koshmaryk/leetcode/tree/master/0986-interval-list-intersections) |
 | [0990-verifying-an-alien-dictionary](https://github.com/koshmaryk/leetcode/tree/master/0990-verifying-an-alien-dictionary) |
 | [0994-rotting-oranges](https://github.com/koshmaryk/leetcode/tree/master/0994-rotting-oranges) |
 | [1014-k-closest-points-to-origin](https://github.com/koshmaryk/leetcode/tree/master/1014-k-closest-points-to-origin) |
@@ -1114,4 +1116,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0128-longest-consecutive-sequence](https://github.com/koshmaryk/leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0261-graph-valid-tree](https://github.com/koshmaryk/leetcode/tree/master/0261-graph-valid-tree) |
 | [0695-max-area-of-island](https://github.com/koshmaryk/leetcode/tree/master/0695-max-area-of-island) |
+## Sweep Line
+|  |
+| ------- |
+| [0986-interval-list-intersections](https://github.com/koshmaryk/leetcode/tree/master/0986-interval-list-intersections) |
 <!---LeetCode Topics End-->
