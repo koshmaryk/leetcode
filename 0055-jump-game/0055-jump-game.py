@@ -8,13 +8,14 @@
 
 | |
 2,5,0,0
+1 2 3 4      
 
 """
 class Solution:
     def canJump(self, nums: List[int]) -> bool:
         n = len(nums)
-        lastIdx = n - 1
+        last = n - 1
         for i in range(n - 1, -1, -1):
-            if i + nums[i] >= lastIdx:
-                lastIdx = i
-        return lastIdx == 0
+            if i + nums[i] >= last:
+                last = i
+        return last == 0
