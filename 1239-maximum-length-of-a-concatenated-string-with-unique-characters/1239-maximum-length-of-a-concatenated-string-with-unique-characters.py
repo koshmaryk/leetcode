@@ -8,30 +8,38 @@
 class Solution:
     def maxLength(self, arr: List[str]) -> int:
         words = []
-        for word in arr:
+        for i in range(len(arr)):
             dup = False
-            bitset = 0
-            for c in word:
+            word = 0
+            for c in arr[i]:
                 mask = 1 << ord(c) - ord('a')
-                if mask & bitset:
+                if mask & word:
                     dup = True
                     break
 
-                bitset |= mask
+                word |= mask
 
             if not dup:
-                words.append((bitset, len(word)))
+                word |= len(arr[i]) << 26
+                words.append(word)
 
-        results = [(0, 0)]
+        mask = (1 << 26) - 1
+        results = [0]
         best = 0
-        for curr_bitset, curr_length in words:
-            for i in range(len(results)):
-                bitset, length = results[i]
+        for word in words:
+            old_bitset = word & mask
+            old_length = word >> 26
 
-                if curr_bitset & bitset:
+            for i in range(len(results)):
+                bitset = results[i] & mask
+                length = results[i] >> 26
+
+                if old_bitset & bitset:
                     continue
 
-                results.append((curr_bitset | bitset, curr_length + length))
-                best = max(best, curr_length + length)
+                word = old_bitset | bitset
+                word |= (old_length + length) << 26
+                results.append(word)
+                best = max(best, old_length + length)
 
         return best
