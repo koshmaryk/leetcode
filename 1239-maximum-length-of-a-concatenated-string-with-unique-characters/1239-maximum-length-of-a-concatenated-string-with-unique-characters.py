@@ -7,15 +7,31 @@
 '''
 class Solution:
     def maxLength(self, arr: List[str]) -> int:
-        results = ['']
-        best = 0
-
+        words = []
         for word in arr:
+            dup = False
+            bitset = 0
+            for c in word:
+                mask = 1 << ord(c) - ord('a')
+                if mask & bitset:
+                    dup = True
+                    break
+
+                bitset |= mask
+
+            if not dup:
+                words.append((bitset, len(word)))
+
+        results = [(0, 0)]
+        best = 0
+        for curr_bitset, curr_length in words:
             for i in range(len(results)):
-                cand = results[i] + word
-                if len(cand) != len(set(cand)):
+                bitset, length = results[i]
+
+                if curr_bitset & bitset:
                     continue
 
-                results.append(cand)
-                best = max(best, len(cand))
+                results.append((curr_bitset | bitset, curr_length + length))
+                best = max(best, curr_length + length)
+
         return best
