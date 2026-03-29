@@ -13,23 +13,38 @@ class Solution:
 
 
     ((( )
+
+    ''
+    ()(())
+
+    ((()))
+
     '''
     def minRemoveToMakeValid(self, s: str) -> str:
-        
-        def remove_invalid(string, opened, closed):
-            sb = []
-            cnt = 0
-            for c in string:
-                if c == opened:
-                    cnt += 1
-                if c == closed:
-                    if cnt == 0:
-                        continue
-                    cnt -= 1
-                sb.append(c)
-            return "".join(sb)
+        n = len(s)
+        invalid = set()
+        cnt = 0
+        for i in range(n):
+            if s[i] == "(":
+                cnt += 1
+            if s[i] == ")":
+                if cnt == 0:
+                    invalid.add(i)
+                    continue
+                cnt -= 1
 
-        s = remove_invalid(s, "(", ")")
-        s = remove_invalid(s[::-1], ")", "(")
-        return s[::-1]
-        
+        cnt = 0
+        for i in range(n - 1, -1, -1):
+            if s[i] == ")":
+                cnt += 1
+            if s[i] == "(":
+                if cnt == 0:
+                    invalid.add(i)
+                    continue
+                cnt -= 1
+
+        sb = []
+        for i in range(n):
+            if i not in invalid:
+                sb.append(s[i])
+        return "".join(sb)
