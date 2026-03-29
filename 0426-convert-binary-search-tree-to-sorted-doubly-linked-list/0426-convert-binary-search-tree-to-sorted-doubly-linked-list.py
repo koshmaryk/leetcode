@@ -8,19 +8,6 @@ class Node:
 """
 
 class Solution:
-    '''
-        2
-    1       3
-
-
-    head = 1
-    prev = 3
-
-    1<->2<->3<->1
-
-    stack = []
-    
-    '''
     def treeToDoublyList(self, root: 'Optional[Node]') -> 'Optional[Node]':
         if not root:
             return None
@@ -47,4 +34,3 @@ class Solution:
         prev.right = head
         head.left = prev
         return head
-        
