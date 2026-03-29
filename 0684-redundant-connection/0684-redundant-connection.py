@@ -1,3 +1,18 @@
+"""
+    1
+3       2
+
+[1,2], [1,3], [2,3]
+
+
+0,1,1,1
+1,3,1,1
+
+[1,2] -> 1 vs 2
+[1,3] -> 1 vs 3
+[2,3] -> 1 vs 1
+
+"""
 class UnionFind:
 
     def __init__(self, n):
@@ -5,9 +20,8 @@ class UnionFind:
         self.rank = [1] * n
 
     def find(self, a):
-        while self.parent[a] != a:
-            self.parent[a] = self.parent[self.parent[a]]
-            a = self.parent[a]
+        if self.parent[a] != a:
+            self.parent[a] = self.find(self.parent[a])
         return self.parent[a]
 
     def union(self, a, b):
