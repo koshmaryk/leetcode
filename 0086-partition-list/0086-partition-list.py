@@ -7,7 +7,7 @@
 before 2 1
 after 5 3 4 3
 
-less -> greater_or_equal
+before -> after
 
 
 5,3,4,2,3,1
@@ -35,6 +35,6 @@ class Solution:
             head = head.next
 
         after.next = None
-
+        
         before.next = after_sentinel.next
         return before_sentinel.next
