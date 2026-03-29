@@ -7,7 +7,7 @@
 class Solution:
     def boundaryOfBinaryTree(self, root: Optional[TreeNode]) -> List[int]:
         left = []
-        def left_dfs(node):
+        def dfs_left(node):
             if not node:
                 return
 
@@ -15,24 +15,24 @@ class Solution:
                 left.append(node.val)
 
             if node.left:
-                left_dfs(node.left)
+                dfs_left(node.left)
             else:
-                left_dfs(node.right)
+                dfs_left(node.right)
 
         leaves = []
-        def leaves_dfs(node):
+        def dfs_leaves(node):
             if not node.left and not node.right:
                 leaves.append(node.val)
                 return
 
             if node.left:
-                leaves_dfs(node.left)
+                dfs_leaves(node.left)
             if node.right:
-                leaves_dfs(node.right)
+                dfs_leaves(node.right)
             
 
         right = []
-        def right_dfs(node):
+        def dfs_right(node):
             if not node:
                 return
 
@@ -40,22 +40,20 @@ class Solution:
                 right.append(node.val)
 
             if node.right:
-                right_dfs(node.right)
+                dfs_right(node.right)
             else:
-                right_dfs(node.left)
+                dfs_right(node.left)
 
         answer = [root.val]
 
-        left_dfs(root.left)
+        dfs_left(root.left)
         answer.extend(left)
 
         if root.left or root.right:
-            leaves_dfs(root)
-        answer.extend(leaves)
+            dfs_leaves(root)
+            answer.extend(leaves)
 
-        right_dfs(root.right)
+        dfs_right(root.right)
         answer.extend(reversed(right))
 
         return answer
-
-        
