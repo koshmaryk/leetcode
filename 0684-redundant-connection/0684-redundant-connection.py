@@ -2,31 +2,34 @@ class UnionFind:
 
     def __init__(self, n):
         self.parent = list(range(n))
-        self.size = [1] * n
+        self.rank = [1] * n
 
-    def find(self, x: int):
-        if self.parent[x] != x:
-            self.parent[x] = self.find(self.parent[x])
-        return self.parent[x]
+    def find(self, a):
+        while self.parent[a] != a:
+            self.parent[a] = self.parent[self.parent[a]]
+            a = self.parent[a]
+        return self.parent[a]
 
-    def union(self, x: int, y: int):
-        x_root, y_root = self.find(x), self.find(y)
-        if x_root == y_root:
+
+    def union(self, a, b):
+        parent_a, parent_b = self.find(a), self.find(b)
+        if parent_a == parent_b:
             return False
 
-        if self.size[x_root] < self.size[y_root]:
-            self.parent[x_root] = y_root
-            self.size[y_root] += self.size[x_root]
+        if self.rank[parent_a] > self.rank[parent_b]:
+            self.parent[parent_b] = parent_a
+            self.rank[parent_a] += self.rank[parent_b]
         else:
-            self.parent[y_root] = x_root
-            self.size[x_root] += self.size[y_root]
+            self.parent[parent_a] = parent_b
+            self.rank[parent_b] += self.rank[parent_a]
         return True
+
 
 class Solution:
     def findRedundantConnection(self, edges: List[List[int]]) -> List[int]:
-        uf = UnionFind(len(edges) + 1)
+        n = len(edges)
+        uf = UnionFind(n + 1)
         for a,b in edges:
             if not uf.union(a, b):
-                return [a, b]
-        return []
-        
+                return [a,b]
+        return [-1, -1]
