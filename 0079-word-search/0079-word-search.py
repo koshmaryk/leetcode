@@ -15,7 +15,6 @@ class Solution:
             for dr, dc in directions:
                 nr, nc = r + dr, c + dc
                 if find(nr, nc, i + 1):
-                    board[r][c] = word[i]
                     return True
 
             board[r][c] = word[i]
