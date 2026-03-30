@@ -4,47 +4,39 @@
 #         self.val = x
 #         self.left = None
 #         self.right = None
-from collections import deque
-
 class Solution:
     '''
     case 1: p == q
     case 2: p is LCA of q or vice versa
-    case 3: x is LCA of p and q
+    case 2: x is LCA of p and q
+
 
             3
-        5       1
-    6       2       7
-8       4
 
-p=4
-q=2
+        4       5
 
-6->4; 6->8; 5->6; 5->2; 3->5; 1->7; 3->1
-
-set = [4, 6, 5, 3]
+    5     6         7
 
 
+    p = 7
+    q = 4
+
+    p = 4
+    q = 6
+
+    p = 4
+    q = 4
 
     '''
     def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
-        parent = {root: None}
-        queue = deque([root])
-        while p not in parent or q not in parent:
-            node = queue.popleft()
-            if node.left:
-                parent[node.left] = node
-                queue.append(node.left)
-            if node.right:
-                parent[node.right] = node
-                queue.append(node.right)
+        if not root or root == p or root == q:
+            return root
 
-        ancestors = set()
-        while p:
-            ancestors.add(p)
-            p = parent[p]
+        left_tree = self.lowestCommonAncestor(root.left, p, q)
+        right_tree = self.lowestCommonAncestor(root.right, p, q)
 
-        while q not in ancestors:
-            q = parent[q]
-        return q
+        if left_tree and right_tree:
+            return root
+
+        return left_tree if left_tree else right_tree 
         
