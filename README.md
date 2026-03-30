@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0287-find-the-duplicate-number](https://github.com/koshmaryk/leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0295-find-median-from-data-stream](https://github.com/koshmaryk/leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0408-valid-word-abbreviation](https://github.com/koshmaryk/leetcode/tree/master/0408-valid-word-abbreviation) |
+| [0556-next-greater-element-iii](https://github.com/koshmaryk/leetcode/tree/master/0556-next-greater-element-iii) |
 | [0567-permutation-in-string](https://github.com/koshmaryk/leetcode/tree/master/0567-permutation-in-string) |
 | [0633-sum-of-square-numbers](https://github.com/koshmaryk/leetcode/tree/master/0633-sum-of-square-numbers) |
 | [0647-palindromic-substrings](https://github.com/koshmaryk/leetcode/tree/master/0647-palindromic-substrings) |
@@ -73,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0394-decode-string](https://github.com/koshmaryk/leetcode/tree/master/0394-decode-string) |
 | [0408-valid-word-abbreviation](https://github.com/koshmaryk/leetcode/tree/master/0408-valid-word-abbreviation) |
 | [0424-longest-repeating-character-replacement](https://github.com/koshmaryk/leetcode/tree/master/0424-longest-repeating-character-replacement) |
+| [0556-next-greater-element-iii](https://github.com/koshmaryk/leetcode/tree/master/0556-next-greater-element-iii) |
 | [0567-permutation-in-string](https://github.com/koshmaryk/leetcode/tree/master/0567-permutation-in-string) |
 | [0647-palindromic-substrings](https://github.com/koshmaryk/leetcode/tree/master/0647-palindromic-substrings) |
 | [0680-valid-palindrome-ii](https://github.com/koshmaryk/leetcode/tree/master/0680-valid-palindrome-ii) |
@@ -421,6 +423,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0227-basic-calculator-ii](https://github.com/koshmaryk/leetcode/tree/master/0227-basic-calculator-ii) |
 | [0380-insert-delete-getrandom-o1](https://github.com/koshmaryk/leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0528-random-pick-with-weight](https://github.com/koshmaryk/leetcode/tree/master/0528-random-pick-with-weight) |
+| [0556-next-greater-element-iii](https://github.com/koshmaryk/leetcode/tree/master/0556-next-greater-element-iii) |
 | [0633-sum-of-square-numbers](https://github.com/koshmaryk/leetcode/tree/master/0633-sum-of-square-numbers) |
 | [0670-maximum-swap](https://github.com/koshmaryk/leetcode/tree/master/0670-maximum-swap) |
 | [0903-implement-rand10-using-rand7](https://github.com/koshmaryk/leetcode/tree/master/0903-implement-rand10-using-rand7) |
