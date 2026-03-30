@@ -20,9 +20,11 @@ class Solution:
             number = number * 10 + int(s[i])
             i += 1
 
+        number *= sign
         if number < -2**31:
             return -2**31
         elif number > 2**31 - 1:
             return 2**31 - 1
         else:
-            return number * sign
+            return number
+        
