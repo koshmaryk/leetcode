@@ -1,29 +1,26 @@
-from collections import defaultdict
-from collections import deque
+from collections import defaultdict, deque
 
 class Solution:
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
         graph = defaultdict(list)
+        indegree = [0] * numCourses
         for a,b in prerequisites:
             graph[b].append(a)
+            indegree[a] += 1
 
-        colors = [0] * numCourses
+        queue = deque()
+        for course in range(numCourses):
+            if indegree[course] == 0:
+                queue.append(course)
 
-        def cycle(u):
-            if colors[u] == 2:
-                return False
-            if colors[u] == 1:
-                return True
+        cnt = 0
+        while queue:
+            course = queue.popleft()
+            cnt += 1
 
-            colors[u] = 1
-            for v in graph[u]:
-                if cycle(v):
-                    return True
-            colors[u] = 2
-            return False
+            for next_course in graph[course]:
+                indegree[next_course] -= 1
+                if indegree[next_course] == 0:
+                    queue.append(next_course)
 
-        for u in range(numCourses):
-            if colors[u] == 0:
-                if cycle(u):
-                    return False
-        return True
+        return cnt == numCourses
