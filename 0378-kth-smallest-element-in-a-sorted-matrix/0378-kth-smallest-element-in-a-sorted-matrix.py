@@ -30,9 +30,8 @@ class Solution:
 
         ans = None
         for i in range(k):
-            element, r, c = heapq.heappop(pq)
+            ans, r, c = heapq.heappop(pq)
             if c + 1 < n:
                 heapq.heappush(pq, ((matrix[r][c + 1], r, c + 1)))
-            ans = element
         return ans
         
