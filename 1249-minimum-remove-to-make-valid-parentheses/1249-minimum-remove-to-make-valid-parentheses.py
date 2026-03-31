@@ -21,30 +21,22 @@ class Solution:
 
     '''
     def minRemoveToMakeValid(self, s: str) -> str:
-        n = len(s)
         invalid = set()
-        cnt = 0
-        for i in range(n):
-            if s[i] == "(":
-                cnt += 1
-            elif s[i] == ")":
-                if cnt == 0:
-                    invalid.add(i)
+        stack = []
+        for i, c in enumerate(s):
+            if c == "(":
+                stack.append(i)
+            elif c == ")":
+                if stack:
+                    stack.pop()
                 else:
-                    cnt -= 1
+                    invalid.add(i)
 
-        cnt = 0
-        for i in range(n - 1, -1, -1):
-            if s[i] == ")":
-                cnt += 1
-            elif s[i] == "(":
-                if cnt == 0:
-                    invalid.add(i)
-                else:
-                    cnt -= 1
+        while stack:
+            invalid.add(stack.pop())
 
         sb = []
-        for i in range(n):
+        for i, c in enumerate(s):
             if i not in invalid:
-                sb.append(s[i])
+                sb.append(c)
         return "".join(sb)
