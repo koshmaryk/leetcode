@@ -11,19 +11,17 @@ class Solution:
             "9": "wxyz",
         }
 
-        combinations = []
+        output = []
 
-        def backtrack(index, s):
-            if len(s) == len(digits):
-                combinations.append("".join(s))
+        def gen(index, prefix):
+            if len(prefix) == len(digits):
+                output.append("".join(prefix))
                 return
 
-            letters = digit_to_letters[digits[index]]
-            for letter in letters:
-                s.append(letter)
-                backtrack(index + 1, s)
-                s.pop()
+            for letter in digit_to_letters[digits[index]]:
+                prefix.append(letter)
+                gen(index + 1, prefix)
+                prefix.pop()
 
-        backtrack(0, [])    
-        return combinations
-
+        gen(0, [])
+        return output
