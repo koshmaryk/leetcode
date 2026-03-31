@@ -4,7 +4,21 @@
 #         self.val = x
 #         self.left = None
 #         self.right = None
+"""
 
+                7
+
+            5       9
+
+        3       6
+
+    2      4
+
+p = 9
+q = 2
+
+
+"""
 class Solution:
     def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
         curr = root
