@@ -4,6 +4,8 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
+from collections import defaultdict, deque
+
 class Solution:
     def verticalOrder(self, root: Optional[TreeNode]) -> List[List[int]]:
         output = []
@@ -11,25 +13,22 @@ class Solution:
             return output
 
         cols = defaultdict(list)
-        min_col, max_col = float('inf'), float('-inf')
+        min_col, max_col = 0, 0
 
-        def dfs(node, row, col):
-            nonlocal min_col, max_col
+        queue = deque([(root, 0)])
+        while queue:
+            node, col = queue.popleft()
+            
             min_col = min(min_col, col)
             max_col = max(max_col, col)
-            cols[col].append((row, node.val))
+
+            cols[col].append(node.val)
 
             if node.left:
-                dfs(node.left, row + 1, col - 1)
+                queue.append((node.left, col - 1))
             if node.right:
-                dfs(node.right, row + 1, col + 1)
-            
-        dfs(root, 0, 0)
+                queue.append((node.right, col + 1))
 
         for col in range(min_col, max_col + 1):
-            cols[col].sort(key=lambda x:x[0])
-            vals = []
-            for _, val in cols[col]:
-                vals.append(val)
-            output.append(vals)
+            output.append(cols[col])
         return output
