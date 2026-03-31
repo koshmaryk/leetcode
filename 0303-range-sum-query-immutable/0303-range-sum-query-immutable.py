@@ -3,7 +3,11 @@ class NumArray:
         0   1  2   3  4
         1, -2, 5, -1, 3
 
+    0   1  2   3   4  5
     0   1  -1  4   3  6
+
+    l = 1, r= 3
+
 
     '''
 
@@ -15,6 +19,7 @@ class NumArray:
 
     def sumRange(self, left: int, right: int) -> int:
         return self.p[right + 1] - self.p[left]
+        
         
 
 
