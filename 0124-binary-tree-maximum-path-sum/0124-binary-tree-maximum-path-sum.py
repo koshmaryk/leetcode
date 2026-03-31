@@ -22,15 +22,16 @@ class Solution:
 
         def dfs(node):
             nonlocal ans
+
             if not node:
                 return 0
 
-            leftMax = max(dfs(node.left), 0)
-            rightMax = max(dfs(node.right), 0)
+            left_max = max(dfs(node.left), 0)
+            right_max = max(dfs(node.right), 0)
 
-            ans = max(ans, leftMax + node.val + rightMax)
-            return max(leftMax, rightMax) + node.val
+            ans = max(ans, left_max + node.val + right_max)
 
+            return max(left_max, right_max) + node.val
 
         dfs(root)
         return ans
