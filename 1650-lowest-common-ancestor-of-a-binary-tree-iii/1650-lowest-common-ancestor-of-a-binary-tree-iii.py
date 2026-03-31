@@ -11,8 +11,8 @@ class Node:
 '''
 
         3
-    p5       1q
-2       4       6
+    p5       1
+2       4       6q
 
 
 5=1
@@ -32,7 +32,6 @@ class Solution:
                 depth += 1
             return depth
 
-
         p_depth = get_depth(p)
         q_depth = get_depth(q)
 
@@ -40,10 +39,9 @@ class Solution:
             p = p.parent
         
         for _ in range(q_depth - p_depth):
-            q = q. parent
+            q = q.parent
 
         while p != q:
             p = p.parent
             q = q.parent
         return p
-        
