@@ -7,9 +7,8 @@ class Solution:
         n = len(heights)
         answer = []
 
-        max_height = 0
-        for i in range(n - 1, -1, -1):
-            if heights[i] > max_height:
-                max_height = heights[i]
-                answer.append(i)
-        return answer[::-1]
+        for i in range(n):
+            while answer and heights[answer[-1]] <= heights[i]:
+                answer.pop()
+            answer.append(i)
+        return answer
