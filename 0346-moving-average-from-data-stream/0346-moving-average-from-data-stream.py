@@ -3,9 +3,14 @@ from collections import deque
 class MovingAverage:
 
     '''
-    head = 0
-    tail = (0 + 1) % 3 = 1; (2 + 1) % 3 = 0; 
-    0,0,0
+    head = 2
+    tail = 
+    
+    total = 9
+
+    next=1; 2; 3; 4
+
+    4,2,3
 
     '''
 
