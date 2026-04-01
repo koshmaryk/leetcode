@@ -1,14 +1,6 @@
 class Solution:
     '''
-    4,3,2,1
-    0,1,2,3
-
-    4,2,3,1
-    0,2,3
-
-    1,2,3,4
-    3
-
+    
 
     '''
     def findBuildings(self, heights: List[int]) -> List[int]:
