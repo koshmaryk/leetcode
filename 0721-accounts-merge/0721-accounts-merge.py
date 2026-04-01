@@ -40,16 +40,16 @@ class Solution:
         n = len(accounts)
         uf = UnionFind(n)
 
-        emails_to_id = {}
+        email_to_id = {}
         for i in range(n):
             for email in accounts[i][1:]:
-                if email in emails_to_id:
-                    uf.union(i, emails_to_id[email])
+                if email in email_to_id:
+                    uf.union(i, email_to_id[email])
                 else:
-                    emails_to_id[email] = i
+                    email_to_id[email] = i
 
         id_to_emails = defaultdict(list)
-        for email, id in emails_to_id.items():
+        for email, id in email_to_id.items():
             root_id = uf.find(id)
             id_to_emails[root_id].append(email)
 
