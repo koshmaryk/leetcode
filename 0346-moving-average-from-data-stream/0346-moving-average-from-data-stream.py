@@ -11,15 +11,21 @@ class MovingAverage:
 
     def __init__(self, size: int):
         self.size = size
-        self.window = deque()
+        self.window = [0] * self.size
+        self.head = 0
+        self.count = 0
         self.total = 0
         
 
     def next(self, val: int) -> float:
-        self.window.append(val)
-        tail = self.window.popleft() if len(self.window) > self.size else 0
-        self.total = self.total - tail + val
-        return self.total / len(self.window)
+        tail = (self.head + 1) % self.size
+        self.total = self.total - self.window[tail] + val
+
+        self.head = (self.head + 1) % self.size
+        self.window[self.head] = val
+        self.count += 1
+
+        return self.total / min(self.size, self.count)
 
         
 
