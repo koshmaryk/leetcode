@@ -29,19 +29,16 @@ class Solution:
         :type n: Number of characters to read (int)
         :rtype: The number of actual characters read (int)
         """
-        buffered_chars = 0
-        read_chars = 4
         buf4 = [''] * 4
+        read = 4
+        offset = 0
 
-        while buffered_chars < n and read_chars == 4:
-            read_chars = read4(buf4)
-
-            for i in range(read_chars):
-                buf[buffered_chars] = buf4[i]
-                buffered_chars += 1
-                if buffered_chars == n:
-                    return buffered_chars
-
-        return buffered_chars
-
+        while offset < n and read == 4:
+            read = read4(buf4)
+            for i in range(read):
+                buf[offset] = buf4[i]
+                offset += 1
+                if offset == n:
+                    return offset
+        return offset
         
