@@ -1,13 +1,19 @@
 """
 
+0123456
+4560123
 
-456 012
+2
 
 """
 class Solution:
     def findMin(self, nums: List[int]) -> int:
         n = len(nums)
-        for i in range(n - 1):
-            if nums[i] > nums[i + 1]:
-                return nums[i + 1]
-        return nums[0]
+        bad, good = -1, n
+        while good - bad > 1:
+            mid = (bad + good) // 2
+            if nums[mid] <= nums[-1]:
+                good = mid
+            else:
+                bad = mid
+        return nums[good]
