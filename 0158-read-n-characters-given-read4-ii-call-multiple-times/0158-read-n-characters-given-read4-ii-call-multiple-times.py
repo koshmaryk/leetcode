@@ -4,8 +4,9 @@
 class Solution:
     def __init__(self):
         self.buf4 = [''] * 4
-        self.size = 0
         self.ptr = 0
+        # read4 last result
+        self.size = 0
 
     def read(self, buf: List[str], n: int) -> int:
         read = 0
@@ -21,3 +22,4 @@ class Solution:
             self.ptr += 1
 
         return read
+
