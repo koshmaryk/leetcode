@@ -1,8 +1,8 @@
 class Solution:
     '''
-    word=sub stitu tion
+    word=sub stit u tion
 
-    abbr=sub 5 u 4
+    abbr=sub 4 u 4
 
 
 
@@ -22,7 +22,6 @@ class Solution:
             else:
                 if word[p] != abbr[q]:
                     return False
-
                 p += 1
                 q += 1
         return p == len(word) and q == len(abbr)
