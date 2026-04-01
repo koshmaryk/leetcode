@@ -93,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1653-minimum-deletions-to-make-string-balanced](https://github.com/koshmaryk/leetcode/tree/master/1653-minimum-deletions-to-make-string-balanced) |
 | [1777-determine-if-two-strings-are-close](https://github.com/koshmaryk/leetcode/tree/master/1777-determine-if-two-strings-are-close) |
 | [1894-merge-strings-alternately](https://github.com/koshmaryk/leetcode/tree/master/1894-merge-strings-alternately) |
+| [2788-split-strings-by-separator](https://github.com/koshmaryk/leetcode/tree/master/2788-split-strings-by-separator) |
 | [3617-find-the-original-typed-string-i](https://github.com/koshmaryk/leetcode/tree/master/3617-find-the-original-typed-string-i) |
 | [3618-find-the-original-typed-string-ii](https://github.com/koshmaryk/leetcode/tree/master/3618-find-the-original-typed-string-ii) |
 | [3713-longest-balanced-substring-i](https://github.com/koshmaryk/leetcode/tree/master/3713-longest-balanced-substring-i) |
@@ -270,6 +271,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2294-minimum-time-to-complete-trips](https://github.com/koshmaryk/leetcode/tree/master/2294-minimum-time-to-complete-trips) |
 | [2611-mice-and-cheese](https://github.com/koshmaryk/leetcode/tree/master/2611-mice-and-cheese) |
 | [2665-minimum-time-to-repair-cars](https://github.com/koshmaryk/leetcode/tree/master/2665-minimum-time-to-repair-cars) |
+| [2788-split-strings-by-separator](https://github.com/koshmaryk/leetcode/tree/master/2788-split-strings-by-separator) |
 | [3154-maximum-value-of-an-ordered-triplet-i](https://github.com/koshmaryk/leetcode/tree/master/3154-maximum-value-of-an-ordered-triplet-i) |
 | [3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/koshmaryk/leetcode/tree/master/3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/koshmaryk/leetcode/tree/master/3242-count-elements-with-maximum-frequency) |
