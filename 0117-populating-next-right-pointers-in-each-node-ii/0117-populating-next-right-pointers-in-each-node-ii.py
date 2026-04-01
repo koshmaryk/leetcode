@@ -7,19 +7,35 @@ class Node:
         self.right = right
         self.next = next
 
+root->null
 
+leftmost = root
                 
-              1
-x ->      2       3  
+          1
+x->   2       3 
+
+   4     5   6   7
+
+
+1
+x->2->3->
+
+3
+x->4->5->6->7->
+
+4
+x->
+
+
 """
 
 class Solution:
     def connect(self, root: 'Node') -> 'Node':
-        leftmost = root # 1
+        leftmost = root
         while leftmost:
-            curr = leftmost # 1 | 2 
-            sentinel = tail = Node(-101) # x->2->3-> | x->4->5->7->
-            while curr: # 3
+            curr = leftmost
+            sentinel = tail = Node()
+            while curr:
                 if curr.left:
                     tail.next = curr.left
                     tail = tail.next
@@ -27,5 +43,6 @@ class Solution:
                     tail.next = curr.right
                     tail = tail.next
                 curr = curr.next
-            leftmost = sentinel.next # 2 | 4
+            
+            leftmost = sentinel.next # 2, 4
         return root
