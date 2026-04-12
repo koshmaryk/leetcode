@@ -148,6 +148,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0064-minimum-path-sum](https://github.com/koshmaryk/leetcode/tree/master/0064-minimum-path-sum) |
 | [0073-set-matrix-zeroes](https://github.com/koshmaryk/leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/koshmaryk/leetcode/tree/master/0074-search-a-2d-matrix) |
+| [0078-subsets](https://github.com/koshmaryk/leetcode/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/koshmaryk/leetcode/tree/master/0079-word-search) |
 | [0088-merge-sorted-array](https://github.com/koshmaryk/leetcode/tree/master/0088-merge-sorted-array) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/koshmaryk/leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
@@ -1043,6 +1044,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0078-subsets](https://github.com/koshmaryk/leetcode/tree/master/0078-subsets) |
 | [0136-single-number](https://github.com/koshmaryk/leetcode/tree/master/0136-single-number) |
 | [0287-find-the-duplicate-number](https://github.com/koshmaryk/leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0318-maximum-product-of-word-lengths](https://github.com/koshmaryk/leetcode/tree/master/0318-maximum-product-of-word-lengths) |
@@ -1072,6 +1074,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0046-permutations](https://github.com/koshmaryk/leetcode/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/koshmaryk/leetcode/tree/master/0047-permutations-ii) |
 | [0077-combinations](https://github.com/koshmaryk/leetcode/tree/master/0077-combinations) |
+| [0078-subsets](https://github.com/koshmaryk/leetcode/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/koshmaryk/leetcode/tree/master/0079-word-search) |
 | [0095-unique-binary-search-trees-ii](https://github.com/koshmaryk/leetcode/tree/master/0095-unique-binary-search-trees-ii) |
 | [0301-remove-invalid-parentheses](https://github.com/koshmaryk/leetcode/tree/master/0301-remove-invalid-parentheses) |
