@@ -2,15 +2,11 @@ class Solution:
     def subsets(self, nums: List[int]) -> List[List[int]]:
         n = len(nums)
 
-        def gen(index, prefix):
-            output.append(prefix[:])
-
-            for i in range(index, n):
-                prefix.append(nums[i])
-                gen(i + 1, prefix)
-                prefix.pop()
-        
         output = []
-        gen(0, [])
+        for mask in range(1 << n):
+            subset = []
+            for i in range(n):
+                if mask & (1 << i):
+                    subset.append(nums[i])
+            output.append(subset)
         return output
-        
