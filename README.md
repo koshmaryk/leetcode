@@ -614,6 +614,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0518-coin-change-ii](https://github.com/koshmaryk/leetcode/tree/master/0518-coin-change-ii) |
 | [0647-palindromic-substrings](https://github.com/koshmaryk/leetcode/tree/master/0647-palindromic-substrings) |
 | [0747-min-cost-climbing-stairs](https://github.com/koshmaryk/leetcode/tree/master/0747-min-cost-climbing-stairs) |
+| [0799-champagne-tower](https://github.com/koshmaryk/leetcode/tree/master/0799-champagne-tower) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/koshmaryk/leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0930-all-possible-full-binary-trees](https://github.com/koshmaryk/leetcode/tree/master/0930-all-possible-full-binary-trees) |
 | [1013-fibonacci-number](https://github.com/koshmaryk/leetcode/tree/master/1013-fibonacci-number) |
