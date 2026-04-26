@@ -4,19 +4,25 @@ class Solution:
     def getAncestors(self, n: int, edges: List[List[int]]) -> List[List[int]]:
         graph = defaultdict(list)
         for f,t in edges:
-            graph[f].append(t)
+            graph[t].append(f)
 
-        answer = [[] for _ in range(n)]
-
-        def dfs(u, ancestor):
+        def dfs(u):
+            visited.add(u)
             for v in graph[u]:
-                if not answer[v] or answer[v][-1] != ancestor:
-                    answer[v].append(ancestor)
-                    dfs(v, ancestor)
-        
+                if v not in visited:
+                    dfs(v)
+
+        answer = []
         for u in range(n):
-           dfs(u, u)
+            visited = set()
+            dfs(u)
+
+            ancestors = []
+            for node in range(n):
+                if node in visited and node != u:
+                    ancestors.append(node)
+
+            answer.append(ancestors)
 
         return answer
-
             
