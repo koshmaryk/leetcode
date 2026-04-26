@@ -1149,6 +1149,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0210-course-schedule-ii](https://github.com/koshmaryk/leetcode/tree/master/0210-course-schedule-ii) |
 | [0261-graph-valid-tree](https://github.com/koshmaryk/leetcode/tree/master/0261-graph-valid-tree) |
 | [0684-redundant-connection](https://github.com/koshmaryk/leetcode/tree/master/0684-redundant-connection) |
+| [1557-minimum-number-of-vertices-to-reach-all-nodes](https://github.com/koshmaryk/leetcode/tree/master/1557-minimum-number-of-vertices-to-reach-all-nodes) |
 | [2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/koshmaryk/leetcode/tree/master/2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 ## Doubly-Linked List
 |  |
