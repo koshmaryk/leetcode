@@ -13,9 +13,9 @@ class Solution:
         for i in range(n):
             curr_sum += arr[i]
             if curr_sum == target_sum:
-                if partitions == 2:
-                    return True
-                    
                 partitions += 1
                 curr_sum = 0
+
+                if partitions == 2 and i < n - 1:
+                    return True
         return False
