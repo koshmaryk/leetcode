@@ -268,6 +268,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1868-product-of-two-run-length-encoded-arrays](https://github.com/koshmaryk/leetcode/tree/master/1868-product-of-two-run-length-encoded-arrays) |
 | [2000-minimum-speed-to-arrive-on-time](https://github.com/koshmaryk/leetcode/tree/master/2000-minimum-speed-to-arrive-on-time) |
 | [2019-product-of-two-run-length-encoded-arrays](https://github.com/koshmaryk/leetcode/tree/master/2019-product-of-two-run-length-encoded-arrays) |
+| [2025-maximum-number-of-ways-to-partition-an-array](https://github.com/koshmaryk/leetcode/tree/master/2025-maximum-number-of-ways-to-partition-an-array) |
 | [2040-minimum-cost-to-reach-destination-in-time](https://github.com/koshmaryk/leetcode/tree/master/2040-minimum-cost-to-reach-destination-in-time) |
 | [2058-concatenation-of-array](https://github.com/koshmaryk/leetcode/tree/master/2058-concatenation-of-array) |
 | [2126-destroying-asteroids](https://github.com/koshmaryk/leetcode/tree/master/2126-destroying-asteroids) |
@@ -371,6 +372,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1650-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/koshmaryk/leetcode/tree/master/1650-lowest-common-ancestor-of-a-binary-tree-iii) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/koshmaryk/leetcode/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [1777-determine-if-two-strings-are-close](https://github.com/koshmaryk/leetcode/tree/master/1777-determine-if-two-strings-are-close) |
+| [2025-maximum-number-of-ways-to-partition-an-array](https://github.com/koshmaryk/leetcode/tree/master/2025-maximum-number-of-ways-to-partition-an-array) |
 | [2169-simple-bank-system](https://github.com/koshmaryk/leetcode/tree/master/2169-simple-bank-system) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/koshmaryk/leetcode/tree/master/3242-count-elements-with-maximum-frequency) |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/koshmaryk/leetcode/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
@@ -662,6 +664,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1094-car-pooling](https://github.com/koshmaryk/leetcode/tree/master/1094-car-pooling) |
 | [1109-corporate-flight-bookings](https://github.com/koshmaryk/leetcode/tree/master/1109-corporate-flight-bookings) |
 | [1184-car-pooling](https://github.com/koshmaryk/leetcode/tree/master/1184-car-pooling) |
+| [2025-maximum-number-of-ways-to-partition-an-array](https://github.com/koshmaryk/leetcode/tree/master/2025-maximum-number-of-ways-to-partition-an-array) |
 | [2270-number-of-ways-to-split-array](https://github.com/koshmaryk/leetcode/tree/master/2270-number-of-ways-to-split-array) |
 | [3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/koshmaryk/leetcode/tree/master/3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3618-find-the-original-typed-string-ii](https://github.com/koshmaryk/leetcode/tree/master/3618-find-the-original-typed-string-ii) |
@@ -888,6 +891,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0594-longest-harmonious-subsequence](https://github.com/koshmaryk/leetcode/tree/master/0594-longest-harmonious-subsequence) |
 | [0621-task-scheduler](https://github.com/koshmaryk/leetcode/tree/master/0621-task-scheduler) |
 | [1777-determine-if-two-strings-are-close](https://github.com/koshmaryk/leetcode/tree/master/1777-determine-if-two-strings-are-close) |
+| [2025-maximum-number-of-ways-to-partition-an-array](https://github.com/koshmaryk/leetcode/tree/master/2025-maximum-number-of-ways-to-partition-an-array) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/koshmaryk/leetcode/tree/master/3242-count-elements-with-maximum-frequency) |
 | [3713-longest-balanced-substring-i](https://github.com/koshmaryk/leetcode/tree/master/3713-longest-balanced-substring-i) |
 ## Quickselect
@@ -1134,6 +1138,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0204-count-primes](https://github.com/koshmaryk/leetcode/tree/master/0204-count-primes) |
+| [2025-maximum-number-of-ways-to-partition-an-array](https://github.com/koshmaryk/leetcode/tree/master/2025-maximum-number-of-ways-to-partition-an-array) |
 | [3713-longest-balanced-substring-i](https://github.com/koshmaryk/leetcode/tree/master/3713-longest-balanced-substring-i) |
 ## Counting Sort
 |  |
