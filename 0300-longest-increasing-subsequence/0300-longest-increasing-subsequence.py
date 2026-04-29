@@ -17,6 +17,7 @@ class Solution:
             for j in range(i):
                 if nums[j] < nums[i]:
                     curr_max = max(curr_max, dp[j])
+
             dp[i] = curr_max + 1
             ans = max(ans, dp[i])
         return ans
