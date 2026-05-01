@@ -12,22 +12,24 @@ l + eet
 
 
 """
-from collections import deque
-
 class Solution:
     def wordBreak(self, s: str, wordDict: List[str]) -> bool:
-        words = set(wordDict)
+        memo = {}
 
-        seen = set()
-        queue = deque([0])
-        while queue:
-            start = queue.popleft()
-            if start == len(s):
+        def dp(i):
+            if i == len(s):
                 return True
 
-            for end in range(start + 1, len(s) + 1):
-                if s[start:end] in words and end not in seen:
-                    seen.add(end)
-                    queue.append(end)
+            if i in memo:
+                return memo[i]
 
-        return False
+            for word in wordDict:
+                if s[i:i + len(word)] == word:
+                    memo[i + len(word)] = dp(i + len(word))
+                    if memo[i + len(word)]:
+                        return True
+                        
+            memo[i] = False
+            return memo[i]
+
+        return dp(0)
