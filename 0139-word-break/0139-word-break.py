@@ -12,26 +12,22 @@ l + eet
 
 
 """
+from collections import deque
+
 class Solution:
     def wordBreak(self, s: str, wordDict: List[str]) -> bool:
         words = set(wordDict)
 
-        memo = {}
-
-        def can_break(word):
-            if not word:
+        seen = set()
+        queue = deque([0])
+        while queue:
+            start = queue.popleft()
+            if start == len(s):
                 return True
 
-            if word in memo:
-                return memo[word]
+            for end in range(start + 1, len(s) + 1):
+                if s[start:end] in words and end not in seen:
+                    seen.add(end)
+                    queue.append(end)
 
-            for i in range(1, len(word) + 1):
-                prefix = word[:i]
-                if prefix in words and can_break(word[i:]):
-                    memo[prefix] = True
-                    return True
-
-            memo[word] = False
-            return memo[word]
-
-        return can_break(s)
+        return False
