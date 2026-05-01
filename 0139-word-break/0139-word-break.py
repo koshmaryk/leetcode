@@ -14,24 +14,13 @@ l + eet
 """
 class Solution:
     def wordBreak(self, s: str, wordDict: List[str]) -> bool:
-        words = set(wordDict)
-
-        memo = {}
-
-        def can_break(word):
-            if not word:
-                return True
-
-            if word in memo:
-                return memo[word]
-
-            for i in range(1, len(word) + 1):
-                prefix = word[:i]
-                if prefix in words and can_break(word[i:]):
-                    memo[word] = True
-                    return True
-
-            memo[word] = False
-            return False
-            
-        return can_break(s)
+        n = len(s)
+        dp = [False] * (n + 1)
+        dp[n] = True
+        for i in range(n - 1, -1, -1):
+            for word in wordDict:
+                end = i + len(word)
+                if end <= n and s[i:end] == word and dp[end]:
+                    dp[i] = True
+                    break
+        return dp[0]
