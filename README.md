@@ -262,6 +262,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/koshmaryk/leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/koshmaryk/leetcode/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1646-kth-missing-positive-number](https://github.com/koshmaryk/leetcode/tree/master/1646-kth-missing-positive-number) |
+| [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/koshmaryk/leetcode/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [1675-magnetic-force-between-two-balls](https://github.com/koshmaryk/leetcode/tree/master/1675-magnetic-force-between-two-balls) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/koshmaryk/leetcode/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [1762-furthest-building-you-can-reach](https://github.com/koshmaryk/leetcode/tree/master/1762-furthest-building-you-can-reach) |
@@ -372,6 +373,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1256-rank-transform-of-an-array](https://github.com/koshmaryk/leetcode/tree/master/1256-rank-transform-of-an-array) |
 | [1570-dot-product-of-two-sparse-vectors](https://github.com/koshmaryk/leetcode/tree/master/1570-dot-product-of-two-sparse-vectors) |
 | [1650-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/koshmaryk/leetcode/tree/master/1650-lowest-common-ancestor-of-a-binary-tree-iii) |
+| [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/koshmaryk/leetcode/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/koshmaryk/leetcode/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [1777-determine-if-two-strings-are-close](https://github.com/koshmaryk/leetcode/tree/master/1777-determine-if-two-strings-are-close) |
 | [2025-maximum-number-of-ways-to-partition-an-array](https://github.com/koshmaryk/leetcode/tree/master/2025-maximum-number-of-ways-to-partition-an-array) |
@@ -425,6 +427,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/koshmaryk/leetcode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/koshmaryk/leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1646-kth-missing-positive-number](https://github.com/koshmaryk/leetcode/tree/master/1646-kth-missing-positive-number) |
+| [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/koshmaryk/leetcode/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [1675-magnetic-force-between-two-balls](https://github.com/koshmaryk/leetcode/tree/master/1675-magnetic-force-between-two-balls) |
 | [2000-minimum-speed-to-arrive-on-time](https://github.com/koshmaryk/leetcode/tree/master/2000-minimum-speed-to-arrive-on-time) |
 | [2188-minimized-maximum-of-products-distributed-to-any-store](https://github.com/koshmaryk/leetcode/tree/master/2188-minimized-maximum-of-products-distributed-to-any-store) |
@@ -651,6 +654,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0594-longest-harmonious-subsequence](https://github.com/koshmaryk/leetcode/tree/master/0594-longest-harmonious-subsequence) |
 | [0658-find-k-closest-elements](https://github.com/koshmaryk/leetcode/tree/master/0658-find-k-closest-elements) |
 | [1046-max-consecutive-ones-iii](https://github.com/koshmaryk/leetcode/tree/master/1046-max-consecutive-ones-iii) |
+| [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/koshmaryk/leetcode/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/koshmaryk/leetcode/tree/master/3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 ## Prefix Sum
 |  |
@@ -668,6 +672,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1094-car-pooling](https://github.com/koshmaryk/leetcode/tree/master/1094-car-pooling) |
 | [1109-corporate-flight-bookings](https://github.com/koshmaryk/leetcode/tree/master/1109-corporate-flight-bookings) |
 | [1184-car-pooling](https://github.com/koshmaryk/leetcode/tree/master/1184-car-pooling) |
+| [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/koshmaryk/leetcode/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [2025-maximum-number-of-ways-to-partition-an-array](https://github.com/koshmaryk/leetcode/tree/master/2025-maximum-number-of-ways-to-partition-an-array) |
 | [2270-number-of-ways-to-split-array](https://github.com/koshmaryk/leetcode/tree/master/2270-number-of-ways-to-split-array) |
 | [3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/koshmaryk/leetcode/tree/master/3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
