@@ -1,3 +1,6 @@
+from collections import deque
+from string import  ascii_lowercase
+
 class Solution:
     '''
     
@@ -5,33 +8,32 @@ class Solution:
 
     cog
     
+    TC O(N * M^2)
+    SC O(N * M), where M is the length of the words and N is the number of words
     
     '''
-    from collections import deque
-    from string import ascii_lowercase
-
     def ladderLength(self, beginWord: str, endWord: str, wordList: List[str]) -> int:
-        def neighbors(word):
+        words = set(wordList)
+
+        def get_neighbors(word):
             neighbors = []
-            for i, c in enumerate(word):
+            for i in range(len(word)):
                 for letter in ascii_lowercase:
-                    new_word = word[:i] + letter + word[i+1:]
+                    new_word = word[:i] + letter + word[i + 1:]
                     if new_word in words:
                         words.remove(new_word)
                         neighbors.append(new_word)
             return neighbors
 
-
-        words = set(wordList)
         queue = deque([beginWord])
         levels = 0
         while queue:
-            size = len(queue)
             levels += 1
-            for i in range(size):
+            for _ in range(len(queue)):
                 curr = queue.popleft()
                 if curr == endWord:
                     return levels
-                for word in neighbors(curr):
+
+                for word in get_neighbors(curr):
                     queue.append(word)
         return 0
