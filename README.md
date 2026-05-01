@@ -64,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/koshmaryk/leetcode/tree/master/0079-word-search) |
 | [0125-valid-palindrome](https://github.com/koshmaryk/leetcode/tree/master/0125-valid-palindrome) |
 | [0127-word-ladder](https://github.com/koshmaryk/leetcode/tree/master/0127-word-ladder) |
+| [0139-word-break](https://github.com/koshmaryk/leetcode/tree/master/0139-word-break) |
 | [0227-basic-calculator-ii](https://github.com/koshmaryk/leetcode/tree/master/0227-basic-calculator-ii) |
 | [0242-valid-anagram](https://github.com/koshmaryk/leetcode/tree/master/0242-valid-anagram) |
 | [0249-group-shifted-strings](https://github.com/koshmaryk/leetcode/tree/master/0249-group-shifted-strings) |
@@ -160,6 +161,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0130-surrounded-regions](https://github.com/koshmaryk/leetcode/tree/master/0130-surrounded-regions) |
 | [0134-gas-station](https://github.com/koshmaryk/leetcode/tree/master/0134-gas-station) |
 | [0136-single-number](https://github.com/koshmaryk/leetcode/tree/master/0136-single-number) |
+| [0139-word-break](https://github.com/koshmaryk/leetcode/tree/master/0139-word-break) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/koshmaryk/leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/koshmaryk/leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0157-read-n-characters-given-read4](https://github.com/koshmaryk/leetcode/tree/master/0157-read-n-characters-given-read4) |
@@ -345,6 +347,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0127-word-ladder](https://github.com/koshmaryk/leetcode/tree/master/0127-word-ladder) |
 | [0128-longest-consecutive-sequence](https://github.com/koshmaryk/leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0133-clone-graph](https://github.com/koshmaryk/leetcode/tree/master/0133-clone-graph) |
+| [0139-word-break](https://github.com/koshmaryk/leetcode/tree/master/0139-word-break) |
 | [0141-linked-list-cycle](https://github.com/koshmaryk/leetcode/tree/master/0141-linked-list-cycle) |
 | [0146-lru-cache](https://github.com/koshmaryk/leetcode/tree/master/0146-lru-cache) |
 | [0217-contains-duplicate](https://github.com/koshmaryk/leetcode/tree/master/0217-contains-duplicate) |
@@ -622,6 +625,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/koshmaryk/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/koshmaryk/leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/koshmaryk/leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
+| [0139-word-break](https://github.com/koshmaryk/leetcode/tree/master/0139-word-break) |
 | [0198-house-robber](https://github.com/koshmaryk/leetcode/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/koshmaryk/leetcode/tree/master/0213-house-robber-ii) |
 | [0276-paint-fence](https://github.com/koshmaryk/leetcode/tree/master/0276-paint-fence) |
@@ -881,6 +885,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/koshmaryk/leetcode/tree/master/0014-longest-common-prefix) |
+| [0139-word-break](https://github.com/koshmaryk/leetcode/tree/master/0139-word-break) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -1125,6 +1130,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/koshmaryk/leetcode/tree/master/0070-climbing-stairs) |
+| [0139-word-break](https://github.com/koshmaryk/leetcode/tree/master/0139-word-break) |
 | [0930-all-possible-full-binary-trees](https://github.com/koshmaryk/leetcode/tree/master/0930-all-possible-full-binary-trees) |
 | [1013-fibonacci-number](https://github.com/koshmaryk/leetcode/tree/master/1013-fibonacci-number) |
 | [1236-n-th-tribonacci-number](https://github.com/koshmaryk/leetcode/tree/master/1236-n-th-tribonacci-number) |
