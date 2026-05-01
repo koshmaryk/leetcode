@@ -24,12 +24,11 @@ class Solution:
                 return memo[i]
 
             for word in wordDict:
-                if s[i:i + len(word)] == word:
-                    memo[i + len(word)] = dp(i + len(word))
-                    if memo[i + len(word)]:
-                        return True
-                        
+                if s[i:i + len(word)] == word and dp(i + len(word)):
+                    memo[i] = True
+                    return True
+
             memo[i] = False
-            return memo[i]
+            return False
 
         return dp(0)
