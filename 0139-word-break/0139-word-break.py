@@ -15,7 +15,9 @@ leet, code
 
 
 leetcode
-
+i=0=l
+   j=3=t -> is_word
+    j+1=4=c = True
 """
 class TrieNode:
     def __init__(self):
