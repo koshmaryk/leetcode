@@ -19,15 +19,17 @@ i=0=l
    j=3=t -> is_word
     j+1=4=c = True
 """
+from collections import deque
+
 class TrieNode:
-    def __init__(self):
-        self.is_word = False
+    def __init__(self,):
         self.children = {}
+        self.is_word = False
 
 class Solution:
     def wordBreak(self, s: str, wordDict: List[str]) -> bool:
         n = len(s)
-
+        
         root = TrieNode()
         for word in wordDict:
             curr = root
@@ -36,11 +38,14 @@ class Solution:
                     curr.children[c] = TrieNode()
                 curr = curr.children[c]
             curr.is_word = True
-        
-        dp = [False] * (n + 1)
-        dp[n] = True
 
-        for i in range(n - 1, -1, -1):
+        seen = set()
+        queue = deque([0])
+        while queue:
+            i = queue.popleft()
+            if i == n:
+                return True
+
             curr = root
             for j in range(i, n):
                 c = s[j]
@@ -48,13 +53,10 @@ class Solution:
                 if not curr:
                     break
 
-                if curr.is_word and dp[j + 1]:
-                    dp[i] = True
-                    break
+                if curr.is_word and (j + 1) not in seen:
+                    seen.add(j + 1)
+                    queue.append(j + 1)
+        return False
 
-            # for word in wordDict:
-            #     end = i + len(word)
-            #     if end <= n and s[i:end] == word and dp[end]:
-            #         dp[i] = True
-            #         break
-        return dp[0]
+
+        
