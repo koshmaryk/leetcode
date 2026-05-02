@@ -9,18 +9,29 @@ l + e; e + e
 le + et
 l + eet
 
+s[i:i + len(word)] == word and dp[i + len(word)]
 
 
 """
 class Solution:
     def wordBreak(self, s: str, wordDict: List[str]) -> bool:
         n = len(s)
-        dp = [False] * (n + 1)
-        dp[n] = True
-        for i in range(n - 1, -1, -1):
+
+        memo = {}
+
+        def can_break(i):
+            if i == len(s):
+                return True
+
+            if i in memo:
+                return memo[i]
+
             for word in wordDict:
-                end = i + len(word)
-                if end <= n and s[i:end] == word and dp[end]:
-                    dp[i] = True
-                    break
-        return dp[0]
+                if s[i:i + len(word)] == word and can_break(i + len(word)):
+                    memo[i] = True
+                    return True
+
+            memo[i] = False
+            return False
+
+        return can_break(0)
