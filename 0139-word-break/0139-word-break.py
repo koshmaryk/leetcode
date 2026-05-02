@@ -25,7 +25,7 @@ class TrieNode:
 class Solution:
     def wordBreak(self, s: str, wordDict: List[str]) -> bool:
         n = len(s)
-        
+
         root = TrieNode()
         for word in wordDict:
             curr = root
@@ -34,16 +34,11 @@ class Solution:
                     curr.children[c] = TrieNode()
                 curr = curr.children[c]
             curr.is_word = True
+        
+        dp = [False] * (n + 1)
+        dp[n] = True
 
-        memo = {}
-
-        def can_break(i):
-            if i == len(s):
-                return True
-
-            if i in memo:
-                return memo[i]
-
+        for i in range(n - 1, -1, -1):
             curr = root
             for j in range(i, n):
                 c = s[j]
@@ -51,16 +46,13 @@ class Solution:
                 if not curr:
                     break
 
-                if curr.is_word and can_break(j + 1):
-                    memo[j] = True
-                    return True     
+                if curr.is_word and dp[j + 1]:
+                    dp[i] = True
+                    break
 
             # for word in wordDict:
-            #     if s[i:i + len(word)] == word and can_break(i + len(word)):
-            #         memo[i] = True
-            #         return True
-
-            memo[i] = False
-            return False
-
-        return can_break(0)
+            #     end = i + len(word)
+            #     if end <= n and s[i:end] == word and dp[end]:
+            #         dp[i] = True
+            #         break
+        return dp[0]
