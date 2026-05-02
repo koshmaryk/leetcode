@@ -20,18 +20,18 @@ class Solution:
         memo = {}
 
         def can_break(i):
-            if i == len(s):
+            if i < 0:
                 return True
 
             if i in memo:
                 return memo[i]
 
             for word in wordDict:
-                if s[i:i + len(word)] == word and can_break(i + len(word)):
+                if s[i - len(word) + 1:i + 1] == word and can_break(i - len(word)):
                     memo[i] = True
                     return True
 
             memo[i] = False
             return False
 
-        return can_break(0)
+        return can_break(len(s) - 1)
