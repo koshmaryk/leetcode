@@ -17,17 +17,38 @@ a/ba
 
 
 """
+class TrieNode:
+    def __init__(self):
+        self.children = {}
+        self.is_end = False
+
 class Solution:
     def removeSubfolders(self, folder: List[str]) -> List[str]:
         n = len(folder)
-        folder.sort()
 
-        output = [folder[0]]
-        for i in range(1, n):
-            last_folder = output[-1]
-            last_folder += "/"
+        root = TrieNode()
+        for f in folder:
+            curr = root
+            fnames = f.split("/")[1:]
+            for fname in fnames:
+                if fname not in curr.children:
+                    curr.children[fname] = TrieNode()
+                curr = curr.children[fname]
+            curr.is_end = True
 
-            if not folder[i].startswith(last_folder):
-                output.append(folder[i])
-           
+        output = []
+        for f in folder:
+            curr = root
+            fnames = f.split("/")[1:]
+
+            subfolder = False
+            for i, fname in enumerate(fnames):
+                curr = curr.children[fname]
+                if curr.is_end and i != len(fnames) - 1:
+                    subfolder = True
+                    break
+            
+            if not subfolder:
+                output.append(f)
+       
         return output
