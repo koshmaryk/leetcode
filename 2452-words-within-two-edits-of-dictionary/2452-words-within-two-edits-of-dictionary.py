@@ -43,12 +43,11 @@ class Solution:
             if next_node and dfs(query, i + 1, next_node, cnt):
                 return True
 
-            if cnt < 2:
-                for number in range(26):
-                    c = chr(ord('a') + number)
-                    next_node = node.children.get(c)
-                    if query[i] != c and next_node and dfs(query, i + 1, next_node, cnt + 1):
-                        return True
+            for number in range(26):
+                c = chr(ord('a') + number)
+                next_node = node.children.get(c)
+                if query[i] != c and next_node and dfs(query, i + 1, next_node, cnt + 1):
+                    return True
             return False
                 
         output = []
