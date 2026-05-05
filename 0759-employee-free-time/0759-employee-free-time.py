@@ -9,6 +9,7 @@ class Interval:
 1,3
 4,10
 
+
 """
 
 class Solution:
@@ -16,10 +17,10 @@ class Solution:
         events = []
         for s in schedule:
             for interval in s:
-                events.append((interval.start, -1))
-                events.append((interval.end, 1))
+                events.append((interval.start, 1))
+                events.append((interval.end, -1))
 
-        events.sort()
+        events.sort(key=lambda e: (e[0], -e[1]))
 
         output = []
 
