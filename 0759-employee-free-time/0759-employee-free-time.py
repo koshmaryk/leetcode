@@ -9,12 +9,6 @@ class Interval:
 1,3
 4,10
 
-
-
-
-
-
-
 """
 
 class Solution:
@@ -26,14 +20,15 @@ class Solution:
                 events.append((interval.end, 1))
 
         events.sort()
-        
+
         output = []
+
         prev = float('-inf')
         balance = 0
-        for timestamp, t in events:
+        for timestamp, event_type in events:
             if balance == 0 and prev != float('-inf'):
                 output.append(Interval(prev, timestamp))
 
-            balance += t
+            balance += event_type
             prev = timestamp
         return output
