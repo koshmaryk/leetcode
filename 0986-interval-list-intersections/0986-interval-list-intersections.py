@@ -26,7 +26,7 @@ class Solution:
             if start <= end:
                 output.append([start, end])
 
-            if l1[i][0] <= l2[j][0]:
+            if l1[i][1] <= l2[j][1]:
                 i += 1
             else:
                 j += 1
