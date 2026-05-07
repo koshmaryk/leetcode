@@ -3,7 +3,7 @@
 [2,2,-1,2,2,2]
 
 """
-from collections import defaultdict
+from collections import defaultdict, deque
 
 class Solution:
     def numOfMinutes(self, n: int, headID: int, manager: List[int], informTime: List[int]) -> int:
@@ -12,10 +12,13 @@ class Solution:
             if mgr != -1:
                 subs[mgr].append(employee)
 
-        def dfs(employee):
-            max_time = 0
-            for sub in subs[employee]:
-                max_time = max(max_time, dfs(sub))
-            return informTime[employee] + max_time
+        ans = 0
+        queue = deque([(headID, 0)])
+        while queue:
+            employee, t = queue.popleft()
+            t += informTime[employee]
+            ans = max(ans, t)
 
-        return dfs(headID)
+            for sub in subs[employee]:
+                queue.append((sub, t))
+        return ans
