@@ -5,26 +5,30 @@
 
 [[1,2],[5,5],[8,10],[15,23],[24,24],[25,25]]
 
-max(start1, start2)
-min(end1, end2)
+[[0,2],[5,10]]
+[[4,5],[8,12]]
 
-Keep max(end1, end2)?
+l1 i
+l2 j
+max(start)
+min(end)
+
 
 
 """
 class Solution:
-    def intervalIntersection(self, firstList: List[List[int]], secondList: List[List[int]]) -> List[List[int]]:
+    def intervalIntersection(self, l1: List[List[int]], l2: List[List[int]]) -> List[List[int]]:
         i, j = 0, 0
-        ans = []
-        while i < len(firstList) and j < len(secondList):
-            start = max(firstList[i][0], secondList[j][0])
-            end = min(firstList[i][1], secondList[j][1])
+        output = []
+        while i < len(l1) and j < len(l2):
+            start = max(l1[i][0], l2[j][0])
+            end = min(l1[i][1], l2[j][1])
             if start <= end:
-                ans.append([start, end])
+                output.append([start, end])
 
-            if firstList[i][1] < secondList[j][1]:
+            if l1[i][0] <= l2[j][0]:
                 i += 1
             else:
                 j += 1
-        return ans
+        return output
         
