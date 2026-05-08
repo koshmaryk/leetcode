@@ -519,6 +519,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/koshmaryk/leetcode/tree/master/0547-number-of-provinces) |
 | [0572-subtree-of-another-tree](https://github.com/koshmaryk/leetcode/tree/master/0572-subtree-of-another-tree) |
 | [0589-n-ary-tree-preorder-traversal](https://github.com/koshmaryk/leetcode/tree/master/0589-n-ary-tree-preorder-traversal) |
+| [0590-n-ary-tree-postorder-traversal](https://github.com/koshmaryk/leetcode/tree/master/0590-n-ary-tree-postorder-traversal) |
 | [0662-maximum-width-of-binary-tree](https://github.com/koshmaryk/leetcode/tree/master/0662-maximum-width-of-binary-tree) |
 | [0684-redundant-connection](https://github.com/koshmaryk/leetcode/tree/master/0684-redundant-connection) |
 | [0685-redundant-connection-ii](https://github.com/koshmaryk/leetcode/tree/master/0685-redundant-connection-ii) |
@@ -772,6 +773,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0426-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/koshmaryk/leetcode/tree/master/0426-convert-binary-search-tree-to-sorted-doubly-linked-list) |
 | [0456-132-pattern](https://github.com/koshmaryk/leetcode/tree/master/0456-132-pattern) |
 | [0589-n-ary-tree-preorder-traversal](https://github.com/koshmaryk/leetcode/tree/master/0589-n-ary-tree-preorder-traversal) |
+| [0590-n-ary-tree-postorder-traversal](https://github.com/koshmaryk/leetcode/tree/master/0590-n-ary-tree-postorder-traversal) |
 | [0636-exclusive-time-of-functions](https://github.com/koshmaryk/leetcode/tree/master/0636-exclusive-time-of-functions) |
 | [0682-baseball-game](https://github.com/koshmaryk/leetcode/tree/master/0682-baseball-game) |
 | [0735-asteroid-collision](https://github.com/koshmaryk/leetcode/tree/master/0735-asteroid-collision) |
@@ -989,6 +991,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0545-boundary-of-binary-tree](https://github.com/koshmaryk/leetcode/tree/master/0545-boundary-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/koshmaryk/leetcode/tree/master/0572-subtree-of-another-tree) |
 | [0589-n-ary-tree-preorder-traversal](https://github.com/koshmaryk/leetcode/tree/master/0589-n-ary-tree-preorder-traversal) |
+| [0590-n-ary-tree-postorder-traversal](https://github.com/koshmaryk/leetcode/tree/master/0590-n-ary-tree-postorder-traversal) |
 | [0662-maximum-width-of-binary-tree](https://github.com/koshmaryk/leetcode/tree/master/0662-maximum-width-of-binary-tree) |
 | [0772-construct-quad-tree](https://github.com/koshmaryk/leetcode/tree/master/0772-construct-quad-tree) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/koshmaryk/leetcode/tree/master/0784-insert-into-a-binary-search-tree) |
