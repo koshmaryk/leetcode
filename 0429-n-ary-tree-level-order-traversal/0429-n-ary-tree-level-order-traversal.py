@@ -13,14 +13,13 @@ class Solution:
         if not root:
             return values
 
-        queue = deque([root])
-        while queue:
-            level = []
-            for _ in range(len(queue)):
-                node = queue.popleft()
-                level.append(node.val)
+        def dfs(node, level):
+            if len(values) == level:
+                values.append([])
 
-                for child in node.children:
-                    queue.append(child)
-            values.append(level)
+            values[level].append(node.val)
+            for child in node.children:
+                dfs(child, level + 1)
+
+        dfs(root, 0)
         return values
