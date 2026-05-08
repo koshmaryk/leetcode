@@ -9,14 +9,14 @@ class Node:
 class Solution:
     def preorder(self, root: 'Node') -> List[int]:
         values = []
-        if not root:
-            return values
-            
-        stack = [root]
-        while stack:
-            node = stack.pop()
-            if node:
-                values.append(node.val)
-                for child in node.children[::-1]:
-                    stack.append(child)
+        
+        def dfs(node):
+            if not node:
+                return
+
+            values.append(node.val)
+            for child in node.children:
+                dfs(child)
+
+        dfs(root)
         return values
