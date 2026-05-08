@@ -9,17 +9,15 @@ class Node:
 class Solution:
     def postorder(self, root: 'Node') -> List[int]:
         values = []
-        if not root:
-            return values
 
-        stack = [(root, False)]
-        while stack:
-            node, visited = stack.pop()
-            if node:
-                if visited:
-                    values.append(node.val)
-                else:
-                    stack.append((node, True))
-                    for child in node.children[::-1]:
-                        stack.append((child, False))
+        def dfs(node):
+            if not node:
+                return
+
+            for child in node.children:
+                dfs(child)
+
+            values.append(node.val)
+
+        dfs(root)
         return values
