@@ -571,6 +571,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0339-nested-list-weight-sum](https://github.com/koshmaryk/leetcode/tree/master/0339-nested-list-weight-sum) |
 | [0364-nested-list-weight-sum-ii](https://github.com/koshmaryk/leetcode/tree/master/0364-nested-list-weight-sum-ii) |
 | [0417-pacific-atlantic-water-flow](https://github.com/koshmaryk/leetcode/tree/master/0417-pacific-atlantic-water-flow) |
+| [0429-n-ary-tree-level-order-traversal](https://github.com/koshmaryk/leetcode/tree/master/0429-n-ary-tree-level-order-traversal) |
 | [0463-island-perimeter](https://github.com/koshmaryk/leetcode/tree/master/0463-island-perimeter) |
 | [0547-number-of-provinces](https://github.com/koshmaryk/leetcode/tree/master/0547-number-of-provinces) |
 | [0662-maximum-width-of-binary-tree](https://github.com/koshmaryk/leetcode/tree/master/0662-maximum-width-of-binary-tree) |
@@ -986,6 +987,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0337-house-robber-iii](https://github.com/koshmaryk/leetcode/tree/master/0337-house-robber-iii) |
 | [0341-flatten-nested-list-iterator](https://github.com/koshmaryk/leetcode/tree/master/0341-flatten-nested-list-iterator) |
 | [0426-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/koshmaryk/leetcode/tree/master/0426-convert-binary-search-tree-to-sorted-doubly-linked-list) |
+| [0429-n-ary-tree-level-order-traversal](https://github.com/koshmaryk/leetcode/tree/master/0429-n-ary-tree-level-order-traversal) |
 | [0450-delete-node-in-a-bst](https://github.com/koshmaryk/leetcode/tree/master/0450-delete-node-in-a-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/koshmaryk/leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0545-boundary-of-binary-tree](https://github.com/koshmaryk/leetcode/tree/master/0545-boundary-of-binary-tree) |
