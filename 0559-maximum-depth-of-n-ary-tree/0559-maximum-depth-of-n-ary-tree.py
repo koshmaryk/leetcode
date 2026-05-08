@@ -5,13 +5,17 @@ class Node:
         self.val = val
         self.children = children
 """
-
 class Solution:
     def maxDepth(self, root: 'Node') -> int:
         if not root:
             return 0
-        elif not root.children:
-            return 1
-        else:
-            return 1 + max([self.maxDepth(child) for child in root.children])
-    
+
+        depth = 0
+        stack = [(root, 1)]
+        while stack:
+            node, curr_depth = stack.pop()
+            if node:
+                depth = max(depth, curr_depth)
+                for child in node.children:
+                    stack.append((child, curr_depth + 1))
+        return depth
