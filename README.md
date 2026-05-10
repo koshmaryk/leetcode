@@ -98,6 +98,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1653-minimum-deletions-to-make-string-balanced](https://github.com/koshmaryk/leetcode/tree/master/1653-minimum-deletions-to-make-string-balanced) |
 | [1777-determine-if-two-strings-are-close](https://github.com/koshmaryk/leetcode/tree/master/1777-determine-if-two-strings-are-close) |
 | [1894-merge-strings-alternately](https://github.com/koshmaryk/leetcode/tree/master/1894-merge-strings-alternately) |
+| [2135-count-words-obtained-after-adding-a-letter](https://github.com/koshmaryk/leetcode/tree/master/2135-count-words-obtained-after-adding-a-letter) |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/koshmaryk/leetcode/tree/master/2452-words-within-two-edits-of-dictionary) |
 | [2788-split-strings-by-separator](https://github.com/koshmaryk/leetcode/tree/master/2788-split-strings-by-separator) |
 | [3617-find-the-original-typed-string-i](https://github.com/koshmaryk/leetcode/tree/master/3617-find-the-original-typed-string-i) |
@@ -286,6 +287,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2040-minimum-cost-to-reach-destination-in-time](https://github.com/koshmaryk/leetcode/tree/master/2040-minimum-cost-to-reach-destination-in-time) |
 | [2058-concatenation-of-array](https://github.com/koshmaryk/leetcode/tree/master/2058-concatenation-of-array) |
 | [2126-destroying-asteroids](https://github.com/koshmaryk/leetcode/tree/master/2126-destroying-asteroids) |
+| [2135-count-words-obtained-after-adding-a-letter](https://github.com/koshmaryk/leetcode/tree/master/2135-count-words-obtained-after-adding-a-letter) |
 | [2169-simple-bank-system](https://github.com/koshmaryk/leetcode/tree/master/2169-simple-bank-system) |
 | [2188-minimized-maximum-of-products-distributed-to-any-store](https://github.com/koshmaryk/leetcode/tree/master/2188-minimized-maximum-of-products-distributed-to-any-store) |
 | [2270-number-of-ways-to-split-array](https://github.com/koshmaryk/leetcode/tree/master/2270-number-of-ways-to-split-array) |
@@ -343,6 +345,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1675-magnetic-force-between-two-balls](https://github.com/koshmaryk/leetcode/tree/master/1675-magnetic-force-between-two-balls) |
 | [1777-determine-if-two-strings-are-close](https://github.com/koshmaryk/leetcode/tree/master/1777-determine-if-two-strings-are-close) |
 | [2126-destroying-asteroids](https://github.com/koshmaryk/leetcode/tree/master/2126-destroying-asteroids) |
+| [2135-count-words-obtained-after-adding-a-letter](https://github.com/koshmaryk/leetcode/tree/master/2135-count-words-obtained-after-adding-a-letter) |
 | [2611-mice-and-cheese](https://github.com/koshmaryk/leetcode/tree/master/2611-mice-and-cheese) |
 ## Hash Table
 |  |
@@ -396,6 +399,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/koshmaryk/leetcode/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [1777-determine-if-two-strings-are-close](https://github.com/koshmaryk/leetcode/tree/master/1777-determine-if-two-strings-are-close) |
 | [2025-maximum-number-of-ways-to-partition-an-array](https://github.com/koshmaryk/leetcode/tree/master/2025-maximum-number-of-ways-to-partition-an-array) |
+| [2135-count-words-obtained-after-adding-a-letter](https://github.com/koshmaryk/leetcode/tree/master/2135-count-words-obtained-after-adding-a-letter) |
 | [2169-simple-bank-system](https://github.com/koshmaryk/leetcode/tree/master/2169-simple-bank-system) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/koshmaryk/leetcode/tree/master/3242-count-elements-with-maximum-frequency) |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/koshmaryk/leetcode/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
@@ -1128,6 +1132,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0318-maximum-product-of-word-lengths](https://github.com/koshmaryk/leetcode/tree/master/0318-maximum-product-of-word-lengths) |
 | [0847-shortest-path-visiting-all-nodes](https://github.com/koshmaryk/leetcode/tree/master/0847-shortest-path-visiting-all-nodes) |
 | [1239-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/koshmaryk/leetcode/tree/master/1239-maximum-length-of-a-concatenated-string-with-unique-characters) |
+| [2135-count-words-obtained-after-adding-a-letter](https://github.com/koshmaryk/leetcode/tree/master/2135-count-words-obtained-after-adding-a-letter) |
 | [3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/koshmaryk/leetcode/tree/master/3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/koshmaryk/leetcode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 ## Merge Sort
