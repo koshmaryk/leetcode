@@ -115,6 +115,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0134-gas-station](https://github.com/koshmaryk/leetcode/tree/master/0134-gas-station) |
 | [0253-meeting-rooms-ii](https://github.com/koshmaryk/leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0316-remove-duplicate-letters](https://github.com/koshmaryk/leetcode/tree/master/0316-remove-duplicate-letters) |
+| [0334-increasing-triplet-subsequence](https://github.com/koshmaryk/leetcode/tree/master/0334-increasing-triplet-subsequence) |
 | [0435-non-overlapping-intervals](https://github.com/koshmaryk/leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0621-task-scheduler](https://github.com/koshmaryk/leetcode/tree/master/0621-task-scheduler) |
 | [0670-maximum-swap](https://github.com/koshmaryk/leetcode/tree/master/0670-maximum-swap) |
@@ -202,6 +203,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0318-maximum-product-of-word-lengths](https://github.com/koshmaryk/leetcode/tree/master/0318-maximum-product-of-word-lengths) |
 | [0322-coin-change](https://github.com/koshmaryk/leetcode/tree/master/0322-coin-change) |
 | [0325-maximum-size-subarray-sum-equals-k](https://github.com/koshmaryk/leetcode/tree/master/0325-maximum-size-subarray-sum-equals-k) |
+| [0334-increasing-triplet-subsequence](https://github.com/koshmaryk/leetcode/tree/master/0334-increasing-triplet-subsequence) |
 | [0346-moving-average-from-data-stream](https://github.com/koshmaryk/leetcode/tree/master/0346-moving-average-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/koshmaryk/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0348-design-tic-tac-toe](https://github.com/koshmaryk/leetcode/tree/master/0348-design-tic-tac-toe) |
