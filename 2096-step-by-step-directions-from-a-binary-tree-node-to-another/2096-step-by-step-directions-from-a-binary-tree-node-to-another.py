@@ -20,6 +20,16 @@ RL
 """
 class Solution:
     def getDirections(self, root: Optional[TreeNode], startValue: int, destValue: int) -> str:
+        def lca(node, startValue, destValue):
+            if not node or node.val in [startValue, destValue]:
+                return node
+
+            left = lca(node.left, startValue, destValue)
+            right = lca(node.right, startValue, destValue)
+
+            return node if left and right else left or right
+
+
         def find_path(node, value, path):
             if not node:
                 return False
@@ -32,12 +42,10 @@ class Solution:
                 path.pop()
             return False
 
+        ancestor = lca(root, startValue, destValue)
+
         s_path, d_path = [], []
-        find_path(root, startValue, s_path)
-        find_path(root, destValue, d_path)
+        find_path(ancestor, startValue, s_path)
+        find_path(ancestor, destValue, d_path)
 
-        i = 0
-        while i < len(s_path) and i < len(d_path) and s_path[i] == d_path[i]:
-            i += 1
-
-        return "U" * (len(s_path) - i) + "".join(d_path[i:])
+        return "U" * len(s_path) + "".join(d_path)
