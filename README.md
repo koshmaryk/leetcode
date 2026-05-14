@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/koshmaryk/leetcode/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/koshmaryk/leetcode/tree/master/0202-happy-number) |
 | [0253-meeting-rooms-ii](https://github.com/koshmaryk/leetcode/tree/master/0253-meeting-rooms-ii) |
+| [0259-3sum-smaller](https://github.com/koshmaryk/leetcode/tree/master/0259-3sum-smaller) |
 | [0283-move-zeroes](https://github.com/koshmaryk/leetcode/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/koshmaryk/leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0295-find-median-from-data-stream](https://github.com/koshmaryk/leetcode/tree/master/0295-find-median-from-data-stream) |
@@ -191,6 +192,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0249-group-shifted-strings](https://github.com/koshmaryk/leetcode/tree/master/0249-group-shifted-strings) |
 | [0252-meeting-rooms](https://github.com/koshmaryk/leetcode/tree/master/0252-meeting-rooms) |
 | [0253-meeting-rooms-ii](https://github.com/koshmaryk/leetcode/tree/master/0253-meeting-rooms-ii) |
+| [0259-3sum-smaller](https://github.com/koshmaryk/leetcode/tree/master/0259-3sum-smaller) |
 | [0274-h-index](https://github.com/koshmaryk/leetcode/tree/master/0274-h-index) |
 | [0275-h-index-ii](https://github.com/koshmaryk/leetcode/tree/master/0275-h-index-ii) |
 | [0283-move-zeroes](https://github.com/koshmaryk/leetcode/tree/master/0283-move-zeroes) |
@@ -324,6 +326,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/koshmaryk/leetcode/tree/master/0242-valid-anagram) |
 | [0252-meeting-rooms](https://github.com/koshmaryk/leetcode/tree/master/0252-meeting-rooms) |
 | [0253-meeting-rooms-ii](https://github.com/koshmaryk/leetcode/tree/master/0253-meeting-rooms-ii) |
+| [0259-3sum-smaller](https://github.com/koshmaryk/leetcode/tree/master/0259-3sum-smaller) |
 | [0274-h-index](https://github.com/koshmaryk/leetcode/tree/master/0274-h-index) |
 | [0295-find-median-from-data-stream](https://github.com/koshmaryk/leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/koshmaryk/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
@@ -423,6 +426,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0162-find-peak-element](https://github.com/koshmaryk/leetcode/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/koshmaryk/leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/koshmaryk/leetcode/tree/master/0209-minimum-size-subarray-sum) |
+| [0259-3sum-smaller](https://github.com/koshmaryk/leetcode/tree/master/0259-3sum-smaller) |
 | [0270-closest-binary-search-tree-value](https://github.com/koshmaryk/leetcode/tree/master/0270-closest-binary-search-tree-value) |
 | [0275-h-index-ii](https://github.com/koshmaryk/leetcode/tree/master/0275-h-index-ii) |
 | [0287-find-the-duplicate-number](https://github.com/koshmaryk/leetcode/tree/master/0287-find-the-duplicate-number) |
