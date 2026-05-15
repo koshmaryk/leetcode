@@ -37,7 +37,7 @@ class Solution:
 
         for _ in range(p_depth - q_depth):
             p = p.parent
-        
+
         for _ in range(q_depth - p_depth):
             q = q.parent
 
