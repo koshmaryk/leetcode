@@ -1,5 +1,5 @@
 class Node:
-    def __init__(self,):
+    def __init__(self):
         self.children = {}
         self.is_end = False
 
@@ -33,7 +33,6 @@ class Trie:
                 return None
             curr = curr.children[c]
         return curr
-
         
 
 
