@@ -21,7 +21,7 @@ RL
 class Solution:
     def getDirections(self, root: Optional[TreeNode], startValue: int, destValue: int) -> str:
         def lca(node, startValue, destValue):
-            if not node or node.val in [startValue, destValue]:
+            if not node or node.val == startValue or node.val == destValue:
                 return node
 
             left = lca(node.left, startValue, destValue)
