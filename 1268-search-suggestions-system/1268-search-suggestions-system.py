@@ -4,8 +4,10 @@ class TrieNode:
         self.is_word = False
 
 class Solution:
+    # m - products length, n - searchWord length, L - longest product length
     def suggestedProducts(self, products: List[str], searchWord: str) -> List[List[str]]:
         root = TrieNode()
+        # m * L
         for product in products:
             curr = root
             for c in product:
@@ -19,13 +21,16 @@ class Solution:
             if len(suggestions) == 3:
                 return
             if node.is_word:
-                suggestions.append(prefix)
+                suggestions.append("".join(prefix))
             for c in sorted(node.children):
-                dfs(node.children[c], prefix + c, suggestions)
+                prefix.append(c)
+                dfs(node.children[c], prefix, suggestions)
+                prefix.pop()
 
         
         output = []
 
+        # n * L
         curr = root
         for i, c in enumerate(searchWord):
             if curr:
@@ -33,7 +38,7 @@ class Solution:
 
             suggestions = []
             if curr:
-                dfs(curr, searchWord[:i+1], suggestions)
+                dfs(curr, list(searchWord[:i+1]), suggestions)
 
             output.append(suggestions)
         return output
