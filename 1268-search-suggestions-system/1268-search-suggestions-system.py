@@ -5,8 +5,6 @@ class TrieNode:
 
 class Solution:
     def suggestedProducts(self, products: List[str], searchWord: str) -> List[List[str]]:
-        products.sort()
-
         root = TrieNode()
         for product in products:
             curr = root
