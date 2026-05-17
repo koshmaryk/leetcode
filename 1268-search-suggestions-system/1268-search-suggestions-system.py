@@ -40,7 +40,7 @@ class Solution:
 
             suggestions = []
             if curr:
-                dfs(curr, prefix[:], suggestions)
+                dfs(curr, prefix, suggestions)
 
             output.append(suggestions)
         return output
