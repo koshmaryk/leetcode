@@ -32,13 +32,15 @@ class Solution:
 
         # n * L
         curr = root
+        prefix = []
         for i, c in enumerate(searchWord):
+            prefix.append(c)
             if curr:
                 curr = curr.children.get(c)
 
             suggestions = []
             if curr:
-                dfs(curr, list(searchWord[:i+1]), suggestions)
+                dfs(curr, prefix[:], suggestions)
 
             output.append(suggestions)
         return output
