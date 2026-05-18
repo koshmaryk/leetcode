@@ -20,6 +20,8 @@ class Solution:
         pq = []
         for s,e in intervals:
             if pq and pq[0] <= s:
-                heapq.heappop(pq)
-            heapq.heappush(pq, e)
+                heapq.heapreplace(pq, e)
+            else:
+                heapq.heappush(pq, e)
         return len(pq)
+        
