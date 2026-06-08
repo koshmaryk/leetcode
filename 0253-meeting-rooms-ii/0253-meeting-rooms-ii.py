@@ -15,13 +15,16 @@ import heapq
 
 class Solution:
     def minMeetingRooms(self, intervals: List[List[int]]) -> int:
-        intervals.sort()
-
-        pq = []
+        events = []
         for s,e in intervals:
-            if pq and pq[0] <= s:
-                heapq.heapreplace(pq, e)
-            else:
-                heapq.heappush(pq, e)
-        return len(pq)
+            events.append((s, 1))
+            events.append((e, -1))
+
+        events.sort()
+
+        ans = curr = 0
+        for _,weight in events:
+            curr += weight
+            ans = max(ans, curr)
+        return ans
         
