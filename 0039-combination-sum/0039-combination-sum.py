@@ -7,13 +7,13 @@ class Solution:
         n = len(candidates)
         output = []
 
-        def gen(remainder, start, prefix):
-            if remainder > 0:
+        def gen(curr_sum, start, prefix):
+            if curr_sum > 0:
                 for i in range(start, n):
                     prefix.append(candidates[i])
-                    gen(remainder - candidates[i], i, prefix)
+                    gen(curr_sum - candidates[i], i, prefix)
                     prefix.pop()
-            elif remainder < 0:
+            elif curr_sum < 0:
                 return
             else:
                 output.append(prefix[:])
