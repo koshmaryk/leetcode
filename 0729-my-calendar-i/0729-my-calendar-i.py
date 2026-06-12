@@ -1,23 +1,24 @@
 import heapq
 
 '''
-[[10,20], [30,40], [40,50]]
+[[10,20], [30,40], [45,50]]
 
-[55,65]
+[40,45]
 
 '''
+from sortedcontainers import SortedList
+
 class MyCalendar:
 
     def __init__(self):
-        self.calendar = []
+        self.calendar = SortedList()
         
 
     def book(self, startTime: int, endTime: int) -> bool:
-        for s,e in self.calendar:
-            # e1 <= s2 or e2 <= s1
-            if e > startTime and endTime > s:
-                return False
-        self.calendar.append((startTime, endTime))
+        idx = self.calendar.bisect_right((startTime, endTime))
+        if (idx > 0 and self.calendar[idx - 1][1] > startTime) or (idx < len(self.calendar) and self.calendar[idx][0] < endTime):
+            return False
+        self.calendar.add((startTime, endTime))
         return True
 
 
