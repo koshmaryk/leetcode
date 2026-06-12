@@ -1,13 +1,9 @@
 import heapq
 
 '''
-    [[10, 20], [20, 30], [40, 50]]
+[[10,20], [30,40], [40,50]]
 
-    [10, 20] and [60, 75]
-    [s1, e1] and [s2, e2]
-
-    e1 <= s2 or e2 <= s1
-    e1 > s2 and e2 > s1
+[55,65]
 
 '''
 class MyCalendar:
@@ -18,12 +14,11 @@ class MyCalendar:
 
     def book(self, startTime: int, endTime: int) -> bool:
         for s,e in self.calendar:
-            if s < endTime and e > startTime:
+            # e1 <= s2 or e2 <= s1
+            if e > startTime and endTime > s:
                 return False
         self.calendar.append((startTime, endTime))
         return True
-
-
 
 
 
