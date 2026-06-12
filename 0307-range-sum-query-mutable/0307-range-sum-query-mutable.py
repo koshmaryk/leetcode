@@ -1,42 +1,40 @@
-"""
-[1,3,5,7] = 4
+import math
 
-16,4,12,|1,3,5,7
-
-"""
 class NumArray:
 
     def __init__(self, nums: List[int]):
-        self.n = len(nums)
-        self.tree = [0] * (2 * self.n)
-        for i in range(self.n):
-            self.tree[self.n + i] = nums[i]
-        for i in range(self.n - 1, 0 , -1):
-            self.tree[i] = self.tree[2 * i] + self.tree[2 * i + 1]
+        n = len(nums)
+
+        self.nums = nums
         
+        self.size = math.ceil(math.sqrt(n))
+        self.blocks = [0] * self.size
+        for i in range(n):
+            self.blocks[i // self.size] += nums[i]
 
     def update(self, index: int, val: int) -> None:
-        i = self.n + index
-        self.tree[i] = val
-        while i > 1:
-            i >>= 1
-            self.tree[i] = self.tree[2 * i] + self.tree[2 * i + 1]
+        self.blocks[index // self.size] -= self.nums[index]
+        self.blocks[index // self.size] += val 
+        self.nums[index] = val
         
 
     def sumRange(self, left: int, right: int) -> int:
-        lo, hi = self.n + left, self.n + right + 1 # [lo, hi)
         s = 0
-        while lo < hi:
-            if lo & 1:
-                s += self.tree[lo]
-                lo += 1
-
-            if hi & 1:
-                hi -= 1
-                s += self.tree[hi]
-
-            lo >>= 1
-            hi >>= 1
+        start_block = left // self.size
+        end_block = right // self.size
+        if start_block == end_block:
+            for i in range(left, right + 1):
+                s += self.nums[i]
+        else:
+            # partial left block
+            for i in range(left, (start_block + 1) * self.size):
+                s += self.nums[i]
+            # full middle blocks
+            for i in range(start_block + 1, end_block):
+                s += self.blocks[i]
+            # partial right block
+            for i in range(end_block * self.size, right + 1):
+                s += self.nums[i]
         return s
         
 
