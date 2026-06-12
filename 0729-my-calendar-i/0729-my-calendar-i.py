@@ -17,11 +17,13 @@ class MyCalendar:
         
 
     def book(self, startTime: int, endTime: int) -> bool:
-        for start,end in self.calendar:
-            if endTime > start and startTime < end:
+        for s,e in self.calendar:
+            if s < endTime and e > startTime:
                 return False
         self.calendar.append((startTime, endTime))
         return True
+
+
 
 
 
