@@ -539,6 +539,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0417-pacific-atlantic-water-flow](https://github.com/koshmaryk/leetcode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0419-battleships-in-a-board](https://github.com/koshmaryk/leetcode/tree/master/0419-battleships-in-a-board) |
 | [0426-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/koshmaryk/leetcode/tree/master/0426-convert-binary-search-tree-to-sorted-doubly-linked-list) |
+| [0430-flatten-a-multilevel-doubly-linked-list](https://github.com/koshmaryk/leetcode/tree/master/0430-flatten-a-multilevel-doubly-linked-list) |
 | [0463-island-perimeter](https://github.com/koshmaryk/leetcode/tree/master/0463-island-perimeter) |
 | [0543-diameter-of-binary-tree](https://github.com/koshmaryk/leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0545-boundary-of-binary-tree](https://github.com/koshmaryk/leetcode/tree/master/0545-boundary-of-binary-tree) |
@@ -1132,6 +1133,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0328-odd-even-linked-list](https://github.com/koshmaryk/leetcode/tree/master/0328-odd-even-linked-list) |
 | [0355-design-twitter](https://github.com/koshmaryk/leetcode/tree/master/0355-design-twitter) |
 | [0426-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/koshmaryk/leetcode/tree/master/0426-convert-binary-search-tree-to-sorted-doubly-linked-list) |
+| [0430-flatten-a-multilevel-doubly-linked-list](https://github.com/koshmaryk/leetcode/tree/master/0430-flatten-a-multilevel-doubly-linked-list) |
 | [0850-insert-into-a-sorted-circular-linked-list](https://github.com/koshmaryk/leetcode/tree/master/0850-insert-into-a-sorted-circular-linked-list) |
 | [0860-design-circular-queue](https://github.com/koshmaryk/leetcode/tree/master/0860-design-circular-queue) |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/koshmaryk/leetcode/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
@@ -1268,6 +1270,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0146-lru-cache](https://github.com/koshmaryk/leetcode/tree/master/0146-lru-cache) |
 | [0426-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/koshmaryk/leetcode/tree/master/0426-convert-binary-search-tree-to-sorted-doubly-linked-list) |
+| [0430-flatten-a-multilevel-doubly-linked-list](https://github.com/koshmaryk/leetcode/tree/master/0430-flatten-a-multilevel-doubly-linked-list) |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/koshmaryk/leetcode/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 ## Iterator
 |  |
