@@ -1,9 +1,13 @@
-import heapq
-
 '''
-[[10,20], [30,40], [45,50]]
+[[10,20], [30,40], [41,46], [45,50]]
 
-[40,45]
+
+s1,e1
+s2,e2
+
+e1 <= s2 or e2 <= s1
+
+e1 > s2 and e2 > s1
 
 '''
 from sortedcontainers import SortedList
