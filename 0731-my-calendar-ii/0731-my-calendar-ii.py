@@ -11,20 +11,20 @@ s1 < e2 and s2 < e1
 class MyCalendarTwo:
 
     def __init__(self):
-        self.single = []
-        self.double = []
+        self.intervals = []
+        self.overlaps = []
         
 
     def book(self, startTime: int, endTime: int) -> bool:
-        for s,e in self.double:
+        for s,e in self.overlaps:
             if startTime < e and s < endTime:
                 return False
 
-        for s,e in self.single:
+        for s,e in self.intervals:
             if startTime < e and s < endTime:
-                self.double.append((max(startTime, s), min(endTime, e)))
+                self.overlaps.append((max(startTime, s), min(endTime, e)))
 
-        self.single.append((startTime, endTime))
+        self.intervals.append((startTime, endTime))
         return True
         
 
