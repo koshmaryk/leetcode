@@ -31,7 +31,13 @@ class MyCalendarTwo:
             overlaps += count
             if overlaps > self.max_overlaps:
                 self.diff[startTime] -= 1
+                if self.diff[startTime] == 0:
+                    del self.diff[startTime]
+
                 self.diff[endTime] += 1
+                if self.diff[endTime] == 0:
+                    del self.diff[endTime]
+
                 return False
         
         return True
