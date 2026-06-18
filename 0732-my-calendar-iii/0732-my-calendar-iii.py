@@ -49,7 +49,7 @@ class MyCalendarThree:
             return
 
         # case 1: completely inside
-        if startTime <= left <= right <= endTime:
+        if startTime <= left and right <= endTime:
             self.vals[idx] += 1
             self.lazy[idx] += 1 # differ children update
         else: # case 3: partially inside
