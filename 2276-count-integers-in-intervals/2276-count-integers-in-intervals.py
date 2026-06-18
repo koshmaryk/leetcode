@@ -7,13 +7,13 @@ class CountIntervals:
         self.lazy = Counter()
 
     def update(self, left, right, start=0, end=10**9, idx=1):
-        if left > end or right < start:
-            return
-
         if self.lazy[idx]:
             return
 
-        if left <= start and end <= right:
+        if left > end or right < start:
+            return
+
+        if left <= start and right >= end:
             self.vals[idx] = end - start + 1
             self.lazy[idx] = True
         else:
