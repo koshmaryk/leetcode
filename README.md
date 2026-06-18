@@ -932,6 +932,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/koshmaryk/leetcode/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [1955-seat-reservation-manager](https://github.com/koshmaryk/leetcode/tree/master/1955-seat-reservation-manager) |
 | [2169-simple-bank-system](https://github.com/koshmaryk/leetcode/tree/master/2169-simple-bank-system) |
+| [2276-count-integers-in-intervals](https://github.com/koshmaryk/leetcode/tree/master/2276-count-integers-in-intervals) |
 ## Simulation
 |  |
 | ------- |
@@ -1216,6 +1217,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0729-my-calendar-i](https://github.com/koshmaryk/leetcode/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/koshmaryk/leetcode/tree/master/0731-my-calendar-ii) |
 | [0732-my-calendar-iii](https://github.com/koshmaryk/leetcode/tree/master/0732-my-calendar-iii) |
+| [2276-count-integers-in-intervals](https://github.com/koshmaryk/leetcode/tree/master/2276-count-integers-in-intervals) |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/koshmaryk/leetcode/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 | [3863-power-grid-maintenance](https://github.com/koshmaryk/leetcode/tree/master/3863-power-grid-maintenance) |
 ## Memoization
@@ -1265,6 +1267,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0729-my-calendar-i](https://github.com/koshmaryk/leetcode/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/koshmaryk/leetcode/tree/master/0731-my-calendar-ii) |
 | [0732-my-calendar-iii](https://github.com/koshmaryk/leetcode/tree/master/0732-my-calendar-iii) |
+| [2276-count-integers-in-intervals](https://github.com/koshmaryk/leetcode/tree/master/2276-count-integers-in-intervals) |
 ## Graph Theory
 |  |
 | ------- |
