@@ -5,14 +5,17 @@ class Solution:
         n = len(graph)
         colors = [0] * n
 
-        def bipartite(u, color):
-            if colors[u] != 0:
-                return colors[u] == color
-
-            colors[u] = color
-            for v in graph[u]:
-                if not bipartite(v, -color):
-                    return False
+        def bipartite(node, color):
+            queue = deque([node])
+            colors[node] = color
+            while queue:
+                u = queue.popleft()
+                for v in graph[u]:
+                    if colors[v] == 0:
+                        colors[v] = -colors[u]
+                        queue.append(v)
+                    elif colors[v] == colors[u]:
+                        return False
             return True
 
 
