@@ -557,6 +557,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0695-max-area-of-island](https://github.com/koshmaryk/leetcode/tree/master/0695-max-area-of-island) |
 | [0721-accounts-merge](https://github.com/koshmaryk/leetcode/tree/master/0721-accounts-merge) |
 | [0744-network-delay-time](https://github.com/koshmaryk/leetcode/tree/master/0744-network-delay-time) |
+| [0785-is-graph-bipartite](https://github.com/koshmaryk/leetcode/tree/master/0785-is-graph-bipartite) |
 | [0801-is-graph-bipartite](https://github.com/koshmaryk/leetcode/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/koshmaryk/leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0854-making-a-large-island](https://github.com/koshmaryk/leetcode/tree/master/0854-making-a-large-island) |
@@ -614,6 +615,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0695-max-area-of-island](https://github.com/koshmaryk/leetcode/tree/master/0695-max-area-of-island) |
 | [0721-accounts-merge](https://github.com/koshmaryk/leetcode/tree/master/0721-accounts-merge) |
 | [0744-network-delay-time](https://github.com/koshmaryk/leetcode/tree/master/0744-network-delay-time) |
+| [0785-is-graph-bipartite](https://github.com/koshmaryk/leetcode/tree/master/0785-is-graph-bipartite) |
 | [0801-is-graph-bipartite](https://github.com/koshmaryk/leetcode/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/koshmaryk/leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0847-shortest-path-visiting-all-nodes](https://github.com/koshmaryk/leetcode/tree/master/0847-shortest-path-visiting-all-nodes) |
@@ -1275,6 +1277,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0210-course-schedule-ii](https://github.com/koshmaryk/leetcode/tree/master/0210-course-schedule-ii) |
 | [0261-graph-valid-tree](https://github.com/koshmaryk/leetcode/tree/master/0261-graph-valid-tree) |
 | [0684-redundant-connection](https://github.com/koshmaryk/leetcode/tree/master/0684-redundant-connection) |
+| [0785-is-graph-bipartite](https://github.com/koshmaryk/leetcode/tree/master/0785-is-graph-bipartite) |
 | [0847-shortest-path-visiting-all-nodes](https://github.com/koshmaryk/leetcode/tree/master/0847-shortest-path-visiting-all-nodes) |
 | [1557-minimum-number-of-vertices-to-reach-all-nodes](https://github.com/koshmaryk/leetcode/tree/master/1557-minimum-number-of-vertices-to-reach-all-nodes) |
 | [2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/koshmaryk/leetcode/tree/master/2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
@@ -1299,6 +1302,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0684-redundant-connection](https://github.com/koshmaryk/leetcode/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/koshmaryk/leetcode/tree/master/0695-max-area-of-island) |
 | [0721-accounts-merge](https://github.com/koshmaryk/leetcode/tree/master/0721-accounts-merge) |
+| [0785-is-graph-bipartite](https://github.com/koshmaryk/leetcode/tree/master/0785-is-graph-bipartite) |
 ## Sweep Line
 |  |
 | ------- |
