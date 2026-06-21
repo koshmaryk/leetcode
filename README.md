@@ -278,6 +278,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1287-element-appearing-more-than-25-in-sorted-array](https://github.com/koshmaryk/leetcode/tree/master/1287-element-appearing-more-than-25-in-sorted-array) |
 | [1293-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/koshmaryk/leetcode/tree/master/1293-shortest-path-in-a-grid-with-obstacles-elimination) |
 | [1305-number-of-visible-people-in-a-queue](https://github.com/koshmaryk/leetcode/tree/master/1305-number-of-visible-people-in-a-queue) |
+| [1331-rank-transform-of-an-array](https://github.com/koshmaryk/leetcode/tree/master/1331-rank-transform-of-an-array) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/koshmaryk/leetcode/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/koshmaryk/leetcode/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1408-string-matching-in-an-array](https://github.com/koshmaryk/leetcode/tree/master/1408-string-matching-in-an-array) |
@@ -354,6 +355,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1184-car-pooling](https://github.com/koshmaryk/leetcode/tree/master/1184-car-pooling) |
 | [1256-rank-transform-of-an-array](https://github.com/koshmaryk/leetcode/tree/master/1256-rank-transform-of-an-array) |
 | [1268-search-suggestions-system](https://github.com/koshmaryk/leetcode/tree/master/1268-search-suggestions-system) |
+| [1331-rank-transform-of-an-array](https://github.com/koshmaryk/leetcode/tree/master/1331-rank-transform-of-an-array) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/koshmaryk/leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1675-magnetic-force-between-two-balls](https://github.com/koshmaryk/leetcode/tree/master/1675-magnetic-force-between-two-balls) |
 | [1777-determine-if-two-strings-are-close](https://github.com/koshmaryk/leetcode/tree/master/1777-determine-if-two-strings-are-close) |
@@ -406,6 +408,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1023-time-based-key-value-store](https://github.com/koshmaryk/leetcode/tree/master/1023-time-based-key-value-store) |
 | [1039-find-the-town-judge](https://github.com/koshmaryk/leetcode/tree/master/1039-find-the-town-judge) |
 | [1256-rank-transform-of-an-array](https://github.com/koshmaryk/leetcode/tree/master/1256-rank-transform-of-an-array) |
+| [1331-rank-transform-of-an-array](https://github.com/koshmaryk/leetcode/tree/master/1331-rank-transform-of-an-array) |
 | [1554-strings-differ-by-one-character](https://github.com/koshmaryk/leetcode/tree/master/1554-strings-differ-by-one-character) |
 | [1570-dot-product-of-two-sparse-vectors](https://github.com/koshmaryk/leetcode/tree/master/1570-dot-product-of-two-sparse-vectors) |
 | [1650-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/koshmaryk/leetcode/tree/master/1650-lowest-common-ancestor-of-a-binary-tree-iii) |
