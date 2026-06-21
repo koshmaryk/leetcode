@@ -285,6 +285,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1570-dot-product-of-two-sparse-vectors](https://github.com/koshmaryk/leetcode/tree/master/1570-dot-product-of-two-sparse-vectors) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/koshmaryk/leetcode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/koshmaryk/leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
+| [1632-rank-transform-of-a-matrix](https://github.com/koshmaryk/leetcode/tree/master/1632-rank-transform-of-a-matrix) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/koshmaryk/leetcode/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1646-kth-missing-positive-number](https://github.com/koshmaryk/leetcode/tree/master/1646-kth-missing-positive-number) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/koshmaryk/leetcode/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
@@ -357,6 +358,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1268-search-suggestions-system](https://github.com/koshmaryk/leetcode/tree/master/1268-search-suggestions-system) |
 | [1331-rank-transform-of-an-array](https://github.com/koshmaryk/leetcode/tree/master/1331-rank-transform-of-an-array) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/koshmaryk/leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
+| [1632-rank-transform-of-a-matrix](https://github.com/koshmaryk/leetcode/tree/master/1632-rank-transform-of-a-matrix) |
 | [1675-magnetic-force-between-two-balls](https://github.com/koshmaryk/leetcode/tree/master/1675-magnetic-force-between-two-balls) |
 | [1777-determine-if-two-strings-are-close](https://github.com/koshmaryk/leetcode/tree/master/1777-determine-if-two-strings-are-close) |
 | [2126-destroying-asteroids](https://github.com/koshmaryk/leetcode/tree/master/2126-destroying-asteroids) |
@@ -663,6 +665,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0207-course-schedule](https://github.com/koshmaryk/leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/koshmaryk/leetcode/tree/master/0210-course-schedule-ii) |
+| [1632-rank-transform-of-a-matrix](https://github.com/koshmaryk/leetcode/tree/master/1632-rank-transform-of-a-matrix) |
 | [2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/koshmaryk/leetcode/tree/master/2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 | [3825-apply-substitutions](https://github.com/koshmaryk/leetcode/tree/master/3825-apply-substitutions) |
 ## Dynamic Programming
@@ -895,6 +898,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1091-shortest-path-in-binary-matrix](https://github.com/koshmaryk/leetcode/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/koshmaryk/leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1293-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/koshmaryk/leetcode/tree/master/1293-shortest-path-in-a-grid-with-obstacles-elimination) |
+| [1632-rank-transform-of-a-matrix](https://github.com/koshmaryk/leetcode/tree/master/1632-rank-transform-of-a-matrix) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/koshmaryk/leetcode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/koshmaryk/leetcode/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 ## Interactive
@@ -1283,6 +1287,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0785-is-graph-bipartite](https://github.com/koshmaryk/leetcode/tree/master/0785-is-graph-bipartite) |
 | [0847-shortest-path-visiting-all-nodes](https://github.com/koshmaryk/leetcode/tree/master/0847-shortest-path-visiting-all-nodes) |
 | [1557-minimum-number-of-vertices-to-reach-all-nodes](https://github.com/koshmaryk/leetcode/tree/master/1557-minimum-number-of-vertices-to-reach-all-nodes) |
+| [1632-rank-transform-of-a-matrix](https://github.com/koshmaryk/leetcode/tree/master/1632-rank-transform-of-a-matrix) |
 | [2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/koshmaryk/leetcode/tree/master/2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 | [2359-find-closest-node-to-given-two-nodes](https://github.com/koshmaryk/leetcode/tree/master/2359-find-closest-node-to-given-two-nodes) |
 ## Doubly-Linked List
@@ -1306,6 +1311,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0695-max-area-of-island](https://github.com/koshmaryk/leetcode/tree/master/0695-max-area-of-island) |
 | [0721-accounts-merge](https://github.com/koshmaryk/leetcode/tree/master/0721-accounts-merge) |
 | [0785-is-graph-bipartite](https://github.com/koshmaryk/leetcode/tree/master/0785-is-graph-bipartite) |
+| [1632-rank-transform-of-a-matrix](https://github.com/koshmaryk/leetcode/tree/master/1632-rank-transform-of-a-matrix) |
 ## Sweep Line
 |  |
 | ------- |
