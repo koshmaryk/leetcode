@@ -27,11 +27,12 @@ class Solution:
         n = len(nums)
         ans = 0
         
-        counts = {0: 1}
+        counts = defaultdict(int)
+        counts[0] = 1
         p = 0
         for num in nums:
             p += num
-            ans += counts.get(p - k, 0)
-            counts[p] = counts.get(p, 0) + 1
+            ans += counts[p - k]
+            counts[p] += 1
         return ans
         
