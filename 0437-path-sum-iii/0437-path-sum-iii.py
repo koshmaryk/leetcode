@@ -26,7 +26,7 @@ class Solution:
         ans = 0
 
         counts = defaultdict(int)
-        #counts[0] = 1
+        counts[0] = 1
 
         def explore(node, currSum):
             nonlocal ans
@@ -34,9 +34,6 @@ class Solution:
                 return
 
             currSum += node.val
-            if currSum == targetSum:
-                ans += 1
-
             ans += counts[currSum - targetSum]
 
             counts[currSum] += 1
