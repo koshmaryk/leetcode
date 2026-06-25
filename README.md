@@ -284,6 +284,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/koshmaryk/leetcode/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1408-string-matching-in-an-array](https://github.com/koshmaryk/leetcode/tree/master/1408-string-matching-in-an-array) |
 | [1570-dot-product-of-two-sparse-vectors](https://github.com/koshmaryk/leetcode/tree/master/1570-dot-product-of-two-sparse-vectors) |
+| [1584-min-cost-to-connect-all-points](https://github.com/koshmaryk/leetcode/tree/master/1584-min-cost-to-connect-all-points) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/koshmaryk/leetcode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/koshmaryk/leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1632-rank-transform-of-a-matrix](https://github.com/koshmaryk/leetcode/tree/master/1632-rank-transform-of-a-matrix) |
@@ -1292,6 +1293,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0785-is-graph-bipartite](https://github.com/koshmaryk/leetcode/tree/master/0785-is-graph-bipartite) |
 | [0847-shortest-path-visiting-all-nodes](https://github.com/koshmaryk/leetcode/tree/master/0847-shortest-path-visiting-all-nodes) |
 | [1557-minimum-number-of-vertices-to-reach-all-nodes](https://github.com/koshmaryk/leetcode/tree/master/1557-minimum-number-of-vertices-to-reach-all-nodes) |
+| [1584-min-cost-to-connect-all-points](https://github.com/koshmaryk/leetcode/tree/master/1584-min-cost-to-connect-all-points) |
 | [1632-rank-transform-of-a-matrix](https://github.com/koshmaryk/leetcode/tree/master/1632-rank-transform-of-a-matrix) |
 | [2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/koshmaryk/leetcode/tree/master/2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 | [2359-find-closest-node-to-given-two-nodes](https://github.com/koshmaryk/leetcode/tree/master/2359-find-closest-node-to-given-two-nodes) |
@@ -1317,6 +1319,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0721-accounts-merge](https://github.com/koshmaryk/leetcode/tree/master/0721-accounts-merge) |
 | [0785-is-graph-bipartite](https://github.com/koshmaryk/leetcode/tree/master/0785-is-graph-bipartite) |
 | [1101-the-earliest-moment-when-everyone-become-friends](https://github.com/koshmaryk/leetcode/tree/master/1101-the-earliest-moment-when-everyone-become-friends) |
+| [1584-min-cost-to-connect-all-points](https://github.com/koshmaryk/leetcode/tree/master/1584-min-cost-to-connect-all-points) |
 | [1632-rank-transform-of-a-matrix](https://github.com/koshmaryk/leetcode/tree/master/1632-rank-transform-of-a-matrix) |
 ## Sweep Line
 |  |
@@ -1335,4 +1338,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0307-range-sum-query-mutable](https://github.com/koshmaryk/leetcode/tree/master/0307-range-sum-query-mutable) |
+## Minimum Spanning Tree
+|  |
+| ------- |
+| [1584-min-cost-to-connect-all-points](https://github.com/koshmaryk/leetcode/tree/master/1584-min-cost-to-connect-all-points) |
 <!---LeetCode Topics End-->
