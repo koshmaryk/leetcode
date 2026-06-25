@@ -1,26 +1,32 @@
-import heapq 
+from math import inf
 
 class Solution:
     def minCostConnectPoints(self, points: List[List[int]]) -> int:
         n = len(points)
 
-        pq = [(0, 0)] # weight, node (index)
-        visited = [False] * n
-        
         cost = cnt = 0
+
+        in_mst = [False] * n
+        dist = [inf] * n
+        dist[0] = 0
+
         while cnt < n:
-            weight, node = heapq.heappop(pq)
+            curr_weight = inf
+            curr_node = -1
 
-            if visited[node]:
-                continue
+            # peak least weight node which is not in mst
+            for node in range(n):
+                if not in_mst[node] and curr_weight > dist[node]:
+                    curr_weight = dist[node]
+                    curr_node = node
 
-            visited[node] = True
-            cost += weight
+            cost += curr_weight
             cnt += 1
+            in_mst[curr_node] = True
 
             for next_node in range(n):
-                if not visited[next_node]:
-                    next_weight = abs(points[node][0] - points[next_node][0]) + abs(points[node][1] - points[next_node][1])
+                weight = abs(points[curr_node][0] - points[next_node][0]) + abs(points[curr_node][1] - points[next_node][1])
 
-                    heapq.heappush(pq, (next_weight, next_node))
+                if not in_mst[next_node] and dist[next_node] > weight:
+                    dist[next_node] = weight
         return cost
