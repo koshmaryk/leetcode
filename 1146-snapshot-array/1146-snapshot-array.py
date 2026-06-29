@@ -19,6 +19,9 @@ class SnapshotArray:
         
 
     def set(self, index: int, val: int) -> None:
+        if self.elements[index][0] == self.id:
+            self.elements[index].pop()
+            
         self.elements[index].append((self.id, val))
         
 
@@ -29,8 +32,7 @@ class SnapshotArray:
 
     def get(self, index: int, snap_id: int) -> int:
         i = bisect.bisect_right(self.elements[index], (snap_id, inf))
-        _, val = self.elements[index][i - 1]
-        return val
+        return self.elements[index][i - 1][1]
 
 
 # Your SnapshotArray object will be instantiated and called as such:
