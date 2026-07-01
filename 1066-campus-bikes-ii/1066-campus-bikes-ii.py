@@ -10,18 +10,18 @@ class Solution:
             return abs(workers[i][0] - bikes[j][0]) + abs(workers[i][1] - bikes[j][1])
 
 
-        def dp(i, seen):
+        def dp(i, used):
             if i == n:
                 return 0
 
-            if (i, seen) in memo:
-                return memo[(i, seen)]
+            if (i, used) in memo:
+                return memo[(i, used)]
             
             best_cost = inf
             for j in range(m):
-                if j not in seen:
-                    best_cost = min(best_cost, dist(i, j) + dp(i + 1, seen | {j}))
-            memo[(i, seen)] = best_cost
+                if j not in used:
+                    best_cost = min(best_cost, dist(i, j) + dp(i + 1, used | {j}))
+            memo[(i, used)] = best_cost
             return best_cost
         
         return dp(0, frozenset())
