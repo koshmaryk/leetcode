@@ -265,6 +265,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1046-max-consecutive-ones-iii](https://github.com/koshmaryk/leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/koshmaryk/leetcode/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1059-missing-element-in-sorted-array](https://github.com/koshmaryk/leetcode/tree/master/1059-missing-element-in-sorted-array) |
+| [1066-campus-bikes-ii](https://github.com/koshmaryk/leetcode/tree/master/1066-campus-bikes-ii) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/koshmaryk/leetcode/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1094-car-pooling](https://github.com/koshmaryk/leetcode/tree/master/1094-car-pooling) |
 | [1101-the-earliest-moment-when-everyone-become-friends](https://github.com/koshmaryk/leetcode/tree/master/1101-the-earliest-moment-when-everyone-become-friends) |
@@ -713,6 +714,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0847-shortest-path-visiting-all-nodes](https://github.com/koshmaryk/leetcode/tree/master/0847-shortest-path-visiting-all-nodes) |
 | [0930-all-possible-full-binary-trees](https://github.com/koshmaryk/leetcode/tree/master/0930-all-possible-full-binary-trees) |
 | [1013-fibonacci-number](https://github.com/koshmaryk/leetcode/tree/master/1013-fibonacci-number) |
+| [1066-campus-bikes-ii](https://github.com/koshmaryk/leetcode/tree/master/1066-campus-bikes-ii) |
 | [1236-n-th-tribonacci-number](https://github.com/koshmaryk/leetcode/tree/master/1236-n-th-tribonacci-number) |
 | [1250-longest-common-subsequence](https://github.com/koshmaryk/leetcode/tree/master/1250-longest-common-subsequence) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/koshmaryk/leetcode/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
@@ -1192,6 +1194,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0287-find-the-duplicate-number](https://github.com/koshmaryk/leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0318-maximum-product-of-word-lengths](https://github.com/koshmaryk/leetcode/tree/master/0318-maximum-product-of-word-lengths) |
 | [0847-shortest-path-visiting-all-nodes](https://github.com/koshmaryk/leetcode/tree/master/0847-shortest-path-visiting-all-nodes) |
+| [1066-campus-bikes-ii](https://github.com/koshmaryk/leetcode/tree/master/1066-campus-bikes-ii) |
 | [1239-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/koshmaryk/leetcode/tree/master/1239-maximum-length-of-a-concatenated-string-with-unique-characters) |
 | [2135-count-words-obtained-after-adding-a-letter](https://github.com/koshmaryk/leetcode/tree/master/2135-count-words-obtained-after-adding-a-letter) |
 | [3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/koshmaryk/leetcode/tree/master/3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
@@ -1225,6 +1228,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0090-subsets-ii](https://github.com/koshmaryk/leetcode/tree/master/0090-subsets-ii) |
 | [0095-unique-binary-search-trees-ii](https://github.com/koshmaryk/leetcode/tree/master/0095-unique-binary-search-trees-ii) |
 | [0301-remove-invalid-parentheses](https://github.com/koshmaryk/leetcode/tree/master/0301-remove-invalid-parentheses) |
+| [1066-campus-bikes-ii](https://github.com/koshmaryk/leetcode/tree/master/1066-campus-bikes-ii) |
 | [1239-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/koshmaryk/leetcode/tree/master/1239-maximum-length-of-a-concatenated-string-with-unique-characters) |
 ## Randomized
 |  |
@@ -1344,6 +1348,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0847-shortest-path-visiting-all-nodes](https://github.com/koshmaryk/leetcode/tree/master/0847-shortest-path-visiting-all-nodes) |
+| [1066-campus-bikes-ii](https://github.com/koshmaryk/leetcode/tree/master/1066-campus-bikes-ii) |
 ## Rolling Hash
 |  |
 | ------- |
