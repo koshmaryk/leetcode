@@ -4,29 +4,25 @@ from math import inf
 class Solution:
     def assignBikes(self, workers: List[List[int]], bikes: List[List[int]]) -> int:
         n, m = len(workers), len(bikes)
-        used = [False] * m
-        best_cost = inf
-
+        memo = {}
 
         def dist(i, j):
             return abs(workers[i][0] - bikes[j][0]) + abs(workers[i][1] - bikes[j][1])
 
 
-        def backtrack(i, curr_cost):
-            nonlocal best_cost
-            if curr_cost >= best_cost:
-                return
-
+        def dp(i, seen):
             if i == n:
-                best_cost = min(best_cost, curr_cost)
-                return
+                return 0
 
+            if (i, seen) in memo:
+                return memo[(i, seen)]
+            
+            best_cost = inf
             for j in range(m):
-                if not used[j]:
-                    used[j] = True
-                    backtrack(i + 1, curr_cost + dist(i, j))
-                    used[j] = False
+                if j not in seen:
+                    best_cost = min(best_cost, dist(i, j) + dp(i + 1, seen | {j}))
+            memo[(i, seen)] = best_cost
+            return best_cost
         
-        backtrack(0, 0)
-        return best_cost
+        return dp(0, frozenset())
          
