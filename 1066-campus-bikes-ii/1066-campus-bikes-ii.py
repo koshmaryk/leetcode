@@ -24,9 +24,6 @@ class Solution:
         pq = [(0, 0)] # cost, mask
         while pq:
             cost, mask = heapq.heappop(pq)
-            if cost > dist[mask]:
-                continue
-
             i = count_ones(mask)
             if i == n:
                 return cost
