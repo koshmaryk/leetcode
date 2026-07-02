@@ -7,16 +7,12 @@ class Solution:
         for num in nums:
             max_or |= num
 
-        def gen(i, curr):
-            nonlocal cnt
-            if i == n:
-                if curr == max_or:
-                    cnt += 1
-                return
+        for mask in range(1 << n):
+            curr = 0
+            for i in range(n):
+                if mask & (1 << i):
+                    curr |= nums[i]
 
-            gen(i + 1, curr | nums[i])
-            gen(i + 1, curr)
-            
-
-        gen(0, 0)
+            if curr == max_or:
+                cnt += 1
         return cnt
