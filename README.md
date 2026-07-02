@@ -305,6 +305,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2019-product-of-two-run-length-encoded-arrays](https://github.com/koshmaryk/leetcode/tree/master/2019-product-of-two-run-length-encoded-arrays) |
 | [2025-maximum-number-of-ways-to-partition-an-array](https://github.com/koshmaryk/leetcode/tree/master/2025-maximum-number-of-ways-to-partition-an-array) |
 | [2040-minimum-cost-to-reach-destination-in-time](https://github.com/koshmaryk/leetcode/tree/master/2040-minimum-cost-to-reach-destination-in-time) |
+| [2044-count-number-of-maximum-bitwise-or-subsets](https://github.com/koshmaryk/leetcode/tree/master/2044-count-number-of-maximum-bitwise-or-subsets) |
 | [2058-concatenation-of-array](https://github.com/koshmaryk/leetcode/tree/master/2058-concatenation-of-array) |
 | [2126-destroying-asteroids](https://github.com/koshmaryk/leetcode/tree/master/2126-destroying-asteroids) |
 | [2135-count-words-obtained-after-adding-a-letter](https://github.com/koshmaryk/leetcode/tree/master/2135-count-words-obtained-after-adding-a-letter) |
@@ -1202,6 +1203,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1066-campus-bikes-ii](https://github.com/koshmaryk/leetcode/tree/master/1066-campus-bikes-ii) |
 | [1239-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/koshmaryk/leetcode/tree/master/1239-maximum-length-of-a-concatenated-string-with-unique-characters) |
 | [1863-sum-of-all-subset-xor-totals](https://github.com/koshmaryk/leetcode/tree/master/1863-sum-of-all-subset-xor-totals) |
+| [2044-count-number-of-maximum-bitwise-or-subsets](https://github.com/koshmaryk/leetcode/tree/master/2044-count-number-of-maximum-bitwise-or-subsets) |
 | [2135-count-words-obtained-after-adding-a-letter](https://github.com/koshmaryk/leetcode/tree/master/2135-count-words-obtained-after-adding-a-letter) |
 | [3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/koshmaryk/leetcode/tree/master/3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/koshmaryk/leetcode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
@@ -1237,6 +1239,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1066-campus-bikes-ii](https://github.com/koshmaryk/leetcode/tree/master/1066-campus-bikes-ii) |
 | [1239-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/koshmaryk/leetcode/tree/master/1239-maximum-length-of-a-concatenated-string-with-unique-characters) |
 | [1863-sum-of-all-subset-xor-totals](https://github.com/koshmaryk/leetcode/tree/master/1863-sum-of-all-subset-xor-totals) |
+| [2044-count-number-of-maximum-bitwise-or-subsets](https://github.com/koshmaryk/leetcode/tree/master/2044-count-number-of-maximum-bitwise-or-subsets) |
 ## Randomized
 |  |
 | ------- |
@@ -1287,6 +1290,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0204-count-primes](https://github.com/koshmaryk/leetcode/tree/master/0204-count-primes) |
 | [1863-sum-of-all-subset-xor-totals](https://github.com/koshmaryk/leetcode/tree/master/1863-sum-of-all-subset-xor-totals) |
 | [2025-maximum-number-of-ways-to-partition-an-array](https://github.com/koshmaryk/leetcode/tree/master/2025-maximum-number-of-ways-to-partition-an-array) |
+| [2044-count-number-of-maximum-bitwise-or-subsets](https://github.com/koshmaryk/leetcode/tree/master/2044-count-number-of-maximum-bitwise-or-subsets) |
 | [3713-longest-balanced-substring-i](https://github.com/koshmaryk/leetcode/tree/master/3713-longest-balanced-substring-i) |
 ## Counting Sort
 |  |
