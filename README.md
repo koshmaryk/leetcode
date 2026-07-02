@@ -264,6 +264,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1039-find-the-town-judge](https://github.com/koshmaryk/leetcode/tree/master/1039-find-the-town-judge) |
 | [1046-max-consecutive-ones-iii](https://github.com/koshmaryk/leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/koshmaryk/leetcode/tree/master/1056-capacity-to-ship-packages-within-d-days) |
+| [1057-campus-bikes](https://github.com/koshmaryk/leetcode/tree/master/1057-campus-bikes) |
 | [1059-missing-element-in-sorted-array](https://github.com/koshmaryk/leetcode/tree/master/1059-missing-element-in-sorted-array) |
 | [1066-campus-bikes-ii](https://github.com/koshmaryk/leetcode/tree/master/1066-campus-bikes-ii) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/koshmaryk/leetcode/tree/master/1091-shortest-path-in-binary-matrix) |
@@ -357,6 +358,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0852-friends-of-appropriate-ages](https://github.com/koshmaryk/leetcode/tree/master/0852-friends-of-appropriate-ages) |
 | [0917-boats-to-save-people](https://github.com/koshmaryk/leetcode/tree/master/0917-boats-to-save-people) |
 | [1014-k-closest-points-to-origin](https://github.com/koshmaryk/leetcode/tree/master/1014-k-closest-points-to-origin) |
+| [1057-campus-bikes](https://github.com/koshmaryk/leetcode/tree/master/1057-campus-bikes) |
 | [1094-car-pooling](https://github.com/koshmaryk/leetcode/tree/master/1094-car-pooling) |
 | [1101-the-earliest-moment-when-everyone-become-friends](https://github.com/koshmaryk/leetcode/tree/master/1101-the-earliest-moment-when-everyone-become-friends) |
 | [1184-car-pooling](https://github.com/koshmaryk/leetcode/tree/master/1184-car-pooling) |
@@ -779,6 +781,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0802-k-th-smallest-prime-fraction](https://github.com/koshmaryk/leetcode/tree/master/0802-k-th-smallest-prime-fraction) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/koshmaryk/leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1014-k-closest-points-to-origin](https://github.com/koshmaryk/leetcode/tree/master/1014-k-closest-points-to-origin) |
+| [1057-campus-bikes](https://github.com/koshmaryk/leetcode/tree/master/1057-campus-bikes) |
 | [1094-car-pooling](https://github.com/koshmaryk/leetcode/tree/master/1094-car-pooling) |
 | [1127-last-stone-weight](https://github.com/koshmaryk/leetcode/tree/master/1127-last-stone-weight) |
 | [1135-connecting-cities-with-minimum-cost](https://github.com/koshmaryk/leetcode/tree/master/1135-connecting-cities-with-minimum-cost) |
