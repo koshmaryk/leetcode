@@ -9,13 +9,12 @@ class Solution:
                 total ^= num
             return total
 
-        def gen(start, prefix):
-            nonlocal ans
-            ans += xor(prefix)
-            for i in range(start, n):
-                prefix.append(nums[i])
-                gen(i + 1, prefix)
-                prefix.pop()
+        for mask in range(1 << n):
+            subset = []
+            for i in range(n):
+                if mask & (1 << i):
+                    subset.append(nums[i])
 
-        gen(0, [])
+            ans += xor(subset)
+                    
         return ans
