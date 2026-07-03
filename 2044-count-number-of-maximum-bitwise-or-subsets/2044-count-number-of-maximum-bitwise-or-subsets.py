@@ -1,21 +1,31 @@
+"""
+
+index, curr_or
+
+0 1 2 3
+3,1,2,4
+
+3,1 = 11
+3   = 11
+
+"""
 class Solution:
     def countMaxOrSubsets(self, nums: List[int]) -> int:
         n = len(nums)
-        cnt = 0
-
         max_or = 0
         for num in nums:
             max_or |= num
 
         memo = {}
-        def count(i, curr):
+        def dp(i, curr_or):
             if i == n:
-                return 1 if curr == max_or else 0
+                return 1 if curr_or == max_or else 0
 
-            if (i, curr) in memo:
-                return memo[(i, curr)]
+            key = (i, curr_or)
+            if key in memo:
+                return memo[key]
 
-            memo[(i, curr)] = count(i + 1, curr | nums[i]) + count(i + 1, curr)
-            return memo[(i, curr)]
+            memo[key] = dp(i + 1, curr_or | nums[i]) + dp(i + 1, curr_or)
+            return memo[key]
 
-        return count(0, 0)
+        return dp(0, 0)
