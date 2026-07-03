@@ -89,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0916-word-subsets](https://github.com/koshmaryk/leetcode/tree/master/0916-word-subsets) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/koshmaryk/leetcode/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [0990-verifying-an-alien-dictionary](https://github.com/koshmaryk/leetcode/tree/master/0990-verifying-an-alien-dictionary) |
+| [0990-satisfiability-of-equality-equations](https://github.com/koshmaryk/leetcode/tree/master/0990-satisfiability-of-equality-equations) |
 | [1023-time-based-key-value-store](https://github.com/koshmaryk/leetcode/tree/master/1023-time-based-key-value-store) |
 | [1159-smallest-subsequence-of-distinct-characters](https://github.com/koshmaryk/leetcode/tree/master/1159-smallest-subsequence-of-distinct-characters) |
 | [1233-remove-sub-folders-from-the-filesystem](https://github.com/koshmaryk/leetcode/tree/master/1233-remove-sub-folders-from-the-filesystem) |
@@ -257,6 +258,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0971-shortest-bridge](https://github.com/koshmaryk/leetcode/tree/master/0971-shortest-bridge) |
 | [0986-interval-list-intersections](https://github.com/koshmaryk/leetcode/tree/master/0986-interval-list-intersections) |
 | [0990-verifying-an-alien-dictionary](https://github.com/koshmaryk/leetcode/tree/master/0990-verifying-an-alien-dictionary) |
+| [0990-satisfiability-of-equality-equations](https://github.com/koshmaryk/leetcode/tree/master/0990-satisfiability-of-equality-equations) |
 | [0994-rotting-oranges](https://github.com/koshmaryk/leetcode/tree/master/0994-rotting-oranges) |
 | [1013-partition-array-into-three-parts-with-equal-sum](https://github.com/koshmaryk/leetcode/tree/master/1013-partition-array-into-three-parts-with-equal-sum) |
 | [1014-k-closest-points-to-origin](https://github.com/koshmaryk/leetcode/tree/master/1014-k-closest-points-to-origin) |
@@ -1317,6 +1319,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0684-redundant-connection](https://github.com/koshmaryk/leetcode/tree/master/0684-redundant-connection) |
 | [0785-is-graph-bipartite](https://github.com/koshmaryk/leetcode/tree/master/0785-is-graph-bipartite) |
 | [0847-shortest-path-visiting-all-nodes](https://github.com/koshmaryk/leetcode/tree/master/0847-shortest-path-visiting-all-nodes) |
+| [0990-satisfiability-of-equality-equations](https://github.com/koshmaryk/leetcode/tree/master/0990-satisfiability-of-equality-equations) |
 | [1135-connecting-cities-with-minimum-cost](https://github.com/koshmaryk/leetcode/tree/master/1135-connecting-cities-with-minimum-cost) |
 | [1168-optimize-water-distribution-in-a-village](https://github.com/koshmaryk/leetcode/tree/master/1168-optimize-water-distribution-in-a-village) |
 | [1557-minimum-number-of-vertices-to-reach-all-nodes](https://github.com/koshmaryk/leetcode/tree/master/1557-minimum-number-of-vertices-to-reach-all-nodes) |
@@ -1346,6 +1349,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0695-max-area-of-island](https://github.com/koshmaryk/leetcode/tree/master/0695-max-area-of-island) |
 | [0721-accounts-merge](https://github.com/koshmaryk/leetcode/tree/master/0721-accounts-merge) |
 | [0785-is-graph-bipartite](https://github.com/koshmaryk/leetcode/tree/master/0785-is-graph-bipartite) |
+| [0990-satisfiability-of-equality-equations](https://github.com/koshmaryk/leetcode/tree/master/0990-satisfiability-of-equality-equations) |
 | [1101-the-earliest-moment-when-everyone-become-friends](https://github.com/koshmaryk/leetcode/tree/master/1101-the-earliest-moment-when-everyone-become-friends) |
 | [1135-connecting-cities-with-minimum-cost](https://github.com/koshmaryk/leetcode/tree/master/1135-connecting-cities-with-minimum-cost) |
 | [1168-optimize-water-distribution-in-a-village](https://github.com/koshmaryk/leetcode/tree/master/1168-optimize-water-distribution-in-a-village) |
