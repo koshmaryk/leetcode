@@ -19,7 +19,7 @@ class SnapshotArray:
         
 
     def set(self, index: int, val: int) -> None:
-        if self.elements[index][0] == self.id:
+        if self.elements[index][-1][0] == self.id:
             self.elements[index].pop()
             
         self.elements[index].append((self.id, val))
