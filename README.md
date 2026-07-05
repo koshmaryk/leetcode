@@ -294,6 +294,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1584-min-cost-to-connect-all-points](https://github.com/koshmaryk/leetcode/tree/master/1584-min-cost-to-connect-all-points) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/koshmaryk/leetcode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/koshmaryk/leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
+| [1631-path-with-minimum-effort](https://github.com/koshmaryk/leetcode/tree/master/1631-path-with-minimum-effort) |
 | [1632-rank-transform-of-a-matrix](https://github.com/koshmaryk/leetcode/tree/master/1632-rank-transform-of-a-matrix) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/koshmaryk/leetcode/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1646-kth-missing-positive-number](https://github.com/koshmaryk/leetcode/tree/master/1646-kth-missing-positive-number) |
@@ -487,6 +488,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/koshmaryk/leetcode/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/koshmaryk/leetcode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/koshmaryk/leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
+| [1631-path-with-minimum-effort](https://github.com/koshmaryk/leetcode/tree/master/1631-path-with-minimum-effort) |
 | [1646-kth-missing-positive-number](https://github.com/koshmaryk/leetcode/tree/master/1646-kth-missing-positive-number) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/koshmaryk/leetcode/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [1675-magnetic-force-between-two-balls](https://github.com/koshmaryk/leetcode/tree/master/1675-magnetic-force-between-two-balls) |
@@ -594,6 +596,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1376-time-needed-to-inform-all-employees](https://github.com/koshmaryk/leetcode/tree/master/1376-time-needed-to-inform-all-employees) |
 | [1450-delete-leaves-with-a-given-value](https://github.com/koshmaryk/leetcode/tree/master/1450-delete-leaves-with-a-given-value) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/koshmaryk/leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
+| [1631-path-with-minimum-effort](https://github.com/koshmaryk/leetcode/tree/master/1631-path-with-minimum-effort) |
 | [1644-lowest-common-ancestor-of-a-binary-tree-ii](https://github.com/koshmaryk/leetcode/tree/master/1644-lowest-common-ancestor-of-a-binary-tree-ii) |
 | [2096-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/koshmaryk/leetcode/tree/master/2096-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/koshmaryk/leetcode/tree/master/2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
@@ -654,6 +657,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1293-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/koshmaryk/leetcode/tree/master/1293-shortest-path-in-a-grid-with-obstacles-elimination) |
 | [1376-time-needed-to-inform-all-employees](https://github.com/koshmaryk/leetcode/tree/master/1376-time-needed-to-inform-all-employees) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/koshmaryk/leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
+| [1631-path-with-minimum-effort](https://github.com/koshmaryk/leetcode/tree/master/1631-path-with-minimum-effort) |
 | [2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/koshmaryk/leetcode/tree/master/2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 | [3825-apply-substitutions](https://github.com/koshmaryk/leetcode/tree/master/3825-apply-substitutions) |
 | [3863-power-grid-maintenance](https://github.com/koshmaryk/leetcode/tree/master/3863-power-grid-maintenance) |
@@ -795,6 +799,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1184-car-pooling](https://github.com/koshmaryk/leetcode/tree/master/1184-car-pooling) |
 | [1268-search-suggestions-system](https://github.com/koshmaryk/leetcode/tree/master/1268-search-suggestions-system) |
 | [1514-path-with-maximum-probability](https://github.com/koshmaryk/leetcode/tree/master/1514-path-with-maximum-probability) |
+| [1631-path-with-minimum-effort](https://github.com/koshmaryk/leetcode/tree/master/1631-path-with-minimum-effort) |
 | [1762-furthest-building-you-can-reach](https://github.com/koshmaryk/leetcode/tree/master/1762-furthest-building-you-can-reach) |
 | [1955-seat-reservation-manager](https://github.com/koshmaryk/leetcode/tree/master/1955-seat-reservation-manager) |
 | [2611-mice-and-cheese](https://github.com/koshmaryk/leetcode/tree/master/2611-mice-and-cheese) |
@@ -922,6 +927,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1091-shortest-path-in-binary-matrix](https://github.com/koshmaryk/leetcode/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/koshmaryk/leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1293-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/koshmaryk/leetcode/tree/master/1293-shortest-path-in-a-grid-with-obstacles-elimination) |
+| [1631-path-with-minimum-effort](https://github.com/koshmaryk/leetcode/tree/master/1631-path-with-minimum-effort) |
 | [1632-rank-transform-of-a-matrix](https://github.com/koshmaryk/leetcode/tree/master/1632-rank-transform-of-a-matrix) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/koshmaryk/leetcode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/koshmaryk/leetcode/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
@@ -1358,6 +1364,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1135-connecting-cities-with-minimum-cost](https://github.com/koshmaryk/leetcode/tree/master/1135-connecting-cities-with-minimum-cost) |
 | [1168-optimize-water-distribution-in-a-village](https://github.com/koshmaryk/leetcode/tree/master/1168-optimize-water-distribution-in-a-village) |
 | [1584-min-cost-to-connect-all-points](https://github.com/koshmaryk/leetcode/tree/master/1584-min-cost-to-connect-all-points) |
+| [1631-path-with-minimum-effort](https://github.com/koshmaryk/leetcode/tree/master/1631-path-with-minimum-effort) |
 | [1632-rank-transform-of-a-matrix](https://github.com/koshmaryk/leetcode/tree/master/1632-rank-transform-of-a-matrix) |
 | [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/koshmaryk/leetcode/tree/master/3600-maximize-spanning-tree-stability-with-upgrades) |
 ## Sweep Line
