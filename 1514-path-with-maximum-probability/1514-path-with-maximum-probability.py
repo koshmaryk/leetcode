@@ -12,16 +12,19 @@ class Solution:
         max_prob = [0.0] * n
         max_prob[start_node] = 1.0
 
-        pq = [(-1.0, start_node)]
-        while pq:
-            prob, node = heapq.heappop(pq)
-            if node == end_node:
-                return -prob
+        for _ in range(n - 1):
+            updated = False
+            for i, (u,v) in enumerate(edges):
+                if succProb[i] * max_prob[u] > max_prob[v]:
+                    max_prob[v] = succProb[i] * max_prob[u]
+                    updated = True
 
-            for next_prob, next_node in graph[node]:
-                new_prob = -prob * next_prob
-                if new_prob > max_prob[next_node]:
-                    heapq.heappush(pq, (-new_prob, next_node))
-                    max_prob[next_node] = new_prob
-        return 0.0
+                if succProb[i] * max_prob[v] > max_prob[u]:
+                    max_prob[u] = succProb[i] * max_prob[v]
+                    updated = True
+
+            if not updated:
+                break
+
+        return max_prob[end_node]
         
