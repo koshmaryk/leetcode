@@ -1,3 +1,4 @@
+from collections import deque
 from math import inf
 
 
@@ -8,8 +9,9 @@ class Solution:
 
         def can_reach(max_effort):
             visited = [[False] * n for _ in range(m)]
-
-            def dfs(r, c):
+            queue = deque([(0, 0)])
+            while queue:
+                r, c = queue.popleft()
                 if r == m - 1 and c == n - 1:
                     return True
 
@@ -18,11 +20,9 @@ class Solution:
                     nr, nc = r + dr, c + dc
                     if 0 <= nr < m and 0 <= nc < n and not visited[nr][nc]:
                         if abs(heights[r][c] - heights[nr][nc]) <= max_effort:
-                            if dfs(nr, nc):
-                                return True
-                return False
-
-            return dfs(0, 0)
+                            visited[nr][nc] = True
+                            queue.append((nr, nc))
+            return False
 
 
         bad, good = -1, 1_000_001
