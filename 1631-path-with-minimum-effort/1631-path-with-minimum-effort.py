@@ -12,7 +12,6 @@ class Solution:
         pq = [(0, 0, 0)]
         while pq:
             max_effort, r, c = heapq.heappop(pq)
-
             if (r, c) in visited:
                 continue
             visited.add((r, c))
@@ -22,10 +21,9 @@ class Solution:
 
             for dr, dc in directions:
                 nr, nc = r + dr, c + dc
-                if not (0 <= nr < m and 0 <= nc < n) or (nr, nc) in visited:
+                if not (0 <= nr < m and 0 <= nc < n):
                     continue
 
                 effort = abs(heights[r][c] - heights[nr][nc])
                 heapq.heappush(pq, (max(max_effort, effort), nr, nc))
-                
         return 0
