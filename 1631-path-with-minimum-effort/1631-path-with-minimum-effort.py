@@ -1,29 +1,35 @@
-
-import heapq
+from math import inf
 
 
 class Solution:
     def minimumEffortPath(self, heights: List[List[int]]) -> int:
         m, n = len(heights), len(heights[0])
-
         directions = [(0, 1), (1, 0), (0, -1), (-1, 0)]
-        
-        visited = set()
-        pq = [(0, 0, 0)]
-        while pq:
-            max_effort, r, c = heapq.heappop(pq)
-            if (r, c) in visited:
-                continue
-            visited.add((r, c))
 
-            if r == m - 1 and c == n - 1:
-                return max_effort
+        def can_reach(max_effort):
+            visited = [[False] * n for _ in range(m)]
 
-            for dr, dc in directions:
-                nr, nc = r + dr, c + dc
-                if not (0 <= nr < m and 0 <= nc < n):
-                    continue
+            def dfs(r, c):
+                if r == m - 1 and c == n - 1:
+                    return True
 
-                effort = abs(heights[r][c] - heights[nr][nc])
-                heapq.heappush(pq, (max(max_effort, effort), nr, nc))
-        return 0
+                visited[r][c] = True
+                for dr, dc in directions:
+                    nr, nc = r + dr, c + dc
+                    if 0 <= nr < m and 0 <= nc < n and not visited[nr][nc]:
+                        if abs(heights[r][c] - heights[nr][nc]) <= max_effort:
+                            if dfs(nr, nc):
+                                return True
+                return False
+
+            return dfs(0, 0)
+
+
+        bad, good = -1, 1_000_001
+        while good - bad > 1:
+            mid = (bad + good) // 2
+            if can_reach(mid):
+                good = mid
+            else:
+                bad = mid
+        return good
