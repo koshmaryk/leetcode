@@ -5,21 +5,13 @@ from math import inf
 
 class Solution:
     def findCheapestPrice(self, n: int, flights: List[List[int]], src: int, dst: int, k: int) -> int:
-        graph = defaultdict(list)
-        for f,t,price in flights:
-            graph[f].append((t, price))
+        prices = [inf] * n
+        prices[src] = 0
 
-        stops = [inf] * n
-        pq = [(0, 0, src)]
-        while pq:
-            price, stop, city = heapq.heappop(pq)
-            if city == dst:
-                return price
-
-            if stop >= stops[city] or stop > k:
-                continue
-
-            stops[city] = stop
-            for next_city, next_price in graph[city]:
-                heapq.heappush(pq, (price + next_price, stop + 1, next_city))
-        return -1
+        for _ in range(k + 1):
+            temp = prices[:]
+            for f,t,price in flights:
+                if prices[f] < inf and prices[f] + price < temp[t]:
+                    temp[t] = prices[f] + price
+            prices = temp
+        return prices[dst] if prices[dst] < inf else -1
