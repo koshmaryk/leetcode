@@ -583,6 +583,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0721-accounts-merge](https://github.com/koshmaryk/leetcode/tree/master/0721-accounts-merge) |
 | [0744-network-delay-time](https://github.com/koshmaryk/leetcode/tree/master/0744-network-delay-time) |
 | [0785-is-graph-bipartite](https://github.com/koshmaryk/leetcode/tree/master/0785-is-graph-bipartite) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/koshmaryk/leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0801-is-graph-bipartite](https://github.com/koshmaryk/leetcode/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/koshmaryk/leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0854-making-a-large-island](https://github.com/koshmaryk/leetcode/tree/master/0854-making-a-large-island) |
@@ -642,6 +643,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0721-accounts-merge](https://github.com/koshmaryk/leetcode/tree/master/0721-accounts-merge) |
 | [0744-network-delay-time](https://github.com/koshmaryk/leetcode/tree/master/0744-network-delay-time) |
 | [0785-is-graph-bipartite](https://github.com/koshmaryk/leetcode/tree/master/0785-is-graph-bipartite) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/koshmaryk/leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0801-is-graph-bipartite](https://github.com/koshmaryk/leetcode/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/koshmaryk/leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0847-shortest-path-visiting-all-nodes](https://github.com/koshmaryk/leetcode/tree/master/0847-shortest-path-visiting-all-nodes) |
@@ -721,6 +723,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0518-coin-change-ii](https://github.com/koshmaryk/leetcode/tree/master/0518-coin-change-ii) |
 | [0647-palindromic-substrings](https://github.com/koshmaryk/leetcode/tree/master/0647-palindromic-substrings) |
 | [0747-min-cost-climbing-stairs](https://github.com/koshmaryk/leetcode/tree/master/0747-min-cost-climbing-stairs) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/koshmaryk/leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0799-champagne-tower](https://github.com/koshmaryk/leetcode/tree/master/0799-champagne-tower) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/koshmaryk/leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0847-shortest-path-visiting-all-nodes](https://github.com/koshmaryk/leetcode/tree/master/0847-shortest-path-visiting-all-nodes) |
@@ -787,6 +790,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0658-find-k-closest-elements](https://github.com/koshmaryk/leetcode/tree/master/0658-find-k-closest-elements) |
 | [0744-network-delay-time](https://github.com/koshmaryk/leetcode/tree/master/0744-network-delay-time) |
 | [0759-employee-free-time](https://github.com/koshmaryk/leetcode/tree/master/0759-employee-free-time) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/koshmaryk/leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/koshmaryk/leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0802-k-th-smallest-prime-fraction](https://github.com/koshmaryk/leetcode/tree/master/0802-k-th-smallest-prime-fraction) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/koshmaryk/leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
@@ -877,6 +881,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0744-network-delay-time](https://github.com/koshmaryk/leetcode/tree/master/0744-network-delay-time) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/koshmaryk/leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/koshmaryk/leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1514-path-with-maximum-probability](https://github.com/koshmaryk/leetcode/tree/master/1514-path-with-maximum-probability) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/koshmaryk/leetcode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
@@ -1327,6 +1332,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0261-graph-valid-tree](https://github.com/koshmaryk/leetcode/tree/master/0261-graph-valid-tree) |
 | [0684-redundant-connection](https://github.com/koshmaryk/leetcode/tree/master/0684-redundant-connection) |
 | [0785-is-graph-bipartite](https://github.com/koshmaryk/leetcode/tree/master/0785-is-graph-bipartite) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/koshmaryk/leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0847-shortest-path-visiting-all-nodes](https://github.com/koshmaryk/leetcode/tree/master/0847-shortest-path-visiting-all-nodes) |
 | [0990-satisfiability-of-equality-equations](https://github.com/koshmaryk/leetcode/tree/master/0990-satisfiability-of-equality-equations) |
 | [1135-connecting-cities-with-minimum-cost](https://github.com/koshmaryk/leetcode/tree/master/1135-connecting-cities-with-minimum-cost) |
