@@ -3,12 +3,17 @@ class Solution:
         ss = []
         def gen(prefix):
             if len(prefix) == n:
-                ss.append(prefix)
+                ss.append("".join(prefix))
                 return
             
+            prefix.append("1")
+            gen(prefix)
+            prefix.pop()
+            
             if not prefix or prefix[-1] != "0":
-                gen(prefix + "0")
-            gen(prefix + "1")
+                prefix.append("0")
+                gen(prefix)
+                prefix.pop()
 
-        gen("")
+        gen([])
         return ss
