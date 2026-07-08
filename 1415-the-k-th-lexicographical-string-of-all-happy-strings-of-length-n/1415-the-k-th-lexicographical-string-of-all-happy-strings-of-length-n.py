@@ -1,25 +1,25 @@
 class Solution:
     def getHappyString(self, n: int, k: int) -> str:
-        letters = ['a', 'b', 'c']
         cnt = k
+        ans = ""
 
         def gen(prefix):
-            nonlocal cnt
+            nonlocal cnt, ans
             if len(prefix) == n:
                 cnt -= 1
                 if cnt == 0:
-                    return "".join(prefix)
-                return ""
+                    ans = "".join(prefix)
+                return
 
-            for l in letters:
+            for l in "abc":
                 if prefix and prefix[-1] == l:
                     continue
 
                 prefix.append(l)
-                s = gen(prefix)
-                if s:
-                    return s
+                gen(prefix)
+                if ans != "":
+                    return
                 prefix.pop()
-            return ""
 
-        return gen([])
+        gen([])
+        return ans
