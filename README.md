@@ -107,6 +107,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2135-count-words-obtained-after-adding-a-letter](https://github.com/koshmaryk/leetcode/tree/master/2135-count-words-obtained-after-adding-a-letter) |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/koshmaryk/leetcode/tree/master/2452-words-within-two-edits-of-dictionary) |
 | [2788-split-strings-by-separator](https://github.com/koshmaryk/leetcode/tree/master/2788-split-strings-by-separator) |
+| [3211-generate-binary-strings-without-adjacent-zeros](https://github.com/koshmaryk/leetcode/tree/master/3211-generate-binary-strings-without-adjacent-zeros) |
 | [3617-find-the-original-typed-string-i](https://github.com/koshmaryk/leetcode/tree/master/3617-find-the-original-typed-string-i) |
 | [3618-find-the-original-typed-string-ii](https://github.com/koshmaryk/leetcode/tree/master/3618-find-the-original-typed-string-ii) |
 | [3713-longest-balanced-substring-i](https://github.com/koshmaryk/leetcode/tree/master/3713-longest-balanced-substring-i) |
@@ -1226,6 +1227,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2044-count-number-of-maximum-bitwise-or-subsets](https://github.com/koshmaryk/leetcode/tree/master/2044-count-number-of-maximum-bitwise-or-subsets) |
 | [2135-count-words-obtained-after-adding-a-letter](https://github.com/koshmaryk/leetcode/tree/master/2135-count-words-obtained-after-adding-a-letter) |
 | [3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/koshmaryk/leetcode/tree/master/3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
+| [3211-generate-binary-strings-without-adjacent-zeros](https://github.com/koshmaryk/leetcode/tree/master/3211-generate-binary-strings-without-adjacent-zeros) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/koshmaryk/leetcode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 ## Merge Sort
 |  |
@@ -1260,6 +1262,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1239-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/koshmaryk/leetcode/tree/master/1239-maximum-length-of-a-concatenated-string-with-unique-characters) |
 | [1863-sum-of-all-subset-xor-totals](https://github.com/koshmaryk/leetcode/tree/master/1863-sum-of-all-subset-xor-totals) |
 | [2044-count-number-of-maximum-bitwise-or-subsets](https://github.com/koshmaryk/leetcode/tree/master/2044-count-number-of-maximum-bitwise-or-subsets) |
+| [3211-generate-binary-strings-without-adjacent-zeros](https://github.com/koshmaryk/leetcode/tree/master/3211-generate-binary-strings-without-adjacent-zeros) |
 ## Randomized
 |  |
 | ------- |
