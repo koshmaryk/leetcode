@@ -1,25 +1,23 @@
 class Solution:
-    # babad
-    # b, ba, bab, baba, babad
     def longestPalindrome(self, s: str) -> str:
         n = len(s)
+
+        def expand(l, r):
+            while l >= 0 and r < n and s[l] == s[r]:
+                l -= 1
+                r += 1
+            return [l + 1, r - 1]
+
+
         ans = [0, 0]
-
-        dp = [[False] * n for _ in range(n)]
-
         for i in range(n):
-            dp[i][i] = True
+            odd = expand(i, i)
+            if odd[1] - odd[0] > ans[1] - ans[0]:
+                ans = odd
 
-        for i in range(n - 1):
-            if s[i] == s[i + 1]:
-                dp[i][i + 1] = True
-                ans = [i, i + 1]
-
-        for length in range(3, n + 1):
-            for i in range(n - length + 1):
-                j = i + length - 1
-                if s[i] == s[j] and dp[i + 1][j - 1]:
-                    dp[i][j] = True
-                    ans = [i, j]
-        i, j = ans
-        return s[i:j + 1]
+            even = expand(i, i + 1)
+            if even[1] - even[0] > ans[1] - ans[0]:
+                ans = even
+        
+        l, r = ans
+        return s[l:r + 1]
