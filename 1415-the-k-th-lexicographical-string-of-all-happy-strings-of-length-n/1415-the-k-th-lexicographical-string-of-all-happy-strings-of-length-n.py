@@ -1,25 +1,34 @@
+"""
+    a           b           c
+ b     c      a    c      a    b
+a c   a b    b c   a b   b c  a c  
+
+n = 3
+k = 6 # 0-indexed
+
+each letter owns block of size 2^(n-1) = 2^2 = 4
+
+6 // 4 = 1
+k = 6 % 4 = 2
+
+"""
 class Solution:
     def getHappyString(self, n: int, k: int) -> str:
-        cnt = k
-        ans = ""
+        total = 3 * (1 << (n - 1))
+        if k > total:
+            return ""
 
-        def gen(prefix):
-            nonlocal cnt, ans
-            if len(prefix) == n:
-                cnt -= 1
-                if cnt == 0:
-                    ans = "".join(prefix)
-                return
+        k -= 1
 
-            for l in "abc":
-                if prefix and prefix[-1] == l:
-                    continue
+        s = []
+        block = 1 << (n - 1)
+        s.append("abc"[k // block])
+        k %= block
 
-                prefix.append(l)
-                gen(prefix)
-                if ans != "":
-                    return
-                prefix.pop()
-
-        gen([])
-        return ans
+        for _ in range(n - 1):
+            block >>= 1 # 2^(n-2), 2^(n-3), ...
+            choices = [c for c in "abc" if c != s[-1]]
+            s.append(choices[k // block])
+            k %= block
+        
+        return "".join(s)
