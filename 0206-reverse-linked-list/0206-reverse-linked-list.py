@@ -4,36 +4,37 @@
 #         self.val = val
 #         self.next = next
 """
-1,2,3
 
-head 1
-newHead = reverse(2->3)
+1->2->3 
 
-    head = 2
-    newHead = reverse(3)
+None<-1 | 2->3->None
+prev      curr
 
-        head = 3
-        newHead = 3
-        return 3
-    
-    head.next.next = head # 3->2
-    head.next = None # 2->
-    return 3
+None<-1<-2 | 3->None
+prev         curr
 
-head.next.next = head # 2->1
-head.next = None # 1->
-return 3
+None<-1<-2<-3 | None
+prev           curr
+
+prev = next = None
+curr = head # 1
+
+next = curr.next # 2->3; 
+curr.next = prev # 1->None;
+prev = curr # 1
+curr = next # 2->3
+
+
 
 """
 class Solution:
     def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
-        if not head:
-            return None
-
-        newHead = head
-        if head.next:
-            newHead = self.reverseList(head.next)
-            head.next.next = head
-            head.next = None
-        return newHead # 3->2->1
-        
+        prev = next = None
+        curr = head
+        while curr:
+            next = curr.next # 2
+            curr.next = prev # None<-1
+            prev = curr # 1
+            curr = next # 2->3
+        return prev
+    
