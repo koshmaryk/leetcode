@@ -1,12 +1,26 @@
+"""
+
+  5,4,-1,7,8
+
+0,5,9,-1,7,8
+
+
+3,4,-1,-4,7,8,-10
+
+17
+
+"""
+from math import inf
+
+
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
-        n = len(nums)
+        ans = -inf
         
-        ans = float('-inf')
+        smallest = 0
         p = 0
-        smallest_sum = 0
-        for i in range(n):
-            p += nums[i]
-            ans = max(ans, p - smallest_sum)
-            smallest_sum = min(smallest_sum, p)
+        for x in nums:
+            p += x
+            ans = max(ans, p - smallest)
+            smallest = min(smallest, p)
         return ans
