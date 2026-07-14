@@ -322,6 +322,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2270-number-of-ways-to-split-array](https://github.com/koshmaryk/leetcode/tree/master/2270-number-of-ways-to-split-array) |
 | [2294-minimum-time-to-complete-trips](https://github.com/koshmaryk/leetcode/tree/master/2294-minimum-time-to-complete-trips) |
 | [2401-longest-nice-subarray](https://github.com/koshmaryk/leetcode/tree/master/2401-longest-nice-subarray) |
+| [2444-count-subarrays-with-fixed-bounds](https://github.com/koshmaryk/leetcode/tree/master/2444-count-subarrays-with-fixed-bounds) |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/koshmaryk/leetcode/tree/master/2452-words-within-two-edits-of-dictionary) |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/koshmaryk/leetcode/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2611-mice-and-cheese](https://github.com/koshmaryk/leetcode/tree/master/2611-mice-and-cheese) |
@@ -765,6 +766,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1046-max-consecutive-ones-iii](https://github.com/koshmaryk/leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/koshmaryk/leetcode/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [2401-longest-nice-subarray](https://github.com/koshmaryk/leetcode/tree/master/2401-longest-nice-subarray) |
+| [2444-count-subarrays-with-fixed-bounds](https://github.com/koshmaryk/leetcode/tree/master/2444-count-subarrays-with-fixed-bounds) |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/koshmaryk/leetcode/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/koshmaryk/leetcode/tree/master/3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 ## Prefix Sum
@@ -841,11 +843,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0362-design-hit-counter](https://github.com/koshmaryk/leetcode/tree/master/0362-design-hit-counter) |
 | [0860-design-circular-queue](https://github.com/koshmaryk/leetcode/tree/master/0860-design-circular-queue) |
 | [0969-number-of-recent-calls](https://github.com/koshmaryk/leetcode/tree/master/0969-number-of-recent-calls) |
+| [2444-count-subarrays-with-fixed-bounds](https://github.com/koshmaryk/leetcode/tree/master/2444-count-subarrays-with-fixed-bounds) |
 | [3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/koshmaryk/leetcode/tree/master/3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 ## Monotonic Queue
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/koshmaryk/leetcode/tree/master/0239-sliding-window-maximum) |
+| [2444-count-subarrays-with-fixed-bounds](https://github.com/koshmaryk/leetcode/tree/master/2444-count-subarrays-with-fixed-bounds) |
 ## Stack
 |  |
 | ------- |
