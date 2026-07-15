@@ -11,7 +11,7 @@ class Solution:
 
         start = -1
         for node in out_degree:
-            if out_degree[node] == in_degree[node] + 1:
+            if out_degree[node] > in_degree[node]:
                 start = node
                 break
 
