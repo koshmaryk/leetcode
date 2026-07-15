@@ -318,6 +318,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2040-minimum-cost-to-reach-destination-in-time](https://github.com/koshmaryk/leetcode/tree/master/2040-minimum-cost-to-reach-destination-in-time) |
 | [2044-count-number-of-maximum-bitwise-or-subsets](https://github.com/koshmaryk/leetcode/tree/master/2044-count-number-of-maximum-bitwise-or-subsets) |
 | [2058-concatenation-of-array](https://github.com/koshmaryk/leetcode/tree/master/2058-concatenation-of-array) |
+| [2097-valid-arrangement-of-pairs](https://github.com/koshmaryk/leetcode/tree/master/2097-valid-arrangement-of-pairs) |
 | [2126-destroying-asteroids](https://github.com/koshmaryk/leetcode/tree/master/2126-destroying-asteroids) |
 | [2135-count-words-obtained-after-adding-a-letter](https://github.com/koshmaryk/leetcode/tree/master/2135-count-words-obtained-after-adding-a-letter) |
 | [2169-simple-bank-system](https://github.com/koshmaryk/leetcode/tree/master/2169-simple-bank-system) |
@@ -619,6 +620,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1631-path-with-minimum-effort](https://github.com/koshmaryk/leetcode/tree/master/1631-path-with-minimum-effort) |
 | [1644-lowest-common-ancestor-of-a-binary-tree-ii](https://github.com/koshmaryk/leetcode/tree/master/1644-lowest-common-ancestor-of-a-binary-tree-ii) |
 | [2096-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/koshmaryk/leetcode/tree/master/2096-step-by-step-directions-from-a-binary-tree-node-to-another) |
+| [2097-valid-arrangement-of-pairs](https://github.com/koshmaryk/leetcode/tree/master/2097-valid-arrangement-of-pairs) |
 | [2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/koshmaryk/leetcode/tree/master/2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 | [2347-count-nodes-equal-to-average-of-subtree](https://github.com/koshmaryk/leetcode/tree/master/2347-count-nodes-equal-to-average-of-subtree) |
 | [2359-find-closest-node-to-given-two-nodes](https://github.com/koshmaryk/leetcode/tree/master/2359-find-closest-node-to-given-two-nodes) |
@@ -1383,6 +1385,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1557-minimum-number-of-vertices-to-reach-all-nodes](https://github.com/koshmaryk/leetcode/tree/master/1557-minimum-number-of-vertices-to-reach-all-nodes) |
 | [1584-min-cost-to-connect-all-points](https://github.com/koshmaryk/leetcode/tree/master/1584-min-cost-to-connect-all-points) |
 | [1632-rank-transform-of-a-matrix](https://github.com/koshmaryk/leetcode/tree/master/1632-rank-transform-of-a-matrix) |
+| [2097-valid-arrangement-of-pairs](https://github.com/koshmaryk/leetcode/tree/master/2097-valid-arrangement-of-pairs) |
 | [2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/koshmaryk/leetcode/tree/master/2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 | [2359-find-closest-node-to-given-two-nodes](https://github.com/koshmaryk/leetcode/tree/master/2359-find-closest-node-to-given-two-nodes) |
 | [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/koshmaryk/leetcode/tree/master/3600-maximize-spanning-tree-stability-with-upgrades) |
@@ -1444,4 +1447,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0332-reconstruct-itinerary](https://github.com/koshmaryk/leetcode/tree/master/0332-reconstruct-itinerary) |
+| [2097-valid-arrangement-of-pairs](https://github.com/koshmaryk/leetcode/tree/master/2097-valid-arrangement-of-pairs) |
 <!---LeetCode Topics End-->
