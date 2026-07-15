@@ -284,6 +284,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1192-divide-chocolate](https://github.com/koshmaryk/leetcode/tree/master/1192-divide-chocolate) |
 | [1233-remove-sub-folders-from-the-filesystem](https://github.com/koshmaryk/leetcode/tree/master/1233-remove-sub-folders-from-the-filesystem) |
 | [1239-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/koshmaryk/leetcode/tree/master/1239-maximum-length-of-a-concatenated-string-with-unique-characters) |
+| [1248-count-number-of-nice-subarrays](https://github.com/koshmaryk/leetcode/tree/master/1248-count-number-of-nice-subarrays) |
 | [1256-rank-transform-of-an-array](https://github.com/koshmaryk/leetcode/tree/master/1256-rank-transform-of-an-array) |
 | [1268-search-suggestions-system](https://github.com/koshmaryk/leetcode/tree/master/1268-search-suggestions-system) |
 | [1287-element-appearing-more-than-25-in-sorted-array](https://github.com/koshmaryk/leetcode/tree/master/1287-element-appearing-more-than-25-in-sorted-array) |
@@ -432,6 +433,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1023-time-based-key-value-store](https://github.com/koshmaryk/leetcode/tree/master/1023-time-based-key-value-store) |
 | [1039-find-the-town-judge](https://github.com/koshmaryk/leetcode/tree/master/1039-find-the-town-judge) |
 | [1146-snapshot-array](https://github.com/koshmaryk/leetcode/tree/master/1146-snapshot-array) |
+| [1248-count-number-of-nice-subarrays](https://github.com/koshmaryk/leetcode/tree/master/1248-count-number-of-nice-subarrays) |
 | [1256-rank-transform-of-an-array](https://github.com/koshmaryk/leetcode/tree/master/1256-rank-transform-of-an-array) |
 | [1331-rank-transform-of-an-array](https://github.com/koshmaryk/leetcode/tree/master/1331-rank-transform-of-an-array) |
 | [1554-strings-differ-by-one-character](https://github.com/koshmaryk/leetcode/tree/master/1554-strings-differ-by-one-character) |
@@ -534,6 +536,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1013-fibonacci-number](https://github.com/koshmaryk/leetcode/tree/master/1013-fibonacci-number) |
 | [1014-k-closest-points-to-origin](https://github.com/koshmaryk/leetcode/tree/master/1014-k-closest-points-to-origin) |
 | [1236-n-th-tribonacci-number](https://github.com/koshmaryk/leetcode/tree/master/1236-n-th-tribonacci-number) |
+| [1248-count-number-of-nice-subarrays](https://github.com/koshmaryk/leetcode/tree/master/1248-count-number-of-nice-subarrays) |
 | [1307-ugly-number-iii](https://github.com/koshmaryk/leetcode/tree/master/1307-ugly-number-iii) |
 | [1863-sum-of-all-subset-xor-totals](https://github.com/koshmaryk/leetcode/tree/master/1863-sum-of-all-subset-xor-totals) |
 | [2050-count-good-numbers](https://github.com/koshmaryk/leetcode/tree/master/2050-count-good-numbers) |
@@ -764,6 +767,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0658-find-k-closest-elements](https://github.com/koshmaryk/leetcode/tree/master/0658-find-k-closest-elements) |
 | [0713-subarray-product-less-than-k](https://github.com/koshmaryk/leetcode/tree/master/0713-subarray-product-less-than-k) |
 | [1046-max-consecutive-ones-iii](https://github.com/koshmaryk/leetcode/tree/master/1046-max-consecutive-ones-iii) |
+| [1248-count-number-of-nice-subarrays](https://github.com/koshmaryk/leetcode/tree/master/1248-count-number-of-nice-subarrays) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/koshmaryk/leetcode/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [2401-longest-nice-subarray](https://github.com/koshmaryk/leetcode/tree/master/2401-longest-nice-subarray) |
 | [2444-count-subarrays-with-fixed-bounds](https://github.com/koshmaryk/leetcode/tree/master/2444-count-subarrays-with-fixed-bounds) |
@@ -789,6 +793,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1094-car-pooling](https://github.com/koshmaryk/leetcode/tree/master/1094-car-pooling) |
 | [1109-corporate-flight-bookings](https://github.com/koshmaryk/leetcode/tree/master/1109-corporate-flight-bookings) |
 | [1184-car-pooling](https://github.com/koshmaryk/leetcode/tree/master/1184-car-pooling) |
+| [1248-count-number-of-nice-subarrays](https://github.com/koshmaryk/leetcode/tree/master/1248-count-number-of-nice-subarrays) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/koshmaryk/leetcode/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [2025-maximum-number-of-ways-to-partition-an-array](https://github.com/koshmaryk/leetcode/tree/master/2025-maximum-number-of-ways-to-partition-an-array) |
 | [2270-number-of-ways-to-split-array](https://github.com/koshmaryk/leetcode/tree/master/2270-number-of-ways-to-split-array) |
