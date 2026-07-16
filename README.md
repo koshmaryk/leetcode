@@ -109,6 +109,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2135-count-words-obtained-after-adding-a-letter](https://github.com/koshmaryk/leetcode/tree/master/2135-count-words-obtained-after-adding-a-letter) |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/koshmaryk/leetcode/tree/master/2452-words-within-two-edits-of-dictionary) |
 | [2788-split-strings-by-separator](https://github.com/koshmaryk/leetcode/tree/master/2788-split-strings-by-separator) |
+| [2976-minimum-cost-to-convert-string-i](https://github.com/koshmaryk/leetcode/tree/master/2976-minimum-cost-to-convert-string-i) |
 | [3211-generate-binary-strings-without-adjacent-zeros](https://github.com/koshmaryk/leetcode/tree/master/3211-generate-binary-strings-without-adjacent-zeros) |
 | [3617-find-the-original-typed-string-i](https://github.com/koshmaryk/leetcode/tree/master/3617-find-the-original-typed-string-i) |
 | [3618-find-the-original-typed-string-ii](https://github.com/koshmaryk/leetcode/tree/master/3618-find-the-original-typed-string-ii) |
@@ -332,6 +333,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2611-mice-and-cheese](https://github.com/koshmaryk/leetcode/tree/master/2611-mice-and-cheese) |
 | [2665-minimum-time-to-repair-cars](https://github.com/koshmaryk/leetcode/tree/master/2665-minimum-time-to-repair-cars) |
 | [2788-split-strings-by-separator](https://github.com/koshmaryk/leetcode/tree/master/2788-split-strings-by-separator) |
+| [2976-minimum-cost-to-convert-string-i](https://github.com/koshmaryk/leetcode/tree/master/2976-minimum-cost-to-convert-string-i) |
 | [3026-maximum-good-subarray-sum](https://github.com/koshmaryk/leetcode/tree/master/3026-maximum-good-subarray-sum) |
 | [3154-maximum-value-of-an-ordered-triplet-i](https://github.com/koshmaryk/leetcode/tree/master/3154-maximum-value-of-an-ordered-triplet-i) |
 | [3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/koshmaryk/leetcode/tree/master/3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
@@ -920,6 +922,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0787-cheapest-flights-within-k-stops](https://github.com/koshmaryk/leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/koshmaryk/leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1514-path-with-maximum-probability](https://github.com/koshmaryk/leetcode/tree/master/1514-path-with-maximum-probability) |
+| [2976-minimum-cost-to-convert-string-i](https://github.com/koshmaryk/leetcode/tree/master/2976-minimum-cost-to-convert-string-i) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/koshmaryk/leetcode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/koshmaryk/leetcode/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 ## Union Find
@@ -1388,6 +1391,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2097-valid-arrangement-of-pairs](https://github.com/koshmaryk/leetcode/tree/master/2097-valid-arrangement-of-pairs) |
 | [2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/koshmaryk/leetcode/tree/master/2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 | [2359-find-closest-node-to-given-two-nodes](https://github.com/koshmaryk/leetcode/tree/master/2359-find-closest-node-to-given-two-nodes) |
+| [2976-minimum-cost-to-convert-string-i](https://github.com/koshmaryk/leetcode/tree/master/2976-minimum-cost-to-convert-string-i) |
 | [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/koshmaryk/leetcode/tree/master/3600-maximize-spanning-tree-stability-with-upgrades) |
 ## Doubly-Linked List
 |  |
