@@ -101,6 +101,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/koshmaryk/leetcode/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 | [1408-string-matching-in-an-array](https://github.com/koshmaryk/leetcode/tree/master/1408-string-matching-in-an-array) |
 | [1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/koshmaryk/leetcode/tree/master/1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
+| [1540-can-convert-string-in-k-moves](https://github.com/koshmaryk/leetcode/tree/master/1540-can-convert-string-in-k-moves) |
 | [1554-strings-differ-by-one-character](https://github.com/koshmaryk/leetcode/tree/master/1554-strings-differ-by-one-character) |
 | [1653-minimum-deletions-to-make-string-balanced](https://github.com/koshmaryk/leetcode/tree/master/1653-minimum-deletions-to-make-string-balanced) |
 | [1777-determine-if-two-strings-are-close](https://github.com/koshmaryk/leetcode/tree/master/1777-determine-if-two-strings-are-close) |
@@ -442,6 +443,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1248-count-number-of-nice-subarrays](https://github.com/koshmaryk/leetcode/tree/master/1248-count-number-of-nice-subarrays) |
 | [1256-rank-transform-of-an-array](https://github.com/koshmaryk/leetcode/tree/master/1256-rank-transform-of-an-array) |
 | [1331-rank-transform-of-an-array](https://github.com/koshmaryk/leetcode/tree/master/1331-rank-transform-of-an-array) |
+| [1540-can-convert-string-in-k-moves](https://github.com/koshmaryk/leetcode/tree/master/1540-can-convert-string-in-k-moves) |
 | [1554-strings-differ-by-one-character](https://github.com/koshmaryk/leetcode/tree/master/1554-strings-differ-by-one-character) |
 | [1570-dot-product-of-two-sparse-vectors](https://github.com/koshmaryk/leetcode/tree/master/1570-dot-product-of-two-sparse-vectors) |
 | [1650-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/koshmaryk/leetcode/tree/master/1650-lowest-common-ancestor-of-a-binary-tree-iii) |
