@@ -138,6 +138,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1762-furthest-building-you-can-reach](https://github.com/koshmaryk/leetcode/tree/master/1762-furthest-building-you-can-reach) |
 | [2126-destroying-asteroids](https://github.com/koshmaryk/leetcode/tree/master/2126-destroying-asteroids) |
 | [2188-minimized-maximum-of-products-distributed-to-any-store](https://github.com/koshmaryk/leetcode/tree/master/2188-minimized-maximum-of-products-distributed-to-any-store) |
+| [2571-minimum-operations-to-reduce-an-integer-to-0](https://github.com/koshmaryk/leetcode/tree/master/2571-minimum-operations-to-reduce-an-integer-to-0) |
 | [2611-mice-and-cheese](https://github.com/koshmaryk/leetcode/tree/master/2611-mice-and-cheese) |
 | [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/koshmaryk/leetcode/tree/master/3600-maximize-spanning-tree-stability-with-upgrades) |
 ## Array
@@ -762,6 +763,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/koshmaryk/leetcode/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1653-minimum-deletions-to-make-string-balanced](https://github.com/koshmaryk/leetcode/tree/master/1653-minimum-deletions-to-make-string-balanced) |
 | [2040-minimum-cost-to-reach-destination-in-time](https://github.com/koshmaryk/leetcode/tree/master/2040-minimum-cost-to-reach-destination-in-time) |
+| [2571-minimum-operations-to-reduce-an-integer-to-0](https://github.com/koshmaryk/leetcode/tree/master/2571-minimum-operations-to-reduce-an-integer-to-0) |
 | [3618-find-the-original-typed-string-ii](https://github.com/koshmaryk/leetcode/tree/master/3618-find-the-original-typed-string-ii) |
 ## Sliding Window
 |  |
@@ -1265,6 +1267,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2044-count-number-of-maximum-bitwise-or-subsets](https://github.com/koshmaryk/leetcode/tree/master/2044-count-number-of-maximum-bitwise-or-subsets) |
 | [2135-count-words-obtained-after-adding-a-letter](https://github.com/koshmaryk/leetcode/tree/master/2135-count-words-obtained-after-adding-a-letter) |
 | [2401-longest-nice-subarray](https://github.com/koshmaryk/leetcode/tree/master/2401-longest-nice-subarray) |
+| [2571-minimum-operations-to-reduce-an-integer-to-0](https://github.com/koshmaryk/leetcode/tree/master/2571-minimum-operations-to-reduce-an-integer-to-0) |
 | [3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/koshmaryk/leetcode/tree/master/3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3211-generate-binary-strings-without-adjacent-zeros](https://github.com/koshmaryk/leetcode/tree/master/3211-generate-binary-strings-without-adjacent-zeros) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/koshmaryk/leetcode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
