@@ -233,6 +233,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0435-non-overlapping-intervals](https://github.com/koshmaryk/leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0456-132-pattern](https://github.com/koshmaryk/leetcode/tree/master/0456-132-pattern) |
 | [0463-island-perimeter](https://github.com/koshmaryk/leetcode/tree/master/0463-island-perimeter) |
+| [0485-max-consecutive-ones](https://github.com/koshmaryk/leetcode/tree/master/0485-max-consecutive-ones) |
 | [0498-diagonal-traverse](https://github.com/koshmaryk/leetcode/tree/master/0498-diagonal-traverse) |
 | [0518-coin-change-ii](https://github.com/koshmaryk/leetcode/tree/master/0518-coin-change-ii) |
 | [0528-random-pick-with-weight](https://github.com/koshmaryk/leetcode/tree/master/0528-random-pick-with-weight) |
