@@ -348,6 +348,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3825-apply-substitutions](https://github.com/koshmaryk/leetcode/tree/master/3825-apply-substitutions) |
 | [3838-path-existence-queries-in-a-graph-i](https://github.com/koshmaryk/leetcode/tree/master/3838-path-existence-queries-in-a-graph-i) |
 | [3863-power-grid-maintenance](https://github.com/koshmaryk/leetcode/tree/master/3863-power-grid-maintenance) |
+| [4044-count-good-cyclic-rotations](https://github.com/koshmaryk/leetcode/tree/master/4044-count-good-cyclic-rotations) |
 ## Sorting
 |  |
 | ------- |
@@ -788,6 +789,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2444-count-subarrays-with-fixed-bounds](https://github.com/koshmaryk/leetcode/tree/master/2444-count-subarrays-with-fixed-bounds) |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/koshmaryk/leetcode/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/koshmaryk/leetcode/tree/master/3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
+| [4044-count-good-cyclic-rotations](https://github.com/koshmaryk/leetcode/tree/master/4044-count-good-cyclic-rotations) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -815,6 +817,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3026-maximum-good-subarray-sum](https://github.com/koshmaryk/leetcode/tree/master/3026-maximum-good-subarray-sum) |
 | [3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/koshmaryk/leetcode/tree/master/3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3618-find-the-original-typed-string-ii](https://github.com/koshmaryk/leetcode/tree/master/3618-find-the-original-typed-string-ii) |
+| [4044-count-good-cyclic-rotations](https://github.com/koshmaryk/leetcode/tree/master/4044-count-good-cyclic-rotations) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
