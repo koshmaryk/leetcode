@@ -1,7 +1,7 @@
 """
   0 1 2 3  4  5 
   1 2 3 4  5  6
-0 1 3 6 10 15 21
+0 1 3 6 10 15 21 22 24 27 31 36 42
 
 
 123 456 -> 6 15
@@ -12,9 +12,8 @@
 234 561 -> 9 12
 
 
-
-
-
+0 1 2 3 4 5
+1 2 3 4 5 6
 
 """
 class Solution:
@@ -23,13 +22,12 @@ class Solution:
         h = n // 2
 
         total = sum(nums)
-        p = [0] * (2 * n + 1)
-        for i in range(2 * n):
-            p[i + 1] = p[i] + nums[i % n]
+        p = sum(nums[:h])
 
         ans = 0
         for i in range(n):
-            h1 = p[i + h] - p[i]
-            if h1 > total - h1:
+            if 2 * p > total:
                 ans += 1
+            p -= nums[i]
+            p += nums[(i + h) % n]
         return ans
