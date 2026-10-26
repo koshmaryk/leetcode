@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0647-palindromic-substrings](https://github.com/koshmaryk/leetcode/tree/master/0647-palindromic-substrings) |
 | [0658-find-k-closest-elements](https://github.com/koshmaryk/leetcode/tree/master/0658-find-k-closest-elements) |
 | [0680-valid-palindrome-ii](https://github.com/koshmaryk/leetcode/tree/master/0680-valid-palindrome-ii) |
+| [0763-partition-labels](https://github.com/koshmaryk/leetcode/tree/master/0763-partition-labels) |
 | [0802-k-th-smallest-prime-fraction](https://github.com/koshmaryk/leetcode/tree/master/0802-k-th-smallest-prime-fraction) |
 | [0852-friends-of-appropriate-ages](https://github.com/koshmaryk/leetcode/tree/master/0852-friends-of-appropriate-ages) |
 | [0917-boats-to-save-people](https://github.com/koshmaryk/leetcode/tree/master/0917-boats-to-save-people) |
@@ -86,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0647-palindromic-substrings](https://github.com/koshmaryk/leetcode/tree/master/0647-palindromic-substrings) |
 | [0680-valid-palindrome-ii](https://github.com/koshmaryk/leetcode/tree/master/0680-valid-palindrome-ii) |
 | [0721-accounts-merge](https://github.com/koshmaryk/leetcode/tree/master/0721-accounts-merge) |
+| [0763-partition-labels](https://github.com/koshmaryk/leetcode/tree/master/0763-partition-labels) |
 | [0791-custom-sort-string](https://github.com/koshmaryk/leetcode/tree/master/0791-custom-sort-string) |
 | [0824-goat-latin](https://github.com/koshmaryk/leetcode/tree/master/0824-goat-latin) |
 | [0916-word-subsets](https://github.com/koshmaryk/leetcode/tree/master/0916-word-subsets) |
@@ -131,6 +133,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0621-task-scheduler](https://github.com/koshmaryk/leetcode/tree/master/0621-task-scheduler) |
 | [0670-maximum-swap](https://github.com/koshmaryk/leetcode/tree/master/0670-maximum-swap) |
 | [0680-valid-palindrome-ii](https://github.com/koshmaryk/leetcode/tree/master/0680-valid-palindrome-ii) |
+| [0763-partition-labels](https://github.com/koshmaryk/leetcode/tree/master/0763-partition-labels) |
 | [0917-boats-to-save-people](https://github.com/koshmaryk/leetcode/tree/master/0917-boats-to-save-people) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/koshmaryk/leetcode/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1013-partition-array-into-three-parts-with-equal-sum](https://github.com/koshmaryk/leetcode/tree/master/1013-partition-array-into-three-parts-with-equal-sum) |
@@ -437,6 +440,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0594-longest-harmonious-subsequence](https://github.com/koshmaryk/leetcode/tree/master/0594-longest-harmonious-subsequence) |
 | [0621-task-scheduler](https://github.com/koshmaryk/leetcode/tree/master/0621-task-scheduler) |
 | [0721-accounts-merge](https://github.com/koshmaryk/leetcode/tree/master/0721-accounts-merge) |
+| [0763-partition-labels](https://github.com/koshmaryk/leetcode/tree/master/0763-partition-labels) |
 | [0791-custom-sort-string](https://github.com/koshmaryk/leetcode/tree/master/0791-custom-sort-string) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/koshmaryk/leetcode/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/koshmaryk/leetcode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
