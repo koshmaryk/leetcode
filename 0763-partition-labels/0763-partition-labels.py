@@ -2,31 +2,35 @@
 012345
 ababcc
 
-s = -1
-e = max(e, last_occurrence[ord(c) - ord('a')])
+0 2
+1 3
+4 5
 
-e - s
+0 3
+4 5
 
-answer = [4, 2]
-
-a 2
-b 3
-c 5
+4, 2
 
 
 """
 class Solution:
     def partitionLabels(self, s: str) -> list[int]:
-        last_occurrence = [0] * 26
+        intervals = {}
         for i, c in enumerate(s):
-            last_occurrence[ord(c) - ord('a')] = i
+            if c not in intervals:
+                intervals[c] = [i, i]
+            else:
+                intervals[c][1] = i
+        
+        sorted_intervals = sorted(intervals.values())
+        merged = [sorted_intervals[0]]
+        for start, end in sorted_intervals[1:]:
+            if start < merged[-1][1]:
+                merged[-1][1] = max(merged[-1][1], end)
+            else:
+                merged.append([start, end])
 
         answer = []
-        start, end = -1, 0
-        for i, c in enumerate(s):
-            end = max(end, last_occurrence[ord(c) - ord('a')])
-            if i == end:
-                answer.append(end - start)
-                start = end
+        for start, end in merged:
+            answer.append(end - start + 1)
         return answer
-        
