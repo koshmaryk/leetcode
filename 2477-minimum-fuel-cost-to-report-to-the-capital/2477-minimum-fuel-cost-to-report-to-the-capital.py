@@ -28,27 +28,29 @@ min = 4
 
 
 """
-from collections import defaultdict
+from collections import defaultdict, deque
 import math
 
 class Solution:
     def minimumFuelCost(self, roads: list[list[int]], seats: int) -> int:
+        n = len(roads) + 1
         graph = defaultdict(list)
+        degree = [0] * n
         for a,b in roads:
             graph[a].append(b)
             graph[b].append(a)
+            degree[a] += 1
+            degree[b] += 1
 
         fuel = 0
-
-        def dfs(node, parent):
-            nonlocal fuel
-            people = 1
+        people = [1] * n
+        q = deque([i for i in range(1, n) if degree[i] == 1])
+        while q:
+            node = q.popleft()
+            fuel += math.ceil(people[node] / seats)
             for next_node in graph[node]:
-                if next_node != parent:
-                    people += dfs(next_node, node)
-            if node:
-                fuel += math.ceil(people / seats)
-            return people
-
-        dfs(0, -1)
+                degree[next_node] -= 1
+                people[next_node] += people[node]
+                if degree[next_node] == 1 and next_node != 0:
+                    q.append(next_node)
         return fuel
